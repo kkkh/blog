@@ -2,33 +2,60 @@
 layout: ../layouts/PageLayout.astro
 title: "About"
 coverTitle: "关于我"
-date: 2025-01-03 01:01:33
+date: 2022-03-07 01:01:33
 description: "关于我？"
 ---
 
-## 你好，这里是余弦
 
-[![github badge](https://img.shields.io/badge/dynamic/json?color=blue&label=Github&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dyusixian)](https://github.com/yusixian)
+## 秦超｜个人介绍
 
-cosine = 余弦 = cos
+# 秦超 | 个人介绍
 
-愿热情永存，愿热爱不灭，愿生活无憾
+> 「以热爱，造须弥。」
 
-> 我们 都只是无名之辈 \
-> 做你自己最喜欢的事 \
-> 像花一样 肆意绽放 \
-> 不去管 有没有人欣赏
+## 基本信息
 
-### 找到我
+| 简介 | 内容 |
+| :--- | :--- |
+| 姓名 | 秦超 |
+| 出生日期 | 2004-02-22 |
+| 籍贯 | 山西 |
+| MBTI | ENFJ-A |
+| 职业 | 网络工程师 |
+| 专业方向 | 计算机科学与技术 |
 
-个人 Telegram 前端频道：日常碎碎念，偶尔掉落优质前端博文推荐、学习资源等
+## 关于我
 
-https://t.me/cosine_front_end
+我是秦超，2004 年 2 月 22 日生于山西，ENFJ-A，一名网络工程师，所学方向为计算机科学与技术。
 
-Gitbook 前端学习记录
+2010 年，我第一次接触电脑，初次进入数字世界。2015 年，因为葫芦侠，我开始了自己的编程之旅，寄情于思。2016 年是我编程的转折时间，伴随着学习第一门语言 iApp 裕语言，我初入山门。2017 年，我搭起第一个博客：使用免费的虚拟主机，以 WordPress 作为博客框架。2022 年 3 月 7 日，博客迎来迁移：购买 43322.cn 域名，改用基于 Docusaurus 的文档系统站点。2023 年起，我持续学习与分享，转向网络安全方向学习，并撰写技术文章。到 2026 年，博客再次升级，迁移到 Astro，流畅、焕然一新。
 
-https://book.cosine.ren/
+## 生涯时间线
 
-[![GitHub State](https://git-stats.cosine.ren/api?username=yusixian&theme=dark&show_icons=true&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+- **2004-02-22｜出生**：山西
+- **2010｜第一次接触电脑**：初次进入数字世界
+- **2015｜开始编程之旅，源自葫芦侠**：寄情于思
+- **2016｜编程转折时间**：伴随着学习第一门语言 iApp 裕语言而初入山门
+- **2017｜博客建站日期**：第一次用免费的虚拟主机，使用 WP 作为博客框架
+- **2022-03.07｜博客迁移日期**：购买了 43322.cn 的域名，基于 Docusaurus 的文档系统站点
+- **2023｜持续学习与分享**：网络安全方向学习，撰写技术文章
+- **2026｜博客升级**：迁移到 Astro，流畅，焕然一新的体验
 
-[![GitHub Streak](https://github-readme-streak-stats-rust-tau.vercel.app?user=yusixian&theme=dark&date_format=%5BY%20%5DM%20&hide_border=true)](https://git.io/streak-stats)
+## 技能
+
+- **CSS** — 100%
+- **HTML** — 95%
+- **JavaScript** — 90%
+- **Git** — 85%
+- **C** — 80%
+- **Python** — 60%
+
+## 游戏
+
+- **使命召唤手游** — 战神段位
+- **绝地求生：全军出击** — 最强王者段位
+- **光遇** — 跑图大师
+
+## 个人标签
+
+`数码科技` `编程技术` `开源` `生活` `音乐` `分享` `日常`

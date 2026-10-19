@@ -63,11 +63,13 @@ i18n:
       label: 中文
     - code: en
       label: English
-      enabled: false  # 内容存在但暂时禁用（保留内容但不生成路由）
+      enabled: true  # 内容存在且启用（保留内容且生成路由）
     - code: ja
       label: 日本語
+      enabled: false  # 内容存在但暂时禁用（保留内容但不生成路由）
     - code: ko
       label: 한국어
+      enabled: false  # 内容存在但暂时禁用（保留内容但不生成路由）
 
 # =============================================================================
 # Category Map
@@ -138,12 +140,11 @@ featuredCategories:
 featuredSeries:
   - slug: weekly # URL 路径: /weekly
     categoryName: 周刊 # 必须与 categoryMap 中的分类名匹配
-    label: 我的周刊 # 简短名称
-    fullName: 我的技术周刊 # 完整名称
+    label: 周记 # 简短名称
+    fullName: 每周记录 # 完整名称
     description: | # 支持多行 Markdown
-      这是周刊/系列文章功能的示例配置。
-      你可以用它来发布定期更新的系列内容，如技术周刊、读书笔记系列等。
-      设置 enabled: false 可以关闭此功能。
+      每周轶事
+      持续记录中。。。
     cover: /img/weekly_header.webp # 系列页面头图
     enabled: true # 启用此系列
     icon: ri:newspaper-line # 导航图标
@@ -190,10 +191,10 @@ social:
   # -------------------------------------------------------------------------
   # 其他社交平台配置
   # -------------------------------------------------------------------------
-  twitter:
-    url: https://x.com/umllm
-    icon: ri:twitter-fill
-    color: '#4b9ae4'
+  # twitter:
+    # url: https://x.com/umllm
+    # icon: ri:twitter-fill
+    # color: '#4b9ae4'
   bilibili:
     url: https://space.bilibili.com/24694
     icon: ri:bilibili-fill
@@ -251,7 +252,7 @@ friends:
         url: https://43322.cn/ # 站点网址
         owner: 超超 # 昵称
         desc: 天地广阔，大有可为。 # 站点简介
-        image: https://43322.cn/avatar.jpg # 头像链接
+        image: https://43322.cn/img/avatar.jpg # 头像链接
         color: "#f0e6d2" # 主题色（可选）
   data: # 友链列表；同组内按这里的顺序展示
     - site: 平安喜乐
@@ -817,14 +818,14 @@ seo:
 # =============================================================================
 bgm:
   enabled: true  # (有 audio 时自动启用，显式 false 可禁用)
-  # metingApi: https://163.hyc.moe/  # Meting API 地址，默认为 https://163.hyc.moe/，推荐自部署
+  metingApi: https://music.43322.cn/api  # Meting API 地址，默认为 https://163.hyc.moe/，推荐自部署
   audio:
-    - title: 最爱山山
+    - title: 超超
       list:
-        - https://music.163.com/playlist?id=8676645748
-    - title: Love Vocaloid
+        - https://music.163.com/playlist?id=18502693911
+    - title: 金曲
       list:
-        - https://music.163.com/playlist?id=8882890045
+        - https://music.163.com/playlist?id=801462857
 
 christmas:
   enabled: false # 总开关
@@ -852,8 +853,8 @@ christmas:
 #   label: 导航显示名称（可选，默认：追番）
 #   icon: 导航图标，Iconify 格式（可选，默认：ri:bilibili-fill）
 # -----------------------------------------------------------------------------
-bangumi:
-  userId: ah
+# bangumi:
+  # userId: ah
   # label: 追番
   # icon: ri:bilibili-fill
 

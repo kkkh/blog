@@ -83,6 +83,34 @@ function isMetingSong(obj: unknown): obj is MetingSong {
   const o = obj as Record<string, unknown>;
   return typeof o.name === 'string' && typeof o.artist === 'string' && typeof o.url === 'string';
 }
+/**
+ * 兼容不同 Meting 实现的字段命名（加法式兼容，不改变原有行为）。
+ *
+ * 背景：主题默认的 https://163.hyc.moe/ 以及 Meting.php 系实例返回 APlayer 标准字段
+ * —— name / artist / url / pic / lrc；
+ * 而部分自部署实现（如 xizeyoupan/Meting-API，即这里的 https://music.43322.cn/api ）
+ * 返回的是 title / author。
+ *
+ * 处理规则：
+ * - 已经有 name（标准格式）→ 原样返回，走原有流程，行为与改动前完全一致
+ * - 只有 title → 补出 name / artist（artist 取 author），其余字段原样保留
+ * - 两者都没有 → 原样返回，仍会被后面的 isMetingSong 过滤掉
+ */
+function withStandardFields(obj: unknown): unknown {
+  if (typeof obj !== 'object' || obj === null) return obj;
+  const o = obj as Record<string, unknown>;
+
+  // 标准格式：直接放行（默认实例走的就是这条路径，逻辑零变化）
+  if (typeof o.name === 'string') return o;
+  if (typeof o.title !== 'string') return o;
+
+  // 非标准实现：把 title / author 补齐为 name / artist
+  return {
+    ...o,
+    name: o.title,
+    artist: typeof o.author === 'string' ? o.author : '',
+  };
+}
 
 /** Some HTTPS Meting servers return HTTP links whose redirects fail browser CORS checks. */
 function normalizeMediaUrls(songs: MetingSong[], apiUrl: URL): MetingSong[] {
@@ -122,7 +150,7 @@ export async function fetchMeting(server: string, type: string, id: string, apiU
 
   const data: unknown = await response.json();
   if (!Array.isArray(data)) return [];
-  const songs = normalizeMediaUrls(data.filter(isMetingSong), url);
+  const songs = normalizeMediaUrls(data.map(withStandardFields).filter(isMetingSong), url);
   if (songs.length > 0) setCache(cacheKey, songs);
   return songs;
 }

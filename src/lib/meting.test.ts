@@ -75,3 +75,16 @@ test('inline lyrics, relative assets, and absent lyrics remain unchanged', async
   const resolved = await fetchMeting('netease', 'playlist', '42');
   assert.deepEqual(resolved, [inline, noLyrics]);
 });
+test('non-standard title/author payloads are mapped to name/artist', async (t) => {
+  // 部分实现（如 xizeyoupan/Meting-API、本站的 music.43322.cn）返回 title/author 而非 name/artist
+  const legacy = { title: '歌名 A', author: '歌手 A', url: 'https://music.example/song-a.mp3', pic: '', lrc: '' };
+  mockMeting(t, [legacy, song] as unknown as MetingSong[]);
+  const resolved = await fetchMeting('netease', 'playlist', '42', 'https://music.example/api');
+  assert.deepEqual(
+    resolved.map((s) => [s.name, s.artist]),
+    [
+      ['歌名 A', '歌手 A'], // 非标准字段被补齐
+      [song.name, song.artist], // 标准字段原样通过
+    ],
+  );
+});

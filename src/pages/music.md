@@ -4,23 +4,15 @@ title: "歌单"
 description: "我喜欢的音乐"
 ---
 
-这里可以放你喜欢的音乐歌单。
+超超-平安喜乐
 
-使用 `{% media audio %}` 标签嵌入网易云音乐或 QQ 音乐歌单：
 
-```markdown
-{% media audio %}
-- title: 我的歌单
-  list:
-    - https://music.163.com/#/playlist?id=你的歌单ID
-{% endmedia %}
-```
 
 {% media audio %}
-- title: 诗岸歌单 山山～全是山山～
+- title: 是超超诶歌单
   list:
-    - https://music.163.com/#/playlist?id=8676645748
-- title: 超かぐや姫！
+    - https://music.163.com/#/playlist?id=801462857
+- title: 超超
   list:
-    - https://music.163.com/#/album?id=358640968
+    - https://music.163.com/#/album?id=18502693911
 {% endmedia %}
