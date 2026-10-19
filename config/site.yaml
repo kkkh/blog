@@ -334,32 +334,44 @@ friends:
 # 取消下方注释即可启用公告示例：
 # -----------------------------------------------------------------------------
 announcements:
-   - id: welcome-2026 # 唯一标识符
-     title: 2026 年新年快乐! # 公告标题
-     content: 新年快乐! 感谢大家一直以来的支持~ # 公告内容
+   - id: welcome-qinchao # 唯一标识符
+     title: 欢迎访问：超超博客! # 公告标题
+     content: 承蒙厚爱，倍感珍惜。 # 公告内容
      type: success # 类型: info/success/warning/error
      priority: 10 # 优先级，数值越大越靠前
      color: '#FF6B6B' # (可选) 自定义颜色
      publishDate: '2026-01-01' # 发布日期
-     startDate: '2025-12-31T00:00:00+08:00' # (可选) 开始显示时间
-     endDate: '2026-01-15T23:59:59+08:00' # (可选) 结束显示时间
+     startDate: '2022-03-07T00:00:00+08:00' # (可选) 开始显示时间
+     endDate: '2027-01-01T10:10:20+08:00' # (可选) 结束显示时间
      link: # (可选) 相关链接
-       url: https://example.com
+       url: https://43322.cn
        text: 了解更多
        external: true # 新窗口打开
    - id: maintenance-notice
-     title: 系统维护通知
-     content: 计划于本周末进行系统维护，届时可能短暂无法访问。
+     title: 维护预告
+     content: 我计划于本周末对系统进行维护，期间可能出现短暂无法访问，敬请谅解。感谢你的理解与支持。
      type: warning
      priority: 8
-     publishDate: '2025-12-28'
+     publishDate: '2026-10-19'
    - id: site-update
      title: 站点更新公告
-     content: 公告系统已升级，现支持多条公告同时显示！
+     content: 刚写完一篇心得，欢迎看看。
      type: info
      priority: 5
      color: '#6366F1'
-     publishDate: '2025-12-25'
+     publishDate: '2026-10-18'
+   - id: new-posts-2026-10-19
+     title: 新文章上线
+     content: 愿你天天开心哦，欢迎常来看看。
+     type: success
+     priority: 9
+     color: '#H7EDCC'
+     publishDate: '2026-10-18'
+     startDate: '2026-10-18T00:00:00+08:00'
+     link:
+       url: /post/diary-2026-10-18
+       text: 去看看
+       external: false
 
 
 # =============================================================================
