@@ -4,12 +4,12 @@ import { parseEditorDocument, updateEditorProperty } from './document';
 
 test('editing a property retains unknown YAML values, comments and the entire body', () => {
   const source =
-    '---\ntitle: "旧标题" # 手写备注\ncustom:\n  answer: null\n  color: "#ff00ff"\n---\n\n;;;tab 示例\n++原文++\n;;;\n';
+    '---\ntitle: "旧标题" # 手写备注\ncustom:\n  answer: null\n  color: "#b25237"\n---\n\n;;;tab 示例\n++原文++\n;;;\n';
   const changed = updateEditorProperty(source, 'title', '新标题');
   assert.equal(parseEditorDocument(changed).data.title, '新标题');
   assert.match(changed, /手写备注/);
   assert.match(changed, /answer: null/);
-  assert.match(changed, /color: "#ff00ff"/);
+  assert.match(changed, /color: "#b25237"/);
   assert.equal(parseEditorDocument(changed).body, parseEditorDocument(source).body);
 });
 

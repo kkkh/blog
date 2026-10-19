@@ -33,24 +33,24 @@ export default {
         gray: {
           400: 'hsl(var(--grey-4))',
         },
-        logo: '#e91e63',
+        logo: '#b25237',
         mandy: {
-          50: '#fef2f3',
-          100: '#fde6e8',
-          200: '#fbd0d4',
-          300: '#f7aab2',
-          400: '#f27a8a',
-          500: '#e91e63',
-          600: '#d42a4c',
-          700: '#b21e3f',
-          800: '#961b3b',
-          900: '#801b38',
-          950: '#470a1a',
+          50: '#f9ebe6',
+          100: '#f4dbd2',
+          200: '#eac2b3',
+          300: '#dc9f89',
+          400: '#cd7251',
+          500: '#a34d2e',
+          600: '#89432a',
+          700: '#6f3925',
+          800: '#562e1f',
+          900: '#46271b',
+          950: '#2b1912',
         },
         // shoka migrate
-        pink: {
-          a3: 'var(--color-pink-a3)',
-          DEFAULT: 'var(--color-pink)',
+        brand: {
+          a3: 'var(--color-selection-bg)',
+          DEFAULT: 'var(--color-brand)',
         },
       },
       borderRadius: {
@@ -114,7 +114,7 @@ export default {
       },
       backgroundImage: {
         gradient: 'var(--gradient-bg)',
-        'gradient-pink': 'var(--gradient-pink)',
+        'gradient-brand': 'var(--gradient-brand)',
         'gradient-header': 'var(--gradient-header)',
         'gradient-shoka-button': 'var(--gradient-shoka-button)',
         'shoka-card-mask': 'linear-gradient(135deg,#434343 0,#000 100%)',

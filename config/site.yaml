@@ -11,31 +11,41 @@
 # Site Basic Information
 # =============================================================================
 site:
-  title: 余弦の博客 # 网站名称
-  alternate: cosine # 网站英文名称 用于页脚、Logo、@ handle 等
-  subtitle: WA 的一声就哭了 # 网站副标题
-  name: cos # 作者名称 - 请修改为你的名字
-  description: 一个基于 Astro 的现代化博客主题 # 网站描述
+  title: 超超 # 网站名称
+  alternate: qinchao # 网站英文名称 用于页脚、Logo、@ handle 等
+  subtitle: 平安喜乐 # 网站副标题
+  name: 秦超 # 作者名称
+  description: 天地广阔，大有可为。 # 网站描述
   avatar: /img/avatar.webp # 网站头像
   showLogo: false # 是否显示图形 Logo；默认显示站点名称，启用后可替换 src/assets/svg/logo.svg
-  author: Author # 作者名称 - 请修改为你的名字
-  url: https://koharu.cosine.ren # 站点 URL 用于 RSS 和 SEO
+  author: 秦超 # 作者名称
+  url: https://43322.cn # 站点 URL 用于 RSS 和 SEO
   defaultOgImage: /img/avatar.webp # 默认 Open Graph 图片
-  startYear: 2024 # 建站年份
+  startYear: 2022 # 建站年份
   timezone: Asia/Shanghai # 时区配置 (IANA 格式)，用于日期显示和处理
   keywords: # SEO 关键词 (全局)
     - 博客
-    - Astro
-    - 技术
-    - 前端
-    # 请根据你的网站内容添加关键词
-  # breadcrumbHome: 首页  # 面包屑导航中首页的显示名称（默认: '首页'）
-  # icp:                         # ICP 备案号（可自定义链接）
-  #   text: "粤ICP备xxxxxxxxxx号"
-  #   link: "https://beian.miit.gov.cn/"
+    - Blog
+    - 生活
+    - 记录
+    - 随笔
+    - 成长
+    # 我的网站内容对应关键词
+  breadcrumbHome: 首页
+   # 面包屑导航中首页的显示名称（默认: '首页'）
+  icp:
+  #晋ICP备2023020746号
+  # ICP 备案号
+    text: "晋ICP备2023020746号"
+    link: "https://beian.miit.gov.cn/"
+  # 公安网备案（注释掉即不显示）
+  police:
+    text: "晋公网安备14010602111139号"
+    link: "https://beian.mps.gov.cn/#/query/webSearch?code=14010602111139"
+    icon: "/gongan.png"
   # Enable slug transliteration (converts CJK characters to pinyin/romaji)
   # Note: enabling this will break existing CJK URLs. Run `pnpm save-slugs` first to save old slugs into frontmatter.link
-  # enableSlugTransliteration: true
+  enableSlugTransliteration: true
 
 # =============================================================================
 # Internationalization (i18n)
@@ -53,7 +63,7 @@ i18n:
       label: 中文
     - code: en
       label: English
-      # enabled: false  # 内容存在但暂时禁用（保留内容但不生成路由）
+      enabled: false  # 内容存在但暂时禁用（保留内容但不生成路由）
     - code: ja
       label: 日本語
     - code: ko
@@ -75,10 +85,10 @@ categoryMap:
   CSS: css
   番剧: anime
   # Add more as needed:
-  # 书摘: reading
-  # 后端: back-end
-  # 算法: algorithm
-  # 项目: project
+  书摘: reading
+  后端: back-end
+  算法: algorithm
+  项目: project
 
 # =============================================================================
 # Featured Categories (Homepage)
@@ -138,9 +148,9 @@ featuredSeries:
     enabled: true # 启用此系列
     icon: ri:newspaper-line # 导航图标
     links: # 相关链接（可选）
-      github: https://github.com/your-username/your-repo # (可选) GitHub 仓库
+      github: https://github.com/kkkh/blog # 仓库地址 GitHub 仓库
       rss: /rss.xml # (可选) RSS 订阅链接
-      # chrome: https://chromewebstore.google.com/detail/your-extension-id # (可选) 浏览器插件
+      # chrome: https://chromewebstore.google.com/detail/your-extension-id # (专门用来放 Chrome 浏览器扩展的商店链接) 浏览器插件
       # docs: https://your-docs-url # (可选) 文档链接
   # 示例：添加第二个系列（取消注释启用）
   # - slug: reading # URL 路径: /reading
@@ -166,11 +176,11 @@ featuredSeries:
 # -----------------------------------------------------------------------------
 social:
   github:
-    url: https://github.com/your-username # 替换为你的 GitHub 链接
+    url: https://github.com/kkkh # 我的 GitHub 链接
     icon: ri:github-fill # Remix Icon 的 GitHub 图标
     color: '#191717' # (可选) 图标颜色
   email:
-    url: mailto:your@email.com # 替换为你的邮箱，需加 mailto: 前缀
+    url: mailto:qinchao@43322.cn # 我的邮箱，需加 mailto: 前缀
     icon: ri:mail-line
     color: '#55acd5'
   rss:
@@ -178,24 +188,24 @@ social:
     icon: ri:rss-line
     color: '#ff6600'
   # -------------------------------------------------------------------------
-  # 以下是更多可选的社交平台配置示例，取消注释并修改即可启用：
+  # 其他社交平台配置
   # -------------------------------------------------------------------------
-  # twitter:
-  #   url: https://x.com/your-handle
-  #   icon: ri:twitter-fill
-  #   color: '#4b9ae4'
-  # bilibili:
-  #   url: https://space.bilibili.com/your-id
-  #   icon: ri:bilibili-fill
-  #   color: '#da708a'
-  # zhihu:
-  #   url: https://www.zhihu.com/people/your-id
-  #   icon: ri:zhihu-fill
-  #   color: '#1e88e5'
-  # music:
-  #   url: https://music.163.com/#/user/home?id=your-id
-  #   icon: ri:netease-cloud-music-line
-  #   color: '#e60026'
+  twitter:
+    url: https://x.com/umllm
+    icon: ri:twitter-fill
+    color: '#4b9ae4'
+  bilibili:
+    url: https://space.bilibili.com/24694
+    icon: ri:bilibili-fill
+    color: '#da708a'
+  zhihu:
+    url: https://www.zhihu.com/people/o004
+    icon: ri:zhihu-fill
+    color: '#1e88e5'
+  music:
+    url: https://music.163.com/#/user/home?id=535661838
+    icon: ri:netease-cloud-music-line
+    color: '#e60026'
 
 # =============================================================================
 # Friends Links
@@ -223,82 +233,82 @@ social:
 friends:
   groups:
     - id: familiar
-      title: 熟人
-      description: 常有交流、彼此熟悉的朋友。
+      title: 老朋友
+      description: 经常见面，互相了解。
     - id: community
-      title: 友链小伙伴
-      description: 通过博客结识、交换友链的小伙伴。
+      title: 友链搭子
+      description: 偶然读到，于是互相留了个链接。
     - id: following
-      title: 单向关注
-      description: 喜欢阅读、推荐给大家的博客。
+      title: 读过很多，从未说过话。
+      description: 喜欢，也想让你看见。
   intro:
     title: 友情链接 # 页面标题
     subtitle: 欢迎交换友链！ # 页面副标题
     applyTitle: 申请友链 # 申请区块标题
     applyDesc: 请在本页留言，格式如下 # 申请说明
     exampleYaml: | # 申请格式示例，会显示在页面上
-      - site: 你的博客名称 # 站点名称
-        url: https://your-blog.com/ # 站点网址
-        owner: 你的昵称 # 昵称
-        desc: 站点简介 # 站点简介
-        image: https://your-blog.com/avatar.jpg # 头像链接
-        color: "#ffc0cb" # 主题色（可选）
+      - site: 超超 # 站点名称
+        url: https://43322.cn/ # 站点网址
+        owner: 超超 # 昵称
+        desc: 天地广阔，大有可为。 # 站点简介
+        image: https://43322.cn/avatar.jpg # 头像链接
+        color: "#f0e6d2" # 主题色（可选）
   data: # 友链列表；同组内按这里的顺序展示
-    - site: 余弦の博客
-      url: https://blog.cosine.ren
-      owner: cos
-      desc: FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote
+    - site: 平安喜乐
+      url: https://43322.cn
+      owner: 超超
+      desc: 海内存知己，天涯若比邻。
       image: https://blog.cosine.ren/img/avatar.webp
-      color: '#ed788b'
+      color: '#b25237'
       group: familiar
-    - site: 示例博客 A
-      url: https://example-a.com
-      owner: Alice
-      desc: 一个热爱技术的开发者
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Alice
+    - site: 爱折腾的设计师
+      url: https://blog.zhheo.com
+      owner: 张洪 Heo
+      desc: 源于热爱而去创造
+      image: https://blog.zhheo.com/img/avatar.png
       color: '#BEDCFF'
       group: familiar
-    - site: 示例博客 B
-      url: https://example-b.com
-      owner: Bob
-      desc: 分享生活与技术的小站
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Bob
-      color: '#FBC1CC'
+    - site: 荒野中的一盏孤灯
+      url: https://www.80srz.com
+      owner: 荒野孤灯
+      desc: 探索无界，热爱折腾，一位80后的个人博客
+      image: https://www.80srz.com/logo.png
+      color: '#d18a68'
       group: community
-    - site: 示例博客 C
-      url: https://example-c.com
-      owner: Carol
-      desc: 记录学习与成长的地方
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Carol
+    - site: 精彩程序人生
+      url: https://www.dqzboy.com
+      owner: 浅时光博客
+      desc:
+      image: https://www.dqzboy.com/wp-content/uploads/2022/08/1660652165-04c17740b9e647d.png
       color: '#ABDCFF'
       group: community
-    - site: 示例博客 D
+    - site: 云深不知处
       url: https://example-d.com
-      owner: Dave
-      desc: 喜欢折腾键盘和终端
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Dave
+      owner: 琦
+      desc: 是一名Java后端工程师、独立开发者、游戏爱好者
+      image: https://www.lanzlz.cn/upload/2/6d188285-6895-40a5-8b6a-631790150b0a.png?width=1600
       color: '#C8E6C9'
       group: community
-    - site: 示例博客 E
-      url: https://example-e.com
-      owner: Eve
-      desc: 设计、插画与日常碎碎念
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Eve
+    - site: Shiro
+      url: https://cdn.akioi.eu.org
+      owner: Shiro书架
+      desc: Creator & Oler
+      image: https://cdn.akioi.eu.org/favicon.ico
       color: '#E1BEE7'
       group: following
-    - site: 示例博客 F
-      url: https://example-f.com
-      owner: Frank
-      desc: 长文写作与阅读笔记
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Frank
+    - site: 纸鹿
+      url: https://blog.zhilu.site
+      owner: 纸鹿摸鱼处
+      desc: 纸鹿至麓不知路，支炉制露不止漉
+      image: https://www.zhilu.cyou/api/avatar.png
       color: '#FFE0B2'
       group: following
     # 不写 group（或写了不存在的分组 id）的友链会归入最后的「未分组」
-    - site: 示例博客 G
-      url: https://example-g.com
-      owner: Grace
-      desc: 还没想好放在哪一组的新朋友
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Grace
+    - site: 彬彬
+      url: https://blog.dhao.cc
+      owner: 彬彬加冰
+      desc: 今夜有雨
+      image: https://cdn.dhao.cc/halo/IMG_20250810_211659.png
       color: '#B2EBF2'
 
 # =============================================================================
@@ -323,32 +333,32 @@ friends:
 # 取消下方注释即可启用公告示例：
 # -----------------------------------------------------------------------------
 announcements:
-  # - id: welcome-2026 # 唯一标识符
-  #   title: 2026 年新年快乐! # 公告标题
-  #   content: 新年快乐! 感谢大家一直以来的支持~ # 公告内容
-  #   type: success # 类型: info/success/warning/error
-  #   priority: 10 # 优先级，数值越大越靠前
-  #   color: '#FF6B6B' # (可选) 自定义颜色
-  #   publishDate: '2026-01-01' # 发布日期
-  #   startDate: '2025-12-31T00:00:00+08:00' # (可选) 开始显示时间
-  #   endDate: '2026-01-15T23:59:59+08:00' # (可选) 结束显示时间
-  #   link: # (可选) 相关链接
-  #     url: https://example.com
-  #     text: 了解更多
-  #     external: true # 新窗口打开
-  # - id: maintenance-notice
-  #   title: 系统维护通知
-  #   content: 计划于本周末进行系统维护，届时可能短暂无法访问。
-  #   type: warning
-  #   priority: 8
-  #   publishDate: '2025-12-28'
-  # - id: site-update
-  #   title: 站点更新公告
-  #   content: 公告系统已升级，现支持多条公告同时显示！
-  #   type: info
-  #   priority: 5
-  #   color: '#6366F1'
-  #   publishDate: '2025-12-25'
+   - id: welcome-2026 # 唯一标识符
+     title: 2026 年新年快乐! # 公告标题
+     content: 新年快乐! 感谢大家一直以来的支持~ # 公告内容
+     type: success # 类型: info/success/warning/error
+     priority: 10 # 优先级，数值越大越靠前
+     color: '#FF6B6B' # (可选) 自定义颜色
+     publishDate: '2026-01-01' # 发布日期
+     startDate: '2025-12-31T00:00:00+08:00' # (可选) 开始显示时间
+     endDate: '2026-01-15T23:59:59+08:00' # (可选) 结束显示时间
+     link: # (可选) 相关链接
+       url: https://example.com
+       text: 了解更多
+       external: true # 新窗口打开
+   - id: maintenance-notice
+     title: 系统维护通知
+     content: 计划于本周末进行系统维护，届时可能短暂无法访问。
+     type: warning
+     priority: 8
+     publishDate: '2025-12-28'
+   - id: site-update
+     title: 站点更新公告
+     content: 公告系统已升级，现支持多条公告同时显示！
+     type: info
+     priority: 5
+     color: '#6366F1'
+     publishDate: '2025-12-25'
 
 
 # =============================================================================
@@ -703,7 +713,7 @@ navigation:
     # path: # 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
     # lang: # 语言 (默认: 'zh-CN')
 comment:
-  provider: none  # 'remark42' | 'giscus' | 'waline' | 'twikoo' | 'none'
+  provider: waline  # 'remark42' | 'giscus' | 'waline' | 'twikoo' | 'none'
   # remark42:
   #   host: https://comment.example.com/
   #   siteId: your-site-id
@@ -718,8 +728,8 @@ comment:
   #   inputPosition: top               # 输入框位置 ('top' | 'bottom')
   #   lang: zh-CN                      # 语言
 
-  # waline:
-  #   serverURL: https://your-waline.vercel.app  # Waline 服务端地址 (必填)
+  waline:
+    serverURL: https://waline.43322.cn  # Waline 服务端地址 (必填)
   #   lang: zh-CN                      # 语言 (默认: 'zh-CN')
   #   dark: html.dark                  # 暗黑模式 (默认: 'html.dark')
   #                                    # 可选: true (自适应) | false (禁用) | CSS选择器字符串
@@ -775,12 +785,12 @@ comment:
 analytics:
   umami:
     enabled: true
-    id: your-umami-id
-    endpoint: https://stats.example.com
-    # statistics_display:
-    #   token: your-umami-share-token
-    #   article_page_views: true
-    #   footer_site_stats: true
+    id: 0a0731a2-0326-4559-b2e5-680c2279a48d
+    endpoint: https://um.43322.cn
+    statistics_display:
+      token: 3dqElmkT2YAbsEKk
+      article_page_views: true
+      footer_site_stats: true
 
 # =============================================================================
 # SEO Configuration
@@ -843,7 +853,7 @@ christmas:
 #   icon: 导航图标，Iconify 格式（可选，默认：ri:bilibili-fill）
 # -----------------------------------------------------------------------------
 bangumi:
-  userId: cosine
+  userId: ah
   # label: 追番
   # icon: ri:bilibili-fill
 
@@ -862,7 +872,7 @@ bangumi:
 #     - urlTemplate: URL 模板，支持占位符 {path}（文件绝对路径）
 # -----------------------------------------------------------------------------
 dev:
-  localProjectPath: '/Users/yourname/path/to/astro-koharu' # 请修改为你的项目绝对路径
+  localProjectPath: '/Users/qinchao/Movies/qinchao' # 我的项目绝对路径
   contentRelativePath: 'src/content/blog'
   editors:
     - id: vscode

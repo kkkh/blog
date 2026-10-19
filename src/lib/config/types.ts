@@ -27,6 +27,8 @@ export interface SiteBasicConfig {
   timezone?: string;
   /** ICP filing number. Supports plain text or { text, link } format */
   icp?: string | { text: string; link?: string };
+  /** 公安网备案。Supports { text, link, icon } format */
+  police?: { text: string; link?: string; icon?: string };
   /** Enable slug transliteration (converts CJK characters to pinyin/romaji) @default false */
   enableSlugTransliteration?: boolean;
 }

@@ -79,7 +79,7 @@ export default function SearchDialogContent() {
                     role="dialog"
                     aria-modal="true"
                     aria-label={t('search.dialogTitle')}
-                    className="search-dialog relative w-full max-w-2xl overflow-hidden rounded-2xl bg-gradient-start text-foreground shadow-[0_2rem_4rem_-1.5rem_rgb(233_84_107/0.35),0_0.75rem_1.5rem_-0.75rem_rgb(20_10_28/0.3)] ring-1 ring-primary/15"
+                    className="search-dialog relative w-full max-w-2xl overflow-hidden rounded-2xl bg-gradient-start text-foreground shadow-[0_2rem_4rem_-1.5rem_rgb(178_82_55/0.35),0_0.75rem_1.5rem_-0.75rem_rgb(20_10_28/0.3)] ring-1 ring-primary/15"
                     initial={shouldReduceMotion ? false : { opacity: 0, scale: 0.98, y: -12 }}
                     animate={{ opacity: 1, scale: 1, y: 0 }}
                     exit={

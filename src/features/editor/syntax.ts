@@ -152,7 +152,7 @@ export const syntaxEntries: SyntaxEntry[] = [
     category: '链接与媒体',
     description: '使用 YAML 列表展示网站、作者与简介。',
     source:
-      '{% links %}\n- site: 网站名称\n  url: https://example.com\n  owner: 作者\n  desc: 一句话介绍\n  image: https://example.com/avatar.webp\n  color: "#ed788b"\n{% endlinks %}',
+      '{% links %}\n- site: 网站名称\n  url: https://example.com\n  owner: 作者\n  desc: 一句话介绍\n  image: https://example.com/avatar.webp\n  color: "#b25237"\n{% endlinks %}',
     notes: [
       'site、url 描述网站；owner、desc、image、color 补充作者、简介、头像和卡片颜色。多个网站分别以 - site 开始，保持相同缩进。',
     ],
@@ -186,8 +186,8 @@ export const syntaxEntries: SyntaxEntry[] = [
     label: '颜色与彩虹文字',
     category: 'Shoka 文字',
     description: '为文字添加主题颜色或彩虹效果。',
-    source: '[粉色文字]{.pink} [蓝色文字]{.blue} [彩虹文字]{.rainbow}',
-    notes: ['颜色支持 red、pink、orange、yellow、green、aqua、blue、purple、grey。仅添加类名不会创建新的自定义颜色。'],
+    source: '[陶土文字]{.terracotta} [蓝色文字]{.blue} [彩虹文字]{.rainbow}',
+    notes: ['颜色支持 red、terracotta、orange、yellow、green、aqua、blue、purple、grey。仅添加类名不会创建新的自定义颜色。'],
   },
   {
     id: 'keyboard',

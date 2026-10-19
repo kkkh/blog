@@ -7,23 +7,23 @@
 /* === Light mode: override Twikoo's default blue (#409eff) with blog theme color === */
 .tk-comments-container .tk-submit .tk-row .tk-btn,
 .tk-comments-container a {
-  color: #e9546b;
+  color: #b25237;
 }
 
 .tk-comments-container .tk-submit .tk-row .tk-btn:hover,
 .tk-comments-container a:hover {
-  color: #ed788c;
+  color: #d98b6a;
 }
 
 .tk-comments-container .tk-submit .tk-row .tk-btn.tk-send-btn {
-  background-color: #e9546b;
-  border-color: #e9546b;
+  background-color: #b25237;
+  border-color: #b25237;
   color: #fff;
 }
 
 .tk-comments-container .tk-submit .tk-row .tk-btn.tk-send-btn:hover {
-  background-color: #ed788c;
-  border-color: #ed788c;
+  background-color: #d98b6a;
+  border-color: #d98b6a;
 }
 
 /* === Dark mode === */
@@ -47,21 +47,21 @@ html.dark .tk-comments-container .tk-icon {
 }
 
 html.dark .tk-comments-container a {
-  color: #ed788c;
+  color: #d98b6a;
 }
 
 html.dark .tk-comments-container a:hover {
-  color: #f09aab;
+  color: #e0a284;
 }
 
 html.dark .tk-comments-container .tk-submit .tk-row .tk-btn.tk-send-btn {
-  background-color: #ed788c;
-  border-color: #ed788c;
+  background-color: #d98b6a;
+  border-color: #d98b6a;
 }
 
 html.dark .tk-comments-container .tk-submit .tk-row .tk-btn.tk-send-btn:hover {
-  background-color: #f09aab;
-  border-color: #f09aab;
+  background-color: #e0a284;
+  border-color: #e0a284;
 }
 
 html.dark .tk-comments-container .tk-admin-warn {

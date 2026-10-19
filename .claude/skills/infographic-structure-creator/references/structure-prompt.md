@@ -406,7 +406,7 @@ export interface BaseItemProps {
   // 或自定义配置
   const themeColors = getThemeColors(
     {
-      colorPrimary: '#FF356A',
+      colorPrimary: '#b25237',
       colorBg: '#ffffff',
     },
     options,

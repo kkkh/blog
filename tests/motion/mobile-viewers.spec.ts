@@ -319,7 +319,7 @@ test('diagram pinch continues as a single-finger pan and touchcancel ends the ge
     openModal('diagramFullscreen', {
       diagramType: 'mermaid',
       source: 'graph LR; A --> B',
-      svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100"><rect width="200" height="100" fill="pink"/></svg>',
+      svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100"><rect width="200" height="100" fill="#c9795b"/></svg>',
     });
   });
   const diagram = page.locator('[role="dialog"] .mermaid-svg-container');

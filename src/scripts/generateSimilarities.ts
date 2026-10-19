@@ -26,7 +26,7 @@ const CONTENT_GLOB = 'src/content/blog/**/*.md';
 const NON_DEFAULT_LOCALE_GLOBS = getNonDefaultLocaleGlobs();
 const OUTPUT_FILE = 'src/assets/similarities.json';
 const TOP_N_SIMILAR = 5;
-const MODEL_NAME = 'Snowflake/snowflake-arctic-embed-m-v2.0';
+const MODEL_NAME = 'sentence-transformers/all-MiniLM-L6-v2';
 // Alternative: 'sentence-transformers/all-MiniLM-L6-v2' (smaller, faster)
 
 // Whether to include body content in similarity calculation

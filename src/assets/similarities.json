@@ -1,326 +1,515 @@
 {
   "weekly-example-1": [
     {
+      "slug": "toc-no-numbering",
+      "title": "关闭目录编号示例",
+      "similarity": 0.631
+    },
+    {
       "slug": "note/encrypted-post-demo",
       "title": "加密文章演示",
-      "similarity": 0.496
+      "similarity": 0.628
     },
     {
-      "slug": "custom-keywords",
-      "title": "自定义关键词示例",
-      "similarity": 0.482
-    },
-    {
-      "slug": "hello-world",
-      "title": "Hello World",
-      "similarity": 0.478
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.449
+      "slug": "getting-started",
+      "title": "欢迎使用 astro-koharu",
+      "similarity": 0.574
     },
     {
       "slug": "markdown-features",
       "title": "Markdown 增强功能演示",
-      "similarity": 0.418
+      "similarity": 0.553
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.549
     }
   ],
   "getting-started": [
     {
       "slug": "astro-koharu-guide",
       "title": "astro-koharu 使用指南",
-      "similarity": 0.752
+      "similarity": 0.766
     },
     {
       "slug": "theme-customization",
       "title": "主题定制指南",
-      "similarity": 0.675
-    },
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.649
-    },
-    {
-      "slug": "astro-6-migration",
-      "title": "从 Astro 5 到 Astro 6：astro-koharu 的一次完整迁移实录",
-      "similarity": 0.576
+      "similarity": 0.704
     },
     {
       "slug": "toc-no-numbering",
       "title": "关闭目录编号示例",
-      "similarity": 0.513
+      "similarity": 0.676
+    },
+    {
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.657
+    },
+    {
+      "slug": "note/shoka-features",
+      "title": "Shoka 主题 Markdown 语法演示",
+      "similarity": 0.64
     }
   ],
   "astro-koharu-guide": [
     {
       "slug": "getting-started",
       "title": "欢迎使用 astro-koharu",
-      "similarity": 0.752
+      "similarity": 0.766
     },
     {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.735
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.663
+    },
+    {
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.619
     },
     {
       "slug": "theme-customization",
       "title": "主题定制指南",
-      "similarity": 0.7
+      "similarity": 0.61
     },
     {
-      "slug": "astro-6-migration",
-      "title": "从 Astro 5 到 Astro 6：astro-koharu 的一次完整迁移实录",
-      "similarity": 0.583
-    },
-    {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.561
+      "slug": "rainy-afternoon",
+      "title": "下雨的周六下午",
+      "similarity": 0.597
     }
   ],
   "toc-no-numbering": [
     {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.564
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.561
-    },
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.541
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.513
-    },
-    {
-      "slug": "astro-6-migration",
-      "title": "从 Astro 5 到 Astro 6：astro-koharu 的一次完整迁移实录",
-      "similarity": 0.467
-    }
-  ],
-  "note/shoka-features": [
-    {
-      "slug": "custom-keywords",
-      "title": "自定义关键词示例",
-      "similarity": 0.49
-    },
-    {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.485
-    },
-    {
       "slug": "note/encrypted-post-demo",
       "title": "加密文章演示",
-      "similarity": 0.477
-    },
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.469
-    },
-    {
-      "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.414
-    }
-  ],
-  "markdown-features": [
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.735
+      "similarity": 0.694
     },
     {
       "slug": "getting-started",
       "title": "欢迎使用 astro-koharu",
-      "similarity": 0.649
-    },
-    {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.611
-    },
-    {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.541
-    },
-    {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.496
-    }
-  ],
-  "note/encrypted-post-demo": [
-    {
-      "slug": "hello-world",
-      "title": "Hello World",
-      "similarity": 0.529
-    },
-    {
-      "slug": "custom-keywords",
-      "title": "自定义关键词示例",
-      "similarity": 0.518
+      "similarity": 0.676
     },
     {
       "slug": "weekly-example-1",
       "title": "示例周刊 Vol.1",
-      "similarity": 0.496
+      "similarity": 0.631
     },
     {
       "slug": "note/shoka-features",
       "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.477
+      "similarity": 0.573
     },
     {
       "slug": "astro-koharu-guide",
       "title": "astro-koharu 使用指南",
-      "similarity": 0.455
+      "similarity": 0.559
+    }
+  ],
+  "note/shoka-features": [
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.748
+    },
+    {
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.73
+    },
+    {
+      "slug": "note/encrypted-post-demo",
+      "title": "加密文章演示",
+      "similarity": 0.658
+    },
+    {
+      "slug": "markdown-features",
+      "title": "Markdown 增强功能演示",
+      "similarity": 0.649
+    },
+    {
+      "slug": "getting-started",
+      "title": "欢迎使用 astro-koharu",
+      "similarity": 0.64
+    }
+  ],
+  "markdown-features": [
+    {
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.677
+    },
+    {
+      "slug": "note/shoka-features",
+      "title": "Shoka 主题 Markdown 语法演示",
+      "similarity": 0.649
+    },
+    {
+      "slug": "container-queries",
+      "title": "容器查询实战：让卡片自己决定布局",
+      "similarity": 0.637
+    },
+    {
+      "slug": "astro-6-migration",
+      "title": "从 Astro 5 到 Astro 6：astro-koharu 的一次完整迁移实录",
+      "similarity": 0.599
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.597
+    }
+  ],
+  "note/encrypted-post-demo": [
+    {
+      "slug": "custom-keywords",
+      "title": "自定义关键词示例",
+      "similarity": 0.712
+    },
+    {
+      "slug": "toc-no-numbering",
+      "title": "关闭目录编号示例",
+      "similarity": 0.694
+    },
+    {
+      "slug": "rainy-afternoon",
+      "title": "下雨的周六下午",
+      "similarity": 0.684
+    },
+    {
+      "slug": "note/shoka-features",
+      "title": "Shoka 主题 Markdown 语法演示",
+      "similarity": 0.658
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.629
     }
   ],
   "custom-keywords": [
     {
       "slug": "note/encrypted-post-demo",
       "title": "加密文章演示",
-      "similarity": 0.518
+      "similarity": 0.712
+    },
+    {
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.657
+    },
+    {
+      "slug": "rainy-afternoon",
+      "title": "下雨的周六下午",
+      "similarity": 0.555
     },
     {
       "slug": "note/shoka-features",
       "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.49
+      "similarity": 0.538
     },
     {
-      "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.482
+      "slug": "toc-no-numbering",
+      "title": "关闭目录编号示例",
+      "similarity": 0.534
+    }
+  ],
+  "bayes-quiz": [
+    {
+      "slug": "note/encrypted-post-demo",
+      "title": "加密文章演示",
+      "similarity": 0.573
     },
     {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.455
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.525
+    },
+    {
+      "slug": "year-in-review-2025",
+      "title": "2025 年终：写得不多，但都写完了",
+      "similarity": 0.512
+    },
+    {
+      "slug": "rainy-afternoon",
+      "title": "下雨的周六下午",
+      "similarity": 0.508
+    },
+    {
+      "slug": "note/shoka-features",
+      "title": "Shoka 主题 Markdown 语法演示",
+      "similarity": 0.496
+    }
+  ],
+  "year-in-review-2025": [
+    {
+      "slug": "note/encrypted-post-demo",
+      "title": "加密文章演示",
+      "similarity": 0.575
+    },
+    {
+      "slug": "rainy-afternoon",
+      "title": "下雨的周六下午",
+      "similarity": 0.561
+    },
+    {
+      "slug": "astro-koharu-guide",
+      "title": "astro-koharu 使用指南",
+      "similarity": 0.542
     },
     {
       "slug": "hello-world",
       "title": "Hello World",
-      "similarity": 0.444
+      "similarity": 0.517
+    },
+    {
+      "slug": "bayes-quiz",
+      "title": "用一道体检题复习贝叶斯公式",
+      "similarity": 0.512
+    }
+  ],
+  "rainy-afternoon": [
+    {
+      "slug": "note/encrypted-post-demo",
+      "title": "加密文章演示",
+      "similarity": 0.684
+    },
+    {
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.608
+    },
+    {
+      "slug": "astro-koharu-guide",
+      "title": "astro-koharu 使用指南",
+      "similarity": 0.597
+    },
+    {
+      "slug": "note/shoka-features",
+      "title": "Shoka 主题 Markdown 语法演示",
+      "similarity": 0.587
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.577
     }
   ],
   "hello-world": [
     {
       "slug": "note/encrypted-post-demo",
       "title": "加密文章演示",
-      "similarity": 0.529
+      "similarity": 0.616
     },
     {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.527
-    },
-    {
-      "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.478
-    },
-    {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.462
-    },
-    {
-      "slug": "custom-keywords",
-      "title": "自定义关键词示例",
-      "similarity": 0.444
-    }
-  ],
-  "theme-customization": [
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.7
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.675
-    },
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.611
-    },
-    {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.564
-    },
-    {
-      "slug": "hello-world",
-      "title": "Hello World",
-      "similarity": 0.462
-    }
-  ],
-  "infographic-guide": [
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.501
-    },
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.496
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.585
     },
     {
       "slug": "note/shoka-features",
       "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.485
+      "similarity": 0.55
     },
     {
-      "slug": "custom-keywords",
-      "title": "自定义关键词示例",
-      "similarity": 0.419
+      "slug": "weekly-example-1",
+      "title": "示例周刊 Vol.1",
+      "similarity": 0.549
     },
     {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.418
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.529
     }
   ],
-  "astro-6-migration": [
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.583
-    },
+  "theme-customization": [
     {
       "slug": "getting-started",
       "title": "欢迎使用 astro-koharu",
-      "similarity": 0.576
+      "similarity": 0.704
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.644
+    },
+    {
+      "slug": "tailwind-v4-upgrade-notes",
+      "title": "Tailwind CSS v4 升级笔记",
+      "similarity": 0.622
+    },
+    {
+      "slug": "astro-koharu-guide",
+      "title": "astro-koharu 使用指南",
+      "similarity": 0.61
     },
     {
       "slug": "toc-no-numbering",
       "title": "关闭目录编号示例",
-      "similarity": 0.467
+      "similarity": 0.547
+    }
+  ],
+  "markdown-pipeline": [
+    {
+      "slug": "note/shoka-features",
+      "title": "Shoka 主题 Markdown 语法演示",
+      "similarity": 0.73
     },
     {
       "slug": "markdown-features",
       "title": "Markdown 增强功能演示",
-      "similarity": 0.457
+      "similarity": 0.677
+    },
+    {
+      "slug": "getting-started",
+      "title": "欢迎使用 astro-koharu",
+      "similarity": 0.657
+    },
+    {
+      "slug": "custom-keywords",
+      "title": "自定义关键词示例",
+      "similarity": 0.657
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.657
+    }
+  ],
+  "infographic-guide": [
+    {
+      "slug": "note/shoka-features",
+      "title": "Shoka 主题 Markdown 语法演示",
+      "similarity": 0.748
+    },
+    {
+      "slug": "astro-koharu-guide",
+      "title": "astro-koharu 使用指南",
+      "similarity": 0.663
+    },
+    {
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.657
     },
     {
       "slug": "theme-customization",
       "title": "主题定制指南",
-      "similarity": 0.42
+      "similarity": 0.644
+    },
+    {
+      "slug": "getting-started",
+      "title": "欢迎使用 astro-koharu",
+      "similarity": 0.634
+    }
+  ],
+  "astro-6-migration": [
+    {
+      "slug": "getting-started",
+      "title": "欢迎使用 astro-koharu",
+      "similarity": 0.64
+    },
+    {
+      "slug": "markdown-features",
+      "title": "Markdown 增强功能演示",
+      "similarity": 0.599
+    },
+    {
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.559
+    },
+    {
+      "slug": "container-queries",
+      "title": "容器查询实战：让卡片自己决定布局",
+      "similarity": 0.544
+    },
+    {
+      "slug": "astro-koharu-guide",
+      "title": "astro-koharu 使用指南",
+      "similarity": 0.506
+    }
+  ],
+  "oshi-no-ko-season-2": [
+    {
+      "slug": "rainy-afternoon",
+      "title": "下雨的周六下午",
+      "similarity": 0.56
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.509
+    },
+    {
+      "slug": "year-in-review-2025",
+      "title": "2025 年终：写得不多，但都写完了",
+      "similarity": 0.499
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.46
+    },
+    {
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.443
+    }
+  ],
+  "tailwind-v4-upgrade-notes": [
+    {
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.622
+    },
+    {
+      "slug": "container-queries",
+      "title": "容器查询实战：让卡片自己决定布局",
+      "similarity": 0.482
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.401
+    },
+    {
+      "slug": "toc-no-numbering",
+      "title": "关闭目录编号示例",
+      "similarity": 0.357
+    },
+    {
+      "slug": "note/shoka-features",
+      "title": "Shoka 主题 Markdown 语法演示",
+      "similarity": 0.352
+    }
+  ],
+  "container-queries": [
+    {
+      "slug": "markdown-features",
+      "title": "Markdown 增强功能演示",
+      "similarity": 0.637
+    },
+    {
+      "slug": "markdown-pipeline",
+      "title": "一篇 Markdown 在构建时经过了什么",
+      "similarity": 0.586
+    },
+    {
+      "slug": "astro-6-migration",
+      "title": "从 Astro 5 到 Astro 6：astro-koharu 的一次完整迁移实录",
+      "similarity": 0.544
+    },
+    {
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.531
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.514
     }
   ]
 }

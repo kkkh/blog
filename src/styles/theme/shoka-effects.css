@@ -156,8 +156,8 @@ spoiler-span:not(:defined)[data-fallback-revealed="true"],
 .red {
   color: var(--color-red);
 }
-.pink {
-  color: var(--color-pink-text);
+.terracotta {
+  color: var(--color-brand-text);
 }
 .orange {
   color: var(--color-orange);
@@ -191,7 +191,7 @@ spoiler-span:not(:defined)[data-fallback-revealed="true"],
     var(--color-green),
     var(--color-blue),
     var(--color-purple),
-    var(--color-pink-text)
+    var(--color-brand-text)
   );
   background-clip: text;
   -webkit-background-clip: text;

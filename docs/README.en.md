@@ -2,9 +2,9 @@
 
 **Language:** [中文](../README.md) | **English** | [日本語](./README.ja.md)
 
-![astro-koharu blog with a pink-and-blue palette](https://r2.cosine.ren/i/2026/01/94383107ba4586f773938ed4dae34ff1.webp)
+![astro-koharu blog with a warm-white-and-terracotta palette](https://r2.cosine.ren/i/2026/01/94383107ba4586f773938ed4dae34ff1.webp)
 
-A cute / anime-style / pink-blue themed blog, perfect for ACG, frontend dev, and journaling personal sites with excellent performance.
+A warm-white / terracotta color scheme / perfect for ACG, frontend dev, and journaling personal sites with excellent performance.
 
 > The name is inspired by "Koharu-biyori" (こはるびより), which refers to the period from late autumn to early winter when there's a stretch of warm, spring-like sunny days — known as "Indian summer" in English.
 
@@ -19,7 +19,7 @@ This repository has been cleaned up as a demo repository. Visit the theme develo
 Under active development
 
 - Built on **Astro**, static output, fast loading
-- Cute / anime-style / pink-blue color scheme, ideal for ACG, frontend, and journaling sites
+- Warm-white / terracotta color scheme , ideal for ACG, frontend, and journaling sites
 - Multi-category and multi-tag support without forcing complex information architecture
 - Minimal performance overhead
 - Serverless full-site search powered by Pagefind

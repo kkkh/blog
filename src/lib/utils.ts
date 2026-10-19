@@ -99,7 +99,7 @@ export function shuffleArray<T>(array: T[]): T[] {
  * Supports #RGB, #RGBA, #RRGGBB, #RRGGBBAA formats
  * @example normalizeHexColor('#6cf') => '#66ccff'
  * @example normalizeHexColor('#6cf8') => '#66ccff88'
- * @example normalizeHexColor('#ed788b') => '#ed788b'
+ * @example normalizeHexColor('#b25237') => '#b25237'
  */
 export function normalizeHexColor(color: string): string {
   if (!color.startsWith('#')) return color;

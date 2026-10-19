@@ -39,7 +39,7 @@ const STEP_CONFIGS: StepConfig[] = [
 ];
 
 const PRESET_COLORS = [
-  { label: '粉色 (#ffc0cb)', value: '#ffc0cb' },
+  { label: '陶土 (#b25237)', value: '#b25237' },
   { label: '蓝色 (#BEDCFF)', value: '#BEDCFF' },
   { label: '绿色 (#98D8AA)', value: '#98D8AA' },
   { label: '自定义颜色', value: 'custom' },

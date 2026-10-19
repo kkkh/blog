@@ -208,7 +208,7 @@
     background: color-mix(in oklab, hsl(var(--primary)) 5%, transparent);
   }
   .issue-latest:has(.issue-link:hover) {
-    box-shadow: 0 1.25rem 2.5rem -1.75rem rgb(233 84 107 / 0.55);
+    box-shadow: 0 1.25rem 2.5rem -1.75rem rgb(178 82 55 / 0.55);
   }
   html:not([data-motion="reduced"]) .issue-latest:has(.issue-link:hover) .issue-latest-bloom {
     rotate: 16deg;

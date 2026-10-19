@@ -34,9 +34,9 @@ const CACHE_VERSION = '1';
 
 // LLM API settings (OpenAI-compatible)
 // Works with: LM Studio, Ollama, OpenAI, etc.
-const API_BASE_URL = 'http://127.0.0.1:1234/v1/';
-const API_KEY = 'lm-studio'; // LM Studio doesn't require a real key
-const DEFAULT_MODEL = 'qwen/qwen3-4b-2507';
+const API_BASE_URL = 'https://maas-api.unisound.com/v1/';
+const API_KEY = process.env.AI_API_KEY ?? ''; // LM Studio doesn't require a real key
+const DEFAULT_MODEL = 'u2-flash';
 
 // --------- Parse CLI Arguments ---------
 function parseArgs(): { model: string; force: boolean } {
@@ -131,13 +131,23 @@ function extractSlug(filePath: string, link?: string): string {
 
 async function checkApiRunning(): Promise<boolean> {
   try {
-    const response = await fetch(`${API_BASE_URL}models`);
+    const response = await fetch(`${API_BASE_URL}chat/completions`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: DEFAULT_MODEL,
+        messages: [{ role: 'user', content: 'ping' }],
+        max_tokens: 1,
+      }),
+    });
     return response.ok;
   } catch {
     return false;
   }
 }
-
 async function generateSummary(text: string, model: string): Promise<string> {
   // Truncate text to avoid token limits
   const truncatedText = text.slice(0, 6000);

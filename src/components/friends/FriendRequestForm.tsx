@@ -30,7 +30,7 @@ export default function FriendRequestForm({ locale }: Props) {
     url: '',
     desc: '',
     image: '',
-    color: '#ffc0cb',
+    color: '#b25237',
   });
 
   const { copied, copy } = useClipboard({ timeout: 2000 });
@@ -41,7 +41,7 @@ url: ${formData.url || 'https://example.com'}
 owner: ${formData.owner || t('friends.ownerPlaceholder')}
 desc: ${formData.desc || t('friends.descPlaceholder')}
 image: ${formData.image || 'https://example.com/avatar.jpg'}
-color: "${formData.color || '#ffc0cb'}"`;
+color: "${formData.color || '#b25237'}"`;
   }, [formData, t]);
 
   const handleCopy = useCallback(() => {
@@ -72,7 +72,7 @@ color: "${formData.color || '#ffc0cb'}"`;
           <div className="relative z-10">
             <div className="mb-6">
               <h2 className="mb-2 flex items-center gap-2 font-black text-2xl text-foreground">
-                <SakuraSVG className="size-6 animate-spin text-[#FFC0CB] duration-10000" />
+                <SakuraSVG className="size-6 animate-spin text-[#B25237] duration-10000" />
                 {t('friends.applyTitle')}
               </h2>
               <p className="font-medium text-muted-foreground text-sm">{friendsIntro.applyDesc}</p>
@@ -201,7 +201,7 @@ color: "${formData.color || '#ffc0cb'}"`;
               <pre className="whitespace-pre-wrap font-mono text-foreground/80 text-xs leading-relaxed">{generateText()}</pre>
             </div>
 
-            <div className="mt-6 flex items-center gap-3 rounded-xl bg-primary/10 p-4 font-medium text-pink-600 text-xs dark:text-primary">
+            <div className="mt-6 flex items-center gap-3 rounded-xl bg-primary/10 p-4 font-medium text-primary text-xs dark:text-primary">
               {t('friends.hint')}
             </div>
           </div>

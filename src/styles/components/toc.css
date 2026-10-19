@@ -145,7 +145,7 @@
   scale: 1.6;
 }
 
-/* Only the row being read is pink; its open parent is set in full ink with a pink number. */
+/* Only the row being read is accent-colored; its open parent is set in full ink with an accent number. */
 .silk-heading-link[aria-current],
 .silk-heading-link:is([aria-current], [data-ancestor]) .toc-number {
   color: hsl(var(--primary));
@@ -271,14 +271,14 @@
   display: block;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#ffc5d4, #ef7396);
+  background: linear-gradient(#f0dccf, #c9795b);
   mask-position: center;
   mask-repeat: no-repeat;
   mask-size: contain;
 }
 
 .dark .toc-petal > span {
-  background: linear-gradient(#ffe0e9, #f7879f);
+  background: linear-gradient(#f0dccf, #c9795b);
 }
 
 /*

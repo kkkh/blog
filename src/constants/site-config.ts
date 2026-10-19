@@ -44,6 +44,8 @@ export const icpConfig: { text: string; link?: string } | undefined = (() => {
   if (typeof raw === 'string') return { text: raw };
   return raw;
 })();
+// 公安网备案配置 — 与 icpConfig 同构
+export const policeConfig: { text: string; link?: string; icon?: string } | undefined = yamlConfig.site.police ?? undefined;
 
 const { title, alternate, subtitle } = siteConfig;
 

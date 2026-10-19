@@ -9,7 +9,7 @@
   --color-card-foreground: oklch(0.985 0 0);
   --color-popover: oklch(0.26 0.01 250);
   --color-popover-foreground: oklch(0.985 0 0);
-  --color-primary: oklch(0.865 0.182 281);
+  --color-primary: oklch(0.71 0.106 43.6);
   --color-primary-foreground: oklch(0.145 0 0);
   --color-secondary: oklch(0.28 0.01 250);
   --color-secondary-foreground: oklch(0.985 0 0);
@@ -23,7 +23,7 @@
   --color-warning-foreground: oklch(0.145 0 0);
   --color-border: oklch(0.32 0.01 250);
   --color-input: oklch(0.28 0.01 250);
-  --color-ring: oklch(0.865 0.182 281);
+  --color-ring: oklch(0.71 0.106 43.6);
 
   /* Radii */
   --radius-lg: 0.625rem;

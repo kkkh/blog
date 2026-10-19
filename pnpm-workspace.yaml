@@ -1,3 +1,11 @@
 packages:
-  - '.'
-  - 'cms'
+  - .
+  - cms
+
+onlyBuiltDependencies:
+  - esbuild
+  - nice-napi
+  - onnxruntime-node
+  - protobufjs
+  - re2
+  - sharp

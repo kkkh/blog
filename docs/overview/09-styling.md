@@ -6,7 +6,7 @@ astro-koharu 使用 **Tailwind CSS 4.x** 作为样式框架，结合**设计令�
 
 ### 样式系统架构
 
-```
+```plain
 ┌─────────────────────────────────────────────────────────────┐
 │                      样式系统层次                            │
 ├─────────────────────────────────────────────────────────────┤
@@ -72,7 +72,7 @@ astro-koharu 使用 **Tailwind CSS 4.x** 作为样式框架，结合**设计令�
 
 ### 目录结构
 
-```
+```plain
 src/styles/
 ├── index.css              # 入口文件
 ├── global/
@@ -215,11 +215,11 @@ export default {
         'gradient-start': 'var(--gradient-bg-start)',
         'gradient-end': 'var(--gradient-bg-end)',
         // 自定义颜色
-        logo: '#e91e63',
+        logo: '#b25237',
         mandy: {
-          50: '#fef2f3',
+          50: '#f9ebe6',
           // ... 完整色板
-          950: '#470a1a',
+          950: '#2b1912',
         },
       },
 
@@ -268,7 +268,7 @@ export default {
       // 渐变背景
       backgroundImage: {
         gradient: 'var(--gradient-bg)',
-        'gradient-pink': 'var(--gradient-pink)',
+        'gradient-brand': 'var(--gradient-brand)',
         'gradient-header': 'var(--gradient-header)',
         'gradient-shoka-button': 'var(--gradient-shoka-button)',
       },
@@ -335,11 +335,11 @@ export const colors = {
     foreground: 'hsl(var(--secondary-foreground))',
   },
 
-  // 主题色（Shoka 粉红）
+  // 主题色（陶土）
   shoka: {
-    DEFAULT: '#E95469',
-    light: '#FF6B7A',
-    dark: '#D63F55',
+    DEFAULT: '#b25237',
+    light: '#d18a68',
+    dark: '#89432a',
   },
 
   // 主题切换图标色
@@ -412,7 +412,7 @@ export const shadows = {
 
   // 自定义阴影
   card: '0 0.625rem 1.875rem rgba(90, 97, 105, 0.12)',
-  'shoka-button': '0px 0px 16px 0px rgb(233, 84, 105, 0.8)',
+  'shoka-button': '0px 0px 16px 0px rgb(178, 82, 55, 0.8)',
 };
 ```
 
@@ -559,11 +559,11 @@ cn('text-red-500', 'text-blue-500')  // → 'text-blue-500'
 
 ```css
 :root {
-  --gradient-bg-start: #ed719a;
+  --gradient-bg-start: #f6f3ee;
   --gradient-bg-end: #ffffff;
   --gradient-bg: linear-gradient(180deg, var(--gradient-bg-start), var(--gradient-bg-end));
 
-  --gradient-shoka-button: linear-gradient(135deg, #e9536a 0%, #f47c93 100%);
+  --gradient-shoka-button: linear-gradient(135deg, #b25237 0%, #d18a68 100%);
   --gradient-header: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent);
 }
 

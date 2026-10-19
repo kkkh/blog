@@ -139,7 +139,7 @@
   }
   /* 选中文本样式 */
   ::selection {
-    background-color: var(--color-pink-a3);
+    background-color: var(--color-selection-bg);
   }
 
   @media (prefers-reduced-motion: no-preference) {

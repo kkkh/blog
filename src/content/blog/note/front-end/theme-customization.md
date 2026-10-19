@@ -37,13 +37,13 @@ categories:
 
 ```css
 :root {
-  --primary-color: #ff6b9d;
+  --primary-color: #b25237;
   --secondary-color: #7dd3fc;
   /* ...更多变量 */
 }
 
 .dark {
-  --primary-color: #f472b6;
+  --primary-color: #d98b6a;
   --secondary-color: #38bdf8;
 }
 ```

@@ -56,7 +56,7 @@ theme
     palette
       - #61DDAA
       - #F6BD16
-      - #F08BB4
+      - #d18a68
   data
     items
       - label Step 1

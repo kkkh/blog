@@ -236,7 +236,7 @@ social:
   bilibili:
     url: https://space.bilibili.com/your-uid
     icon: ri:bilibili-fill
-    color: "#da708a"
+    color: "#b25237"
   email:
     url: mailto:your@email.com
     icon: ri:mail-line
@@ -1164,7 +1164,7 @@ announcements:
     content: 新年快乐! 感谢大家一直以来的支持~ # 公告内容
     type: info # 类型：info | warning | success | important
     priority: 300 # 优先级（越高越先显示）
-    color: "#ED788C" # 自定义颜色（可选，覆盖 type 默认色）
+    color: "#b25237" # 自定义颜色（可选，覆盖 type 默认色）
     publishDate: "2026-01-01" # 显示日期（可选，用于时间线展示）
     startDate: "2025-12-31T00:00:00+08:00" # 开始日期（可选）
     endDate: "2026-01-15T23:59:59+08:00" # 结束日期（可选）
@@ -1473,7 +1473,7 @@ H~2~O 是水的化学式，E = mc^2^ 是质能方程
 使用 `[文字]{.class}` 语法为文字添加颜色和样式：
 
 ```markdown
-[红色]{.red} [粉色]{.pink} [橙色]{.orange} [黄色]{.yellow}
+[红色]{.red} [陶土]{.terracotta} [橙色]{.orange} [黄色]{.yellow}
 [绿色]{.green} [水色]{.aqua} [蓝色]{.blue} [紫色]{.purple} [灰色]{.grey}
 
 [这段文字会有彩虹渐变效果]{.rainbow}
@@ -1486,7 +1486,7 @@ H~2~O 是水的化学式，E = mc^2^ 是质能方程
 
 示例效果：
 
-[红色]{.red} [粉色]{.pink} [橙色]{.orange} [黄色]{.yellow} [绿色]{.green} [水色]{.aqua} [蓝色]{.blue} [紫色]{.purple} [灰色]{.grey}
+[红色]{.red} [陶土]{.terracotta} [橙色]{.orange} [黄色]{.yellow} [绿色]{.green} [水色]{.aqua} [蓝色]{.blue} [紫色]{.purple} [灰色]{.grey}
 
 [这段文字会有彩虹渐变效果]{.rainbow}
 
@@ -1676,7 +1676,7 @@ fn main() {
   owner: 站长昵称
   desc: 站点描述
   image: https://example.com/avatar.png
-  color: '#ed788b'
+  color: '#b25237'
 - site: 另一个博客
   url: https://example2.com
   owner: Alice
@@ -1694,7 +1694,7 @@ fn main() {
   owner: cos
   desc: FE / ACG / 手工
   image: https://blog.cosine.ren/img/avatar.webp
-  color: '#ed788b'
+  color: '#b25237'
 - site: 示例博客
   url: https://example.com
   owner: Alice

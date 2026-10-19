@@ -63,10 +63,10 @@ E = mc^2^ 是质能方程
 ### 颜色文字
 
 ```markdown
-[红色]{.red} [粉色]{.pink} [橙色]{.orange} [黄色]{.yellow} [绿色]{.green} [水色]{.aqua} [蓝色]{.blue} [紫色]{.purple} [灰色]{.grey}
+[红色]{.red} [陶土]{.terracotta} [橙色]{.orange} [黄色]{.yellow} [绿色]{.green} [水色]{.aqua} [蓝色]{.blue} [紫色]{.purple} [灰色]{.grey}
 ```
 
-[红色]{.red} [粉色]{.pink} [橙色]{.orange} [黄色]{.yellow} [绿色]{.green} [水色]{.aqua} [蓝色]{.blue} [紫色]{.purple} [灰色]{.grey}
+[红色]{.red} [陶土]{.terracotta} [橙色]{.orange} [黄色]{.yellow} [绿色]{.green} [水色]{.aqua} [蓝色]{.blue} [紫色]{.purple} [灰色]{.grey}
 
 ### 彩虹文字
 
@@ -341,7 +341,7 @@ $$
   owner: cos
   desc: FE / ACG / 手工
   image: https://blog.cosine.ren/img/avatar.webp
-  color: '#ed788b'
+  color: '#b25237'
 - site: 示例博客
   url: https://example.com
   owner: Alice
@@ -357,7 +357,7 @@ $$
   owner: cos
   desc: FE / ACG / 手工
   image: https://blog.cosine.ren/img/avatar.webp
-  color: '#ed788b'
+  color: '#b25237'
 - site: 示例博客
   url: https://example.com
   owner: Alice
