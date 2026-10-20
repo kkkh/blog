@@ -1,8 +1,10 @@
 ---
 title: '腹肌养成记：核心训练全指南'
-date: 2022-04-02T10:27:53+08:00
-updated: 2022-04-02T10:35:12+08:00
+description: '腹肌人人都有，只是被体脂率盖住了。13 个核心动作的做法要点、一套快速燃脂循环，以及真正让线条显出来的饮食与睡眠习惯。'
 link: fitness-basics
+catalog: true
+date: 2022-04-02 10:27:53
+updated: 2022-04-02 10:35:12
 categories: ['随笔']
 tags: ['锻炼', '生活']
 draft: false

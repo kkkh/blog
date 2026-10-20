@@ -7,6 +7,7 @@ import test from 'node:test';
 
 const packageJson = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'));
 const workspaceYaml = readFileSync(new URL('../pnpm-workspace.yaml', import.meta.url), 'utf8');
+const baseWorkspaceYaml = workspaceYaml.replace(/^onlyBuiltDependencies:\n(?:[ \t]+-[^\n]*\n?)*/m, '').trimEnd();
 
 test('cms:install honors workspace build approvals and shares the root lockfile', () => {
   const root = mkdtempSync(path.join(os.tmpdir(), 'koharu-workspace-'));
@@ -23,7 +24,7 @@ test('cms:install honors workspace build approvals and shares the root lockfile'
         scripts: { 'cms:install': packageJson.scripts['cms:install'] },
       }),
     );
-    writeFileSync(path.join(root, 'pnpm-workspace.yaml'), `${workspaceYaml}\nonlyBuiltDependencies:\n  - ${packageName}\n`);
+    writeFileSync(path.join(root, 'pnpm-workspace.yaml'), `${baseWorkspaceYaml}\nonlyBuiltDependencies:\n  - ${packageName}\n`);
     writeFileSync(
       path.join(root, 'build-fixture', 'package.json'),
       JSON.stringify({

@@ -1,515 +1,2135 @@
 {
-  "weekly-example-1": [
+  "weekly-vol-04": [
     {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.631
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.782
     },
     {
-      "slug": "note/encrypted-post-demo",
-      "title": "加密文章演示",
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.734
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.685
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.678
+    },
+    {
+      "slug": "weekly-vol-01",
+      "title": "每周小记 Vol.1 | 把一周折成一页纸",
+      "similarity": 0.67
+    }
+  ],
+  "weekly-vol-03": [
+    {
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.801
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.76
+    },
+    {
+      "slug": "reading-05-hongloumeng",
+      "title": "读《红楼梦》：第五回就把结局写完了",
+      "similarity": 0.754
+    },
+    {
+      "slug": "reading-22-elements",
+      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
+      "similarity": 0.749
+    },
+    {
+      "slug": "reading-21-iliad",
+      "title": "读《伊利亚特》：开篇是「愤怒」，收尾是一场葬礼",
+      "similarity": 0.747
+    }
+  ],
+  "weekly-vol-02": [
+    {
+      "slug": "weekly-vol-01",
+      "title": "每周小记 Vol.1 | 把一周折成一页纸",
+      "similarity": 0.827
+    },
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.801
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.788
+    },
+    {
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.782
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.753
+    }
+  ],
+  "weekly-vol-01": [
+    {
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.827
+    },
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.683
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.682
+    },
+    {
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.67
+    },
+    {
+      "slug": "mood-2022-03-29",
+      "title": "三月二十九日：把手机放下的一小时",
+      "similarity": 0.644
+    }
+  ],
+  "reading-24-art-of-war": [
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.811
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.807
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.802
+    },
+    {
+      "slug": "reading-22-elements",
+      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
+      "similarity": 0.796
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.791
+    }
+  ],
+  "reading-23-odyssey": [
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.838
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.816
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.813
+    },
+    {
+      "slug": "reading-21-iliad",
+      "title": "读《伊利亚特》：开篇是「愤怒」，收尾是一场葬礼",
+      "similarity": 0.807
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.796
+    }
+  ],
+  "reading-22-elements": [
+    {
+      "slug": "reading-05-hongloumeng",
+      "title": "读《红楼梦》：第五回就把结局写完了",
+      "similarity": 0.844
+    },
+    {
+      "slug": "reading-21-iliad",
+      "title": "读《伊利亚特》：开篇是「愤怒」，收尾是一场葬礼",
+      "similarity": 0.81
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.796
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.79
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.785
+    }
+  ],
+  "reading-21-iliad": [
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.847
+    },
+    {
+      "slug": "reading-22-elements",
+      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
+      "similarity": 0.81
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.807
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.799
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.799
+    }
+  ],
+  "reading-20-faust": [
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.766
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.763
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.76
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.733
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.7
+    }
+  ],
+  "reading-19-shishuo-xinyu": [
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.895
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.85
+    },
+    {
+      "slug": "reading-16-on-liberty",
+      "title": "读《论自由》：你的事，什么时候才轮到别人开口",
+      "similarity": 0.795
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.779
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.753
+    }
+  ],
+  "reading-18-walden": [
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.799
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.796
+    },
+    {
+      "slug": "reading-22-elements",
+      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
+      "similarity": 0.79
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.785
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.782
+    }
+  ],
+  "reading-17-karamazov": [
+    {
+      "slug": "reading-21-iliad",
+      "title": "读《伊利亚特》：开篇是「愤怒」，收尾是一场葬礼",
+      "similarity": 0.847
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.839
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.829
+    },
+    {
+      "slug": "reading-09-republic",
+      "title": "读《理想国》：为什么全书第一个词就是「下去」",
+      "similarity": 0.828
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.827
+    }
+  ],
+  "reading-16-on-liberty": [
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.811
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.804
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.8
+    },
+    {
+      "slug": "reading-19-shishuo-xinyu",
+      "title": "读《世说新语》：它不讲道理，只用三十六扇门替一个时代打分",
+      "similarity": 0.795
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.794
+    }
+  ],
+  "reading-15-wenxin-diaolong": [
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.811
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.799
+    },
+    {
+      "slug": "reading-05-hongloumeng",
+      "title": "读《红楼梦》：第五回就把结局写完了",
+      "similarity": 0.792
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.769
+    },
+    {
+      "slug": "reading-14-inferno",
+      "title": "读《神曲》：越往地狱深处，装的越是有本事的人",
+      "similarity": 0.766
+    }
+  ],
+  "reading-14-inferno": [
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.766
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.744
+    },
+    {
+      "slug": "reading-22-elements",
+      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
+      "similarity": 0.738
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.711
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.711
+    }
+  ],
+  "reading-13-anna-karenina": [
+    {
+      "slug": "reading-04-shiji",
+      "title": "读《史记》：体例怎么安排，就是太史公怎么判断",
+      "similarity": 0.798
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.796
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.782
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.773
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.767
+    }
+  ],
+  "reading-12-mengzi": [
+    {
+      "slug": "reading-03-zhuangzi",
+      "title": "读《庄子》：哪些是真庄子，哪些是后学替他说的",
+      "similarity": 0.84
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.796
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.791
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.782
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.782
+    }
+  ],
+  "reading-11-meditations": [
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.902
+    },
+    {
+      "slug": "reading-19-shishuo-xinyu",
+      "title": "读《世说新语》：它不讲道理，只用三十六扇门替一个时代打分",
+      "similarity": 0.85
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.827
+    },
+    {
+      "slug": "reading-08-cien-anos",
+      "title": "读《百年孤独》：为什么七代人都叫同一个名字",
+      "similarity": 0.822
+    },
+    {
+      "slug": "reading-16-on-liberty",
+      "title": "读《论自由》：你的事，什么时候才轮到别人开口",
+      "similarity": 0.811
+    }
+  ],
+  "reading-10-hamlet": [
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.787
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.775
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.768
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.759
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.753
+    }
+  ],
+  "reading-09-republic": [
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.828
+    },
+    {
+      "slug": "reading-05-hongloumeng",
+      "title": "读《红楼梦》：第五回就把结局写完了",
+      "similarity": 0.7
+    },
+    {
+      "slug": "reading-22-elements",
+      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
+      "similarity": 0.693
+    },
+    {
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.69
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.685
+    }
+  ],
+  "reading-08-cien-anos": [
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.824
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.822
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.813
+    },
+    {
+      "slug": "reading-21-iliad",
+      "title": "读《伊利亚特》：开篇是「愤怒」，收尾是一场葬礼",
+      "similarity": 0.793
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.776
+    }
+  ],
+  "reading-07-crime-and-punishment": [
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.787
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.785
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.783
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.783
+    },
+    {
+      "slug": "reading-21-iliad",
+      "title": "读《伊利亚特》：开篇是「愤怒」，收尾是一场葬礼",
+      "similarity": 0.778
+    }
+  ],
+  "reading-06-war-and-peace": [
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.829
+    },
+    {
+      "slug": "reading-16-on-liberty",
+      "title": "读《论自由》：你的事，什么时候才轮到别人开口",
+      "similarity": 0.804
+    },
+    {
+      "slug": "reading-21-iliad",
+      "title": "读《伊利亚特》：开篇是「愤怒」，收尾是一场葬礼",
+      "similarity": 0.799
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.785
+    },
+    {
+      "slug": "reading-08-cien-anos",
+      "title": "读《百年孤独》：为什么七代人都叫同一个名字",
+      "similarity": 0.775
+    }
+  ],
+  "reading-05-hongloumeng": [
+    {
+      "slug": "reading-22-elements",
+      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
+      "similarity": 0.844
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.797
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.792
+    },
+    {
+      "slug": "reading-04-shiji",
+      "title": "读《史记》：体例怎么安排，就是太史公怎么判断",
+      "similarity": 0.792
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.777
+    }
+  ],
+  "reading-04-shiji": [
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.798
+    },
+    {
+      "slug": "reading-05-hongloumeng",
+      "title": "读《红楼梦》：第五回就把结局写完了",
+      "similarity": 0.792
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.765
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.762
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.757
+    }
+  ],
+  "reading-03-zhuangzi": [
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.84
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.776
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.76
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.752
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.747
+    }
+  ],
+  "reading-02-daodejing": [
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.838
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.811
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.796
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.778
+    },
+    {
+      "slug": "reading-04-shiji",
+      "title": "读《史记》：体例怎么安排，就是太史公怎么判断",
+      "similarity": 0.765
+    }
+  ],
+  "reading-01-lunyu": [
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.902
+    },
+    {
+      "slug": "reading-19-shishuo-xinyu",
+      "title": "读《世说新语》：它不讲道理，只用三十六扇门替一个时代打分",
+      "similarity": 0.895
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.839
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.816
+    },
+    {
+      "slug": "reading-08-cien-anos",
+      "title": "读《百年孤独》：为什么七代人都叫同一个名字",
+      "similarity": 0.813
+    }
+  ],
+  "shuangta-park": [
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.66
+    },
+    {
+      "slug": "nanzhai-park",
+      "title": "雪后的南寨公园，和一座苗圃留下的林子",
+      "similarity": 0.637
+    },
+    {
+      "slug": "fitness-basics",
+      "title": "腹肌养成记：核心训练全指南",
+      "similarity": 0.634
+    },
+    {
+      "slug": "jinzhong-institute-review",
+      "title": "弹指一挥间——山西晋中理工学院回顾与人生感悟",
+      "similarity": 0.604
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.579
+    }
+  ],
+  "nanzhai-park": [
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.689
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.68
+    },
+    {
+      "slug": "reading-14-inferno",
+      "title": "读《神曲》：越往地狱深处，装的越是有本事的人",
+      "similarity": 0.676
+    },
+    {
+      "slug": "diary-2026-10-18",
+      "title": "十月十八日，周日：把今天这一格填满",
+      "similarity": 0.653
+    },
+    {
+      "slug": "beiqi-mural-museum",
+      "title": "在太原看北齐壁画：一座建在墓上的博物馆",
+      "similarity": 0.639
+    }
+  ],
+  "mood-2022-04-08": [
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.827
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.806
+    },
+    {
+      "slug": "mood-2022-04-04",
+      "title": "四月四日：一个人看一场雨",
+      "similarity": 0.799
+    },
+    {
+      "slug": "diary-2026-10-18",
+      "title": "十月十八日，周日：把今天这一格填满",
+      "similarity": 0.799
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.796
+    }
+  ],
+  "mood-2022-04-06": [
+    {
+      "slug": "mood-2022-03-13",
+      "title": "三月十三日：打扫房间，也打扫脑子",
+      "similarity": 0.859
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.841
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.824
+    },
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.82
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.819
+    }
+  ],
+  "mood-2022-04-04": [
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.838
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.811
+    },
+    {
+      "slug": "mood-2022-04-08",
+      "title": "四月八日：为什么要努力",
+      "similarity": 0.799
+    },
+    {
+      "slug": "mood-2022-03-19",
+      "title": "三月十九日：一个人吃饭的晚上",
+      "similarity": 0.769
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.752
+    }
+  ],
+  "mood-2022-04-02": [
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.852
+    },
+    {
+      "slug": "mood-2022-04-04",
+      "title": "四月四日：一个人看一场雨",
+      "similarity": 0.838
+    },
+    {
+      "slug": "mood-2022-04-08",
+      "title": "四月八日：为什么要努力",
+      "similarity": 0.827
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.827
+    },
+    {
+      "slug": "diary-2026-10-18",
+      "title": "十月十八日，周日：把今天这一格填满",
+      "similarity": 0.825
+    }
+  ],
+  "mood-2022-03-31": [
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.894
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.878
+    },
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.858
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.847
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.82
+    }
+  ],
+  "mood-2022-03-29": [
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.861
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.845
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.834
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.82
+    },
+    {
+      "slug": "mood-2022-03-19",
+      "title": "三月十九日：一个人吃饭的晚上",
+      "similarity": 0.808
+    }
+  ],
+  "mood-2022-03-27": [
+    {
+      "slug": "mood-2022-03-29",
+      "title": "三月二十九日：把手机放下的一小时",
+      "similarity": 0.861
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.841
+    },
+    {
+      "slug": "mood-2022-03-19",
+      "title": "三月十九日：一个人吃饭的晚上",
+      "similarity": 0.833
+    },
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.827
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.819
+    }
+  ],
+  "mood-2022-03-25": [
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.886
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.855
+    },
+    {
+      "slug": "mood-2022-03-29",
+      "title": "三月二十九日：把手机放下的一小时",
+      "similarity": 0.845
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.845
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.841
+    }
+  ],
+  "mood-2022-03-23": [
+    {
+      "slug": "mood-2022-03-07",
+      "title": "三月七日：把一件事做第二遍",
+      "similarity": 0.768
+    },
+    {
+      "slug": "mood-2022-03-29",
+      "title": "三月二十九日：把手机放下的一小时",
+      "similarity": 0.759
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.735
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.722
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.718
+    }
+  ],
+  "mood-2022-03-21": [
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.855
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.85
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.844
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.828
+    },
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.823
+    }
+  ],
+  "mood-2022-03-19": [
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.844
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.833
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.831
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.817
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.814
+    }
+  ],
+  "mood-2022-03-17": [
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.852
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.847
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.822
+    },
+    {
+      "slug": "diary-2026-10-18",
+      "title": "十月十八日，周日：把今天这一格填满",
+      "similarity": 0.82
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.819
+    }
+  ],
+  "mood-2022-03-15": [
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.886
+    },
+    {
+      "slug": "mood-2022-03-19",
+      "title": "三月十九日：一个人吃饭的晚上",
+      "similarity": 0.844
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.798
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.788
+    },
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.785
+    }
+  ],
+  "mood-2022-03-13": [
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.859
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.773
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.765
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.759
+    },
+    {
+      "slug": "mood-2022-03-19",
+      "title": "三月十九日：一个人吃饭的晚上",
+      "similarity": 0.759
+    }
+  ],
+  "mood-2022-03-11": [
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.874
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.85
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.847
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.846
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.845
+    }
+  ],
+  "mood-2022-03-09": [
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.798
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.792
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.751
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.741
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.731
+    }
+  ],
+  "mood-2022-03-07": [
+    {
+      "slug": "mood-2022-03-23",
+      "title": "三月二十三日：学会说「我还没学会」",
+      "similarity": 0.768
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.736
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.73
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.729
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.716
+    }
+  ],
+  "mood-2022-03-05": [
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.858
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.832
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.829
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.827
+    },
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.824
+    }
+  ],
+  "mood-2022-03-03": [
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.908
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.878
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.874
+    },
+    {
+      "slug": "mood-2022-03-29",
+      "title": "三月二十九日：把手机放下的一小时",
+      "similarity": 0.834
+    },
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.832
+    }
+  ],
+  "mood-2022-03-01": [
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.908
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.894
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.847
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.846
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.844
+    }
+  ],
+  "jinzhong-institute-review": [
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.71
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
       "similarity": 0.628
     },
     {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.574
+      "slug": "reading-16-on-liberty",
+      "title": "读《论自由》：你的事，什么时候才轮到别人开口",
+      "similarity": 0.624
     },
     {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.553
+      "slug": "beiqi-mural-museum",
+      "title": "在太原看北齐壁画：一座建在墓上的博物馆",
+      "similarity": 0.624
     },
     {
-      "slug": "hello-world",
-      "title": "Hello World",
-      "similarity": 0.549
+      "slug": "reading-08-cien-anos",
+      "title": "读《百年孤独》：为什么七代人都叫同一个名字",
+      "similarity": 0.61
     }
   ],
-  "getting-started": [
+  "diary-2026-10-18": [
     {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.766
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.825
     },
     {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.82
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.806
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.805
+    },
+    {
+      "slug": "mood-2022-04-08",
+      "title": "四月八日：为什么要努力",
+      "similarity": 0.799
+    }
+  ],
+  "beiqi-mural-museum": [
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.67
+    },
+    {
+      "slug": "reading-04-shiji",
+      "title": "读《史记》：体例怎么安排，就是太史公怎么判断",
+      "similarity": 0.652
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.644
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.643
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.64
+    }
+  ],
+  "linux-25-wrap-up": [
+    {
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
       "similarity": 0.704
     },
     {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.676
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.679
     },
     {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
-      "similarity": 0.657
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.661
     },
     {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.64
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.655
+    },
+    {
+      "slug": "linux-07-processes-and-signals",
+      "title": "Linux 基础 07：进程与信号——TERM 和 KILL 到底差在哪",
+      "similarity": 0.632
     }
   ],
-  "astro-koharu-guide": [
+  "linux-24-boot-and-rescue": [
     {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.766
+      "slug": "linux-12-disks-and-filesystems",
+      "title": "Linux 基础 12：磁盘与文件系统——从块设备到挂载点",
+      "similarity": 0.582
     },
     {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.663
-    },
-    {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
-      "similarity": 0.619
-    },
-    {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.61
-    },
-    {
-      "slug": "rainy-afternoon",
-      "title": "下雨的周六下午",
-      "similarity": 0.597
-    }
-  ],
-  "toc-no-numbering": [
-    {
-      "slug": "note/encrypted-post-demo",
-      "title": "加密文章演示",
-      "similarity": 0.694
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.676
-    },
-    {
-      "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.631
-    },
-    {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.573
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.559
-    }
-  ],
-  "note/shoka-features": [
-    {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.748
-    },
-    {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
-      "similarity": 0.73
-    },
-    {
-      "slug": "note/encrypted-post-demo",
-      "title": "加密文章演示",
-      "similarity": 0.658
-    },
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.649
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.64
-    }
-  ],
-  "markdown-features": [
-    {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
-      "similarity": 0.677
-    },
-    {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.649
-    },
-    {
-      "slug": "container-queries",
-      "title": "容器查询实战：让卡片自己决定布局",
-      "similarity": 0.637
-    },
-    {
-      "slug": "astro-6-migration",
-      "title": "从 Astro 5 到 Astro 6：astro-koharu 的一次完整迁移实录",
-      "similarity": 0.599
-    },
-    {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.597
-    }
-  ],
-  "note/encrypted-post-demo": [
-    {
-      "slug": "custom-keywords",
-      "title": "自定义关键词示例",
-      "similarity": 0.712
-    },
-    {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.694
-    },
-    {
-      "slug": "rainy-afternoon",
-      "title": "下雨的周六下午",
-      "similarity": 0.684
-    },
-    {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.658
-    },
-    {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.629
-    }
-  ],
-  "custom-keywords": [
-    {
-      "slug": "note/encrypted-post-demo",
-      "title": "加密文章演示",
-      "similarity": 0.712
-    },
-    {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
-      "similarity": 0.657
-    },
-    {
-      "slug": "rainy-afternoon",
-      "title": "下雨的周六下午",
-      "similarity": 0.555
-    },
-    {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
+      "slug": "linux-11-systemd",
+      "title": "Linux 基础 11：systemd——unit、systemctl 与 journalctl 的正确用法",
       "similarity": 0.538
     },
     {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.534
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.407
+    },
+    {
+      "slug": "linux-22-logs-and-debugging-method",
+      "title": "Linux 基础 22：日志与故障排查方法论——从现象到根因的六步",
+      "similarity": 0.377
+    },
+    {
+      "slug": "linux-04-permissions",
+      "title": "Linux 基础 04：权限与属主——rwx 在文件和目录上不是一回事",
+      "similarity": 0.377
     }
   ],
-  "bayes-quiz": [
+  "linux-23-containers-and-kernel-boundaries": [
     {
-      "slug": "note/encrypted-post-demo",
-      "title": "加密文章演示",
-      "similarity": 0.573
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.477
     },
     {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.525
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.466
     },
     {
-      "slug": "year-in-review-2025",
-      "title": "2025 年终：写得不多，但都写完了",
-      "similarity": 0.512
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.424
     },
     {
-      "slug": "rainy-afternoon",
-      "title": "下雨的周六下午",
-      "similarity": 0.508
+      "slug": "linux-17-firewalls",
+      "title": "Linux 基础 17：防火墙——iptables、nftables、firewalld 与 ufw 的关系",
+      "similarity": 0.416
     },
     {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.496
+      "slug": "linux-16-selinux",
+      "title": "Linux 基础 16：SELinux——当权限都对，服务还是被拒绝",
+      "similarity": 0.384
     }
   ],
-  "year-in-review-2025": [
+  "linux-22-logs-and-debugging-method": [
     {
-      "slug": "note/encrypted-post-demo",
-      "title": "加密文章演示",
-      "similarity": 0.575
+      "slug": "linux-11-systemd",
+      "title": "Linux 基础 11：systemd——unit、systemctl 与 journalctl 的正确用法",
+      "similarity": 0.558
     },
     {
-      "slug": "rainy-afternoon",
-      "title": "下雨的周六下午",
-      "similarity": 0.561
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.53
     },
     {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.485
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.468
+    },
+    {
+      "slug": "linux-06-pipes-and-redirection",
+      "title": "Linux 基础 06：管道与重定向——三条流、一个顺序问题",
+      "similarity": 0.461
+    }
+  ],
+  "linux-21-scheduled-tasks": [
+    {
+      "slug": "linux-11-systemd",
+      "title": "Linux 基础 11：systemd——unit、systemctl 与 journalctl 的正确用法",
+      "similarity": 0.539
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.404
+    },
+    {
+      "slug": "linux-16-selinux",
+      "title": "Linux 基础 16：SELinux——当权限都对，服务还是被拒绝",
+      "similarity": 0.375
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.366
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.36
+    }
+  ],
+  "linux-20-shell-scripting-advanced": [
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.694
+    },
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.661
+    },
+    {
+      "slug": "linux-19-shell-scripting-basics",
+      "title": "Linux 基础 19：Shell 脚本（上）——引号、条件与退出码",
+      "similarity": 0.652
+    },
+    {
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.622
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.62
+    }
+  ],
+  "linux-19-shell-scripting-basics": [
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.652
+    },
+    {
+      "slug": "linux-06-pipes-and-redirection",
+      "title": "Linux 基础 06：管道与重定向——三条流、一个顺序问题",
+      "similarity": 0.629
+    },
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.625
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.59
+    },
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.554
+    }
+  ],
+  "linux-18-performance-and-tracing": [
+    {
+      "slug": "linux-22-logs-and-debugging-method",
+      "title": "Linux 基础 22：日志与故障排查方法论——从现象到根因的六步",
+      "similarity": 0.437
+    },
+    {
+      "slug": "linux-07-processes-and-signals",
+      "title": "Linux 基础 07：进程与信号——TERM 和 KILL 到底差在哪",
+      "similarity": 0.377
+    },
+    {
+      "slug": "linux-05-text-processing",
+      "title": "Linux 基础 05：文本处理——把 grep/sort/uniq 变成你的分析工具",
+      "similarity": 0.37
+    },
+    {
+      "slug": "linux-11-systemd",
+      "title": "Linux 基础 11：systemd——unit、systemctl 与 journalctl 的正确用法",
+      "similarity": 0.365
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.328
+    }
+  ],
+  "linux-17-firewalls": [
+    {
+      "slug": "linux-13-networking-basics",
+      "title": "Linux 基础 13：网络基础——自下而上的排错顺序",
+      "similarity": 0.467
+    },
+    {
+      "slug": "linux-23-containers-and-kernel-boundaries",
+      "title": "Linux 基础 23：容器与内核边界——namespace、cgroup 与 docker exec 背后",
+      "similarity": 0.416
+    },
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.415
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.415
+    },
+    {
+      "slug": "linux-11-systemd",
+      "title": "Linux 基础 11：systemd——unit、systemctl 与 journalctl 的正确用法",
+      "similarity": 0.384
+    }
+  ],
+  "linux-16-selinux": [
+    {
+      "slug": "linux-04-permissions",
+      "title": "Linux 基础 04：权限与属主——rwx 在文件和目录上不是一回事",
+      "similarity": 0.598
+    },
+    {
+      "slug": "linux-15-advanced-permissions",
+      "title": "Linux 基础 15：权限进阶——sudoers 的通配陷阱、ACL 与 capabilities",
+      "similarity": 0.57
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.562
+    },
+    {
+      "slug": "linux-09-users-and-groups",
+      "title": "Linux 基础 09：用户与组——passwd、shadow、sudoers 三件套",
       "similarity": 0.542
     },
     {
-      "slug": "hello-world",
-      "title": "Hello World",
-      "similarity": 0.517
-    },
-    {
-      "slug": "bayes-quiz",
-      "title": "用一道体检题复习贝叶斯公式",
-      "similarity": 0.512
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.504
     }
   ],
-  "rainy-afternoon": [
+  "linux-15-advanced-permissions": [
     {
-      "slug": "note/encrypted-post-demo",
-      "title": "加密文章演示",
-      "similarity": 0.684
+      "slug": "linux-09-users-and-groups",
+      "title": "Linux 基础 09：用户与组——passwd、shadow、sudoers 三件套",
+      "similarity": 0.722
     },
     {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
-      "similarity": 0.608
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.597
-    },
-    {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
+      "slug": "linux-04-permissions",
+      "title": "Linux 基础 04：权限与属主——rwx 在文件和目录上不是一回事",
       "similarity": 0.587
     },
     {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.577
+      "slug": "linux-16-selinux",
+      "title": "Linux 基础 16：SELinux——当权限都对，服务还是被拒绝",
+      "similarity": 0.57
+    },
+    {
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.5
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.471
     }
   ],
-  "hello-world": [
+  "linux-14-ssh-and-remote-ops": [
     {
-      "slug": "note/encrypted-post-demo",
-      "title": "加密文章演示",
-      "similarity": 0.616
+      "slug": "linux-08-env-and-startup-files",
+      "title": "Linux 基础 08：环境变量与 shell 启动文件——为什么 ssh 跑命令找不到你的 PATH",
+      "similarity": 0.719
     },
     {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.585
+      "slug": "linux-16-selinux",
+      "title": "Linux 基础 16：SELinux——当权限都对，服务还是被拒绝",
+      "similarity": 0.443
     },
     {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.55
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.44
     },
     {
-      "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.549
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.435
     },
     {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
-      "similarity": 0.529
+      "slug": "linux-09-users-and-groups",
+      "title": "Linux 基础 09：用户与组——passwd、shadow、sudoers 三件套",
+      "similarity": 0.432
     }
   ],
-  "theme-customization": [
+  "linux-13-networking-basics": [
     {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.704
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.51
     },
     {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.644
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.487
     },
     {
-      "slug": "tailwind-v4-upgrade-notes",
-      "title": "Tailwind CSS v4 升级笔记",
-      "similarity": 0.622
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.487
     },
     {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.61
+      "slug": "linux-10-package-management",
+      "title": "Linux 基础 10：包管理——apt 到底做了什么，以及四个高频报错",
+      "similarity": 0.474
     },
     {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.547
+      "slug": "linux-17-firewalls",
+      "title": "Linux 基础 17：防火墙——iptables、nftables、firewalld 与 ufw 的关系",
+      "similarity": 0.467
     }
   ],
-  "markdown-pipeline": [
+  "linux-12-disks-and-filesystems": [
     {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.73
+      "slug": "linux-24-boot-and-rescue",
+      "title": "Linux 基础 24：启动流程与救援——UEFI、GRUB、initramfs 与 emergency mode",
+      "similarity": 0.582
     },
     {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.677
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.657
-    },
-    {
-      "slug": "custom-keywords",
-      "title": "自定义关键词示例",
-      "similarity": 0.657
-    },
-    {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.657
-    }
-  ],
-  "infographic-guide": [
-    {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.748
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.663
-    },
-    {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
-      "similarity": 0.657
-    },
-    {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.644
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.634
-    }
-  ],
-  "astro-6-migration": [
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.64
-    },
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.599
-    },
-    {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
+      "slug": "linux-04-permissions",
+      "title": "Linux 基础 04：权限与属主——rwx 在文件和目录上不是一回事",
       "similarity": 0.559
     },
     {
-      "slug": "container-queries",
-      "title": "容器查询实战：让卡片自己决定布局",
-      "similarity": 0.544
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.506
-    }
-  ],
-  "oshi-no-ko-season-2": [
-    {
-      "slug": "rainy-afternoon",
-      "title": "下雨的周六下午",
-      "similarity": 0.56
-    },
-    {
-      "slug": "hello-world",
-      "title": "Hello World",
-      "similarity": 0.509
-    },
-    {
-      "slug": "year-in-review-2025",
-      "title": "2025 年终：写得不多，但都写完了",
-      "similarity": 0.499
-    },
-    {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.46
-    },
-    {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
-      "similarity": 0.443
-    }
-  ],
-  "tailwind-v4-upgrade-notes": [
-    {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.622
-    },
-    {
-      "slug": "container-queries",
-      "title": "容器查询实战：让卡片自己决定布局",
-      "similarity": 0.482
-    },
-    {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.401
-    },
-    {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.357
-    },
-    {
-      "slug": "note/shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.352
-    }
-  ],
-  "container-queries": [
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.637
-    },
-    {
-      "slug": "markdown-pipeline",
-      "title": "一篇 Markdown 在构建时经过了什么",
-      "similarity": 0.586
-    },
-    {
-      "slug": "astro-6-migration",
-      "title": "从 Astro 5 到 Astro 6：astro-koharu 的一次完整迁移实录",
-      "similarity": 0.544
-    },
-    {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
       "similarity": 0.531
     },
     {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.514
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.496
+    },
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.477
+    }
+  ],
+  "linux-11-systemd": [
+    {
+      "slug": "linux-22-logs-and-debugging-method",
+      "title": "Linux 基础 22：日志与故障排查方法论——从现象到根因的六步",
+      "similarity": 0.558
+    },
+    {
+      "slug": "linux-21-scheduled-tasks",
+      "title": "Linux 基础 21：定时任务——crontab 的坑与 systemd timer",
+      "similarity": 0.539
+    },
+    {
+      "slug": "linux-24-boot-and-rescue",
+      "title": "Linux 基础 24：启动流程与救援——UEFI、GRUB、initramfs 与 emergency mode",
+      "similarity": 0.538
+    },
+    {
+      "slug": "linux-16-selinux",
+      "title": "Linux 基础 16：SELinux——当权限都对，服务还是被拒绝",
+      "similarity": 0.465
+    },
+    {
+      "slug": "linux-04-permissions",
+      "title": "Linux 基础 04：权限与属主——rwx 在文件和目录上不是一回事",
+      "similarity": 0.445
+    }
+  ],
+  "linux-10-package-management": [
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.581
+    },
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.525
+    },
+    {
+      "slug": "reading-05-hongloumeng",
+      "title": "读《红楼梦》：第五回就把结局写完了",
+      "similarity": 0.515
+    },
+    {
+      "slug": "reading-22-elements",
+      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
+      "similarity": 0.512
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.501
+    }
+  ],
+  "linux-09-users-and-groups": [
+    {
+      "slug": "linux-15-advanced-permissions",
+      "title": "Linux 基础 15：权限进阶——sudoers 的通配陷阱、ACL 与 capabilities",
+      "similarity": 0.722
+    },
+    {
+      "slug": "linux-04-permissions",
+      "title": "Linux 基础 04：权限与属主——rwx 在文件和目录上不是一回事",
+      "similarity": 0.717
+    },
+    {
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.594
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.558
+    },
+    {
+      "slug": "linux-16-selinux",
+      "title": "Linux 基础 16：SELinux——当权限都对，服务还是被拒绝",
+      "similarity": 0.542
+    }
+  ],
+  "linux-08-env-and-startup-files": [
+    {
+      "slug": "linux-14-ssh-and-remote-ops",
+      "title": "Linux 基础 14：SSH 与远程运维——密钥、权限与三种隧道",
+      "similarity": 0.719
+    },
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.592
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.521
+    },
+    {
+      "slug": "linux-09-users-and-groups",
+      "title": "Linux 基础 09：用户与组——passwd、shadow、sudoers 三件套",
+      "similarity": 0.504
+    },
+    {
+      "slug": "linux-04-permissions",
+      "title": "Linux 基础 04：权限与属主——rwx 在文件和目录上不是一回事",
+      "similarity": 0.475
+    }
+  ],
+  "linux-07-processes-and-signals": [
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.632
+    },
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.576
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.573
+    },
+    {
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.564
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.563
+    }
+  ],
+  "linux-06-pipes-and-redirection": [
+    {
+      "slug": "linux-19-shell-scripting-basics",
+      "title": "Linux 基础 19：Shell 脚本（上）——引号、条件与退出码",
+      "similarity": 0.629
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.586
+    },
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.582
+    },
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.532
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.504
+    }
+  ],
+  "linux-05-text-processing": [
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.524
+    },
+    {
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.521
+    },
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.475
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.444
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.437
+    }
+  ],
+  "linux-04-permissions": [
+    {
+      "slug": "linux-09-users-and-groups",
+      "title": "Linux 基础 09：用户与组——passwd、shadow、sudoers 三件套",
+      "similarity": 0.717
+    },
+    {
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.643
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.606
+    },
+    {
+      "slug": "linux-16-selinux",
+      "title": "Linux 基础 16：SELinux——当权限都对，服务还是被拒绝",
+      "similarity": 0.598
+    },
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.595
+    }
+  ],
+  "linux-03-file-operations": [
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.707
+    },
+    {
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.672
+    },
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.655
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.62
+    },
+    {
+      "slug": "linux-04-permissions",
+      "title": "Linux 基础 04：权限与属主——rwx 在文件和目录上不是一回事",
+      "similarity": 0.606
+    }
+  ],
+  "linux-02-filesystem-and-inode": [
+    {
+      "slug": "linux-01-terminal-and-shell",
+      "title": "Linux 基础 01：终端、Shell，和命令是怎么被找到的",
+      "similarity": 0.726
+    },
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.704
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.672
+    },
+    {
+      "slug": "linux-04-permissions",
+      "title": "Linux 基础 04：权限与属主——rwx 在文件和目录上不是一回事",
+      "similarity": 0.643
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.622
+    }
+  ],
+  "linux-01-terminal-and-shell": [
+    {
+      "slug": "linux-02-filesystem-and-inode",
+      "title": "Linux 基础 02：/ 底下为什么是这些目录，inode 里到底存了什么",
+      "similarity": 0.726
+    },
+    {
+      "slug": "linux-03-file-operations",
+      "title": "Linux 基础 03：ls、cp、mv、rm 的真实语义，以及那个由 shell 展开的 *",
+      "similarity": 0.707
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.694
+    },
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.679
+    },
+    {
+      "slug": "linux-19-shell-scripting-basics",
+      "title": "Linux 基础 19：Shell 脚本（上）——引号、条件与退出码",
+      "similarity": 0.625
+    }
+  ],
+  "fitness-basics": [
+    {
+      "slug": "shuangta-park",
+      "title": "四月末的双塔公园，和一场四百年的花事",
+      "similarity": 0.634
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.633
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.626
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.624
+    },
+    {
+      "slug": "jinzhong-institute-review",
+      "title": "弹指一挥间——山西晋中理工学院回顾与人生感悟",
+      "similarity": 0.606
     }
   ]
 }

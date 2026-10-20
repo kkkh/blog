@@ -36,6 +36,8 @@ export const uiStrings: UIStrings = {
   'nav.about': 'About',
   'nav.music': 'Music',
   'nav.weekly': 'Weekly',
+  'nav.linux': 'Linux Basics', // ← 新增
+  'nav.reading': 'Reading Notes',
   'nav.bangumi': 'Bangumi',
 
   // ── Common ──────────────────────────────────────────────────

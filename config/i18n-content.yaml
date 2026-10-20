@@ -21,11 +21,18 @@ en:
     front-end: Frontend
     css: CSS
     anime: Anime
+    reading: Reading
 
   series:
     weekly:
-      label: My Weekly
-      fullName: My Tech Weekly
+      label: My Weekly Notes
+      fullName: My Weekly Notes
+    linux:
+      label: Linux Basics
+      fullName: "Linux From Scratch: A Practical Series"
+    reading:
+      label: Reading Notes
+      fullName: My Reading Notes
 
   featuredCategories:
     life:

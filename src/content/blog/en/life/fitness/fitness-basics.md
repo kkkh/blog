@@ -3,8 +3,8 @@ title: 'Building a Six-Pack: The Complete Core Training Guide'
 description: 'Abs are made in the kitchen as much as in the gym: 13 classic core exercises with precise form cues, a fast fat-burning circuit, and the diet and sleep habits that finally make them visible.'
 link: fitness-basics
 catalog: true
-date: 2022-04-02T10:27:53+08:00
-updated: 2022-04-02T10:35:12+08:00
+date: 2022-04-02 10:27:53
+updated: 2022-04-02 10:35:12
 categories: ['随笔']
 tags: ['锻炼', '生活']
 draft: false

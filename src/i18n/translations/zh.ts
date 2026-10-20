@@ -34,7 +34,9 @@ export const uiStrings = {
   'nav.friends': '友链',
   'nav.about': '关于',
   'nav.music': '歌单',
-  'nav.weekly': '周刊',
+  'nav.weekly': '每周小记',
+  'nav.linux': 'Linux 基础', // ← 新增
+  'nav.reading': '读书笔记',
   'nav.bangumi': '追番',
 
   // ── Common ──────────────────────────────────────────────────
@@ -299,7 +301,12 @@ export const uiStrings = {
   'settings.invalidNumber': '请输入正数',
 
   // ── Announcement ────────────────────────────────────────────
-  'announcement.title': '公告',
+  // ── 本站改动 ────────────────────────────────────────────────────────────
+  // 改动前原值：'announcement.title': '公告'
+  // 改动理由：站内「页脚公告入口」与「公告弹窗标题」共用这一个词条，统一称呼后
+  //          同一个功能不会再出现「公告 / 通知公告」两个名字。
+  // 英文站对应词条保持原值 'Announcements'（未改动）。
+  'announcement.title': '通知公告',
   'announcement.new': '新',
   'announcement.count': '{count} 条公告',
   'announcement.unreadCount': '{count} 条未读',

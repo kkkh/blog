@@ -81,7 +81,7 @@ categoryMap:
   随笔: life
   笔记: note
   工具: tools
-  周刊: weekly
+  每周小记: weekly
   # Secondary categories (for nested paths)
   前端: front-end
   CSS: css
@@ -139,9 +139,9 @@ featuredCategories:
 # -----------------------------------------------------------------------------
 featuredSeries:
   - slug: weekly # URL 路径: /weekly
-    categoryName: 周刊 # 必须与 categoryMap 中的分类名匹配
-    label: 周记 # 简短名称
-    fullName: 每周记录 # 完整名称
+    categoryName: 每周小记 # 必须与 categoryMap 中的分类名匹配
+    label: 每周小记 # 简短名称
+    fullName: 每周小记 # 完整名称
     description: | # 支持多行 Markdown
       每周轶事
       持续记录中。。。
@@ -153,15 +153,28 @@ featuredSeries:
       rss: /rss.xml # (可选) RSS 订阅链接
       # chrome: https://chromewebstore.google.com/detail/your-extension-id # (专门用来放 Chrome 浏览器扩展的商店链接) 浏览器插件
       # docs: https://your-docs-url # (可选) 文档链接
+  - slug: linux # URL 路径: /linux
+    categoryName: 笔记 # 必须与 categoryMap 中的分类名匹配
+    label: Linux 基础 # 简短名称
+    fullName: 从零开始的 Linux 基础 # 系列页大标题
+    description: | # 支持多行 Markdown
+      从 shell、文件、权限一路讲到 systemd、网络、SELinux、防火墙与容器边界。
+      25 篇实战笔记，每篇都有可复制的命令、真实故障的排查顺序与踩坑记录。
+    cover: /img/weekly_header.webp # 系列页面头图
+    enabled: true # 启用此系列
+    icon: ri:terminal-box-line # 导航图标
+    links:
+      github: https://github.com/kkkh/blog
+      rss: /rss.xml
   # 示例：添加第二个系列（取消注释启用）
-  # - slug: reading # URL 路径: /reading
-  #   categoryName: 书摘
-  #   label: 读书笔记
-  #   fullName: 我的读书笔记
-  #   description: 阅读记录与读后感
-  #   cover: /img/weekly_header.webp # 记得添加，我这里就是个示例
-  #   enabled: true
-  #   icon: ri:book-read-line
+  - slug: reading # URL 路径: /reading
+    categoryName: 书摘
+    label: 读书笔记
+    fullName: 我的读书笔记
+    description: 阅读记录与读后感
+    cover: /img/weekly_header.webp # 记得添加，我这里就是个示例
+    enabled: true
+    icon: ri:book-read-line
 
 # =============================================================================
 # Social Links
@@ -607,12 +620,18 @@ navigation:
     nameKey: nav.home # i18n 翻译 key
     path: / # 链接路径
     icon: ri:home-heart-fill # 图标
-  # - name: 书摘
-  #   path: /reading
-  - name: 周刊
+  - name: 每周小记
     nameKey: nav.weekly
     path: /weekly
     icon: ri:newspaper-line
+  - name: Linux 基础
+    nameKey: nav.linux
+    path: /linux
+    icon: ri:terminal-box-line
+  - name: 读书笔记
+    nameKey: nav.reading
+    path: /reading
+    icon: ri:book-read-line
   # Optional explicit Moments position. When omitted, enabled Moments is inserted after Archives.
   # - feature: moments
   #   icon: ri:chat-smile-3-fill
