@@ -772,17 +772,22 @@
       "similarity": 0.634
     },
     {
+      "slug": "binhe-greenway-rides",
+      "title": "六月沿着汾河骑了三天，加起来 172.5 公里",
+      "similarity": 0.632
+    },
+    {
       "slug": "jinzhong-institute-review",
       "title": "弹指一挥间——山西晋中理工学院回顾与人生感悟",
       "similarity": 0.604
-    },
-    {
-      "slug": "reading-13-anna-karenina",
-      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
-      "similarity": 0.579
     }
   ],
   "nanzhai-park": [
+    {
+      "slug": "binhe-greenway-rides",
+      "title": "六月沿着汾河骑了三天，加起来 172.5 公里",
+      "similarity": 0.691
+    },
     {
       "slug": "reading-18-walden",
       "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
@@ -802,11 +807,6 @@
       "slug": "diary-2026-10-18",
       "title": "十月十八日，周日：把今天这一格填满",
       "similarity": 0.653
-    },
-    {
-      "slug": "beiqi-mural-museum",
-      "title": "在太原看北齐壁画：一座建在墓上的博物馆",
-      "similarity": 0.639
     }
   ],
   "mood-2022-04-08": [
@@ -1401,6 +1401,33 @@
       "slug": "mood-2022-04-08",
       "title": "四月八日：为什么要努力",
       "similarity": 0.799
+    }
+  ],
+  "binhe-greenway-rides": [
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.762
+    },
+    {
+      "slug": "mood-2022-03-29",
+      "title": "三月二十九日：把手机放下的一小时",
+      "similarity": 0.698
+    },
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.697
+    },
+    {
+      "slug": "diary-2026-10-18",
+      "title": "十月十八日，周日：把今天这一格填满",
+      "similarity": 0.697
+    },
+    {
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.692
     }
   ],
   "beiqi-mural-museum": [
