@@ -259,7 +259,7 @@ friends:
       url: https://43322.cn
       owner: 超超
       desc: 海内存知己，天涯若比邻。
-      image: https://blog.cosine.ren/img/avatar.webp
+      image: https://43322.cn/img/avatar.webp
       color: '#b25237'
       group: familiar
     - site: 爱折腾的设计师
@@ -269,6 +269,13 @@ friends:
       image: https://blog.zhheo.com/img/avatar.png
       color: '#BEDCFF'
       group: familiar
+    - site: 开发阿雷
+      url: https://qqphp.com
+      owner: 开发阿雷博客
+      desc: 思考、制作，并留下值得回看的东西。
+      image: https://qqphp.com/favicon.ico
+      color: '#BEDCFF'
+      group: familiar
     - site: 荒野中的一盏孤灯
       url: https://www.80srz.com
       owner: 荒野孤灯
@@ -276,11 +283,11 @@ friends:
       image: https://www.80srz.com/logo.png
       color: '#d18a68'
       group: community
-    - site: 精彩程序人生
-      url: https://www.dqzboy.com
-      owner: 浅时光博客
-      desc:
-      image: https://www.dqzboy.com/wp-content/uploads/2022/08/1660652165-04c17740b9e647d.png
+    - site: CikBlog
+      url: https://blog.cikcc.com
+      owner: CikBlog
+      desc: 分享技术与数字生活
+      image: https://s21.ax1x.com/2025/04/06/pEcAcPs.jpg
       color: '#ABDCFF'
       group: community
     - site: 云深不知处
@@ -290,11 +297,11 @@ friends:
       image: https://www.lanzlz.cn/upload/2/6d188285-6895-40a5-8b6a-631790150b0a.png?width=1600
       color: '#C8E6C9'
       group: community
-    - site: Shiro
-      url: https://cdn.akioi.eu.org
-      owner: Shiro书架
-      desc: Creator & Oler
-      image: https://cdn.akioi.eu.org/favicon.ico
+    - site: webfem
+      url: https://webfem.com
+      owner: webfem
+      desc: 免费在线工具与软件开发实践。
+      image: https://webfem.com/favicon.ico
       color: '#E1BEE7'
       group: following
     - site: 纸鹿
@@ -305,11 +312,11 @@ friends:
       color: '#FFE0B2'
       group: following
     # 不写 group（或写了不存在的分组 id）的友链会归入最后的「未分组」
-    - site: 彬彬
-      url: https://blog.dhao.cc
-      owner: 彬彬加冰
-      desc: 今夜有雨
-      image: https://cdn.dhao.cc/halo/IMG_20250810_211659.png
+    - site: Miao · 苗先生
+      url: https://blog.miao.club
+      owner: Miao's Blog
+      desc: 不务正业的银行客户经理
+      image: https://blog.miao.club/upload/exec-9d0eb7ca-54d5-45c5-9ea9-ebb68f2c8f26.png
       color: '#B2EBF2'
 
 # =============================================================================
