@@ -3,8 +3,8 @@ title: '每周小记 Vol.1 | 把一周折成一页纸'
 description: '开栏第一期：这一周里三件值得记住的小事，一点关于「记录」的想法，以及下周只准备做的一件事。'
 link: weekly-vol-01
 catalog: true
-date: 2026-10-20 21:00:00
-updated: 2026-10-20 22:20:00
+date: 2026-09-29 21:00:00
+updated: 2026-09-29 22:20:00
 categories: ['每周小记']
 tags: ['每周小记', '记录']
 draft: false

@@ -3,8 +3,8 @@ title: '每周小记 Vol.2 | 做到三天，也算做到'
 description: '上一期留下的那半小时，这周只守住了三天。这一期记的是：中断之后怎么接上、这一周主动砍掉的三件事，以及为什么下周要把目标缩小。'
 link: weekly-vol-02
 catalog: true
-date: 2026-10-27 21:00:00
-updated: 2026-10-27 22:30:00
+date: 2026-10-06 21:00:00
+updated: 2026-10-06 22:30:00
 categories: ['每周小记']
 tags: ['每周小记', '记录']
 draft: false

@@ -3,8 +3,8 @@ title: 'Weekly Notes Vol.3 | Fix the When Before Asking How Long'
 description: 'The twenty-minute ledger: five days this week. The two extra days came not from trying harder but from moving the obstacle away and pinning the moment down. This issue is about environment and triggers being slightly more reliable than willpower.'
 link: weekly-vol-03
 catalog: true
-date: 2026-11-03 21:00:00
-updated: 2026-11-03 22:20:00
+date: 2026-10-13 21:00:00
+updated: 2026-10-13 22:20:00
 categories: ['每周小记']
 tags: ['每周小记', '记录']
 draft: false

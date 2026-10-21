@@ -3,8 +3,8 @@ title: 'Weekly Notes Vol.4 | Hold Off on the Second Thing'
 description: 'After binding the twenty minutes to “right after washing up”: six days this week, and a new kind of risk — a stabilised habit stops feeling like an achievement, and the hand starts itching to add a second one. Also: minimum-version rules, and why fluency and memory are not the same thing.'
 link: weekly-vol-04
 catalog: true
-date: 2026-11-10 21:00:00
-updated: 2026-11-10 22:20:00
+date: 2026-10-20 21:00:00
+updated: 2026-10-20 22:20:00
 categories: ['每周小记']
 tags: ['每周小记', '记录']
 draft: false

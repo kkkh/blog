@@ -3,8 +3,8 @@ title: 'Weekly Notes Vol.2 | Three Days Out of Seven Still Counts'
 description: 'The half hour I set aside last issue held for three days out of seven. This issue: how to pick things up after a break, the three items I chose to cut this week, and why I am shrinking next week’s target.'
 link: weekly-vol-02
 catalog: true
-date: 2026-10-27 21:00:00
-updated: 2026-10-27 22:30:00
+date: 2026-10-06 21:00:00
+updated: 2026-10-06 22:30:00
 categories: ['每周小记']
 tags: ['每周小记', '记录']
 draft: false

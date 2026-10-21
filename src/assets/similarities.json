@@ -3,108 +3,108 @@
     {
       "slug": "binhe-greenway-rides",
       "title": "六月沿着汾河骑了三天，加起来 172.5 公里",
-      "similarity": 0.811
+      "similarity": 0.794
     },
     {
       "slug": "weekly-vol-03",
       "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
-      "similarity": 0.776
+      "similarity": 0.791
     },
     {
       "slug": "weekly-vol-02",
       "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.749
+      "similarity": 0.778
     },
     {
       "slug": "mood-2022-03-29",
       "title": "三月二十九日：把手机放下的一小时",
-      "similarity": 0.741
+      "similarity": 0.762
     },
     {
-      "slug": "reading-18-walden",
-      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
-      "similarity": 0.72
+      "slug": "fitness-basics",
+      "title": "腹肌养成记：核心训练全指南",
+      "similarity": 0.754
     }
   ],
   "weekly-vol-03": [
     {
       "slug": "reading-24-art-of-war",
       "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.829
+      "similarity": 0.832
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.806
     },
     {
       "slug": "reading-11-meditations",
       "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.81
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.805
-    },
-    {
-      "slug": "reading-22-elements",
-      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
-      "similarity": 0.802
+      "similarity": 0.797
     },
     {
       "slug": "reading-17-karamazov",
       "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.793
+      "similarity": 0.796
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.794
     }
   ],
   "weekly-vol-02": [
     {
-      "slug": "weekly-vol-01",
-      "title": "每周小记 Vol.1 | 把一周折成一页纸",
-      "similarity": 0.87
-    },
-    {
       "slug": "diary-2026-10-18",
       "title": "十月十八日，周日：把今天这一格填满",
-      "similarity": 0.817
-    },
-    {
-      "slug": "mood-2022-04-06",
-      "title": "四月六日：给三个月后的自己写信",
-      "similarity": 0.787
-    },
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.784
+      "similarity": 0.799
     },
     {
       "slug": "binhe-greenway-rides",
       "title": "六月沿着汾河骑了三天，加起来 172.5 公里",
-      "similarity": 0.774
+      "similarity": 0.796
+    },
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.788
+    },
+    {
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.778
+    },
+    {
+      "slug": "weekly-vol-01",
+      "title": "每周小记 Vol.1 | 把一周折成一页纸",
+      "similarity": 0.772
     }
   ],
   "weekly-vol-01": [
     {
       "slug": "weekly-vol-02",
       "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.87
+      "similarity": 0.772
     },
     {
-      "slug": "diary-2026-10-18",
-      "title": "十月十八日，周日：把今天这一格填满",
-      "similarity": 0.74
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.734
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.703
     },
     {
       "slug": "mood-2022-03-03",
       "title": "三月三日：早起的那一个小时",
-      "similarity": 0.719
+      "similarity": 0.681
     },
     {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.707
-    },
-    {
-      "slug": "mood-2022-03-29",
-      "title": "三月二十九日：把手机放下的一小时",
-      "similarity": 0.701
+      "slug": "diary-2026-10-18",
+      "title": "十月十八日，周日：把今天这一格填满",
+      "similarity": 0.681
     }
   ],
   "reading-24-art-of-war": [
@@ -173,11 +173,6 @@
       "similarity": 0.816
     },
     {
-      "slug": "weekly-vol-03",
-      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
-      "similarity": 0.802
-    },
-    {
       "slug": "reading-17-karamazov",
       "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
       "similarity": 0.799
@@ -186,6 +181,11 @@
       "slug": "beiqi-mural-museum",
       "title": "在太原看北齐壁画：一座建在墓上的博物馆",
       "similarity": 0.784
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.782
     }
   ],
   "reading-21-iliad": [
@@ -264,12 +264,17 @@
       "similarity": 0.788
     },
     {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.78
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.785
     }
   ],
   "reading-18-walden": [
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.794
+    },
     {
       "slug": "reading-11-meditations",
       "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
@@ -289,11 +294,6 @@
       "slug": "reading-16-on-liberty",
       "title": "读《论自由》：你的事，什么时候才轮到别人开口",
       "similarity": 0.789
-    },
-    {
-      "slug": "reading-08-cien-anos",
-      "title": "读《百年孤独》：为什么七代人都叫同一个名字",
-      "similarity": 0.787
     }
   ],
   "reading-17-karamazov": [
@@ -762,6 +762,11 @@
       "similarity": 0.777
     },
     {
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.669
+    },
+    {
       "slug": "reading-05-hongloumeng",
       "title": "读《红楼梦》：第五回就把结局写完了",
       "similarity": 0.669
@@ -775,38 +780,33 @@
       "slug": "diary-2026-10-18",
       "title": "十月十八日，周日：把今天这一格填满",
       "similarity": 0.639
-    },
-    {
-      "slug": "weekly-vol-02",
-      "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.634
     }
   ],
   "road-without-a-map": [
     {
       "slug": "mood-2022-03-19",
       "title": "三月十九日：一个人吃饭的晚上",
-      "similarity": 0.739
+      "similarity": 0.704
+    },
+    {
+      "slug": "mood-2022-03-09",
+      "title": "三月九日：我没有天赋，但我有耐心",
+      "similarity": 0.682
     },
     {
       "slug": "mood-2022-03-21",
       "title": "三月二十一日：春天来了",
-      "similarity": 0.634
-    },
-    {
-      "slug": "mood-2022-04-08",
-      "title": "四月八日：为什么要努力",
-      "similarity": 0.618
-    },
-    {
-      "slug": "mood-2022-03-23",
-      "title": "三月二十三日：学会说「我还没学会」",
-      "similarity": 0.604
+      "similarity": 0.681
     },
     {
       "slug": "reading-13-anna-karenina",
       "title": "读《安娜·卡列尼娜》：两条线，一个问题",
-      "similarity": 0.598
+      "similarity": 0.676
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.66
     }
   ],
   "nanzhai-park": [
@@ -823,7 +823,7 @@
     {
       "slug": "weekly-vol-02",
       "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.684
+      "similarity": 0.693
     },
     {
       "slug": "beiqi-mural-museum",
@@ -973,14 +973,19 @@
   ],
   "mood-2022-03-29": [
     {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.78
+    },
+    {
       "slug": "mood-2022-03-03",
       "title": "三月三日：早起的那一个小时",
       "similarity": 0.778
     },
     {
-      "slug": "weekly-vol-03",
-      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
-      "similarity": 0.768
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.762
     },
     {
       "slug": "fitness-basics",
@@ -988,14 +993,9 @@
       "similarity": 0.759
     },
     {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.742
-    },
-    {
-      "slug": "weekly-vol-04",
-      "title": "每周小记 Vol.4 | 先不加第二件事",
-      "similarity": 0.741
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.757
     }
   ],
   "mood-2022-03-27": [
@@ -1123,14 +1123,14 @@
       "similarity": 0.767
     },
     {
-      "slug": "road-without-a-map",
-      "title": "走进没有地图的清晨",
-      "similarity": 0.739
-    },
-    {
       "slug": "mood-2022-03-13",
       "title": "三月十三日：打扫房间，也打扫脑子",
       "similarity": 0.739
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.734
     }
   ],
   "mood-2022-03-17": [
@@ -1398,16 +1398,16 @@
       "similarity": 0.644
     },
     {
-      "slug": "weekly-vol-04",
-      "title": "每周小记 Vol.4 | 先不加第二件事",
-      "similarity": 0.641
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.643
     }
   ],
   "diary-2026-10-18": [
     {
       "slug": "weekly-vol-02",
       "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.817
+      "similarity": 0.799
     },
     {
       "slug": "mood-2022-03-03",
@@ -1432,19 +1432,14 @@
   ],
   "binhe-greenway-rides": [
     {
-      "slug": "weekly-vol-04",
-      "title": "每周小记 Vol.4 | 先不加第二件事",
-      "similarity": 0.811
-    },
-    {
       "slug": "weekly-vol-02",
       "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.774
+      "similarity": 0.796
     },
     {
-      "slug": "weekly-vol-03",
-      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
-      "similarity": 0.738
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.794
     },
     {
       "slug": "mood-2022-03-29",
@@ -1455,6 +1450,11 @@
       "slug": "linux-20-shell-scripting-advanced",
       "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
       "similarity": 0.726
+    },
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.721
     }
   ],
   "beiqi-mural-museum": [
@@ -1464,14 +1464,14 @@
       "similarity": 0.784
     },
     {
-      "slug": "weekly-vol-03",
-      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
-      "similarity": 0.751
-    },
-    {
       "slug": "reading-05-hongloumeng",
       "title": "读《红楼梦》：第五回就把结局写完了",
       "similarity": 0.729
+    },
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.716
     },
     {
       "slug": "reading-24-art-of-war",
@@ -1641,9 +1641,9 @@
       "similarity": 0.726
     },
     {
-      "slug": "linux-12-disks-and-filesystems",
-      "title": "Linux 基础 12：磁盘与文件系统——从块设备到挂载点",
-      "similarity": 0.69
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.695
     }
   ],
   "linux-19-shell-scripting-basics": [
@@ -2166,6 +2166,11 @@
       "similarity": 0.759
     },
     {
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.754
+    },
+    {
       "slug": "reading-13-anna-karenina",
       "title": "读《安娜·卡列尼娜》：两条线，一个问题",
       "similarity": 0.754
@@ -2179,11 +2184,6 @@
       "slug": "mood-2022-03-21",
       "title": "三月二十一日：春天来了",
       "similarity": 0.708
-    },
-    {
-      "slug": "reading-06-war-and-peace",
-      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
-      "similarity": 0.7
     }
   ]
 }

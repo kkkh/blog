@@ -3,8 +3,8 @@ title: 'Weekly Notes Vol.1 | Folding a Week Into a Single Page'
 description: 'Issue one: three small things worth remembering this week, a thought on why records matter, and the one thing I plan to do next week.'
 link: weekly-vol-01
 catalog: true
-date: 2026-10-20 21:00:00
-updated: 2026-10-20 22:20:00
+date: 2026-09-29 21:00:00
+updated: 2026-09-29 22:20:00
 categories: ['每周小记']
 tags: ['每周小记', '记录']
 draft: false
