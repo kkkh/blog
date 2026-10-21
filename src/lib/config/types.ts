@@ -19,6 +19,8 @@ export interface SiteBasicConfig {
   author?: string;
   url: string;
   startYear?: number;
+  /** 建站日期（YYYY-MM-DD），用于页脚「已运行 N 天」 */
+  startDate?: string;
   defaultOgImage?: string;
   keywords?: string[];
   /** 面包屑导航中首页的显示名称 @default '首页' */

@@ -227,6 +227,7 @@ export const uiStrings: UIStrings = {
   'footer.readingTimeTitle': 'Total reading time',
   'footer.postCountTitle': 'Total posts',
   'footer.runningDays': 'Running for {days} days',
+  'footer.runningDaysTitle': 'Days since the site launched',
   'footer.wordUnit': 'words',
   'footer.postUnit': 'posts',
 

@@ -79,6 +79,7 @@ export const siteConfig: ResolvedSiteConfig = {
   author: yamlConfig.site.author,
   site: yamlConfig.site.url,
   startYear: yamlConfig.site.startYear,
+  startDate: yamlConfig.site.startDate,
   defaultOgImage: yamlConfig.site.defaultOgImage,
   keywords: yamlConfig.site.keywords,
   breadcrumbHome: yamlConfig.site.breadcrumbHome,

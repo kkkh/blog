@@ -19,6 +19,30 @@ const locale = getLocaleFromUrl(Astro.url.pathname);
 const stats = await getSiteStats();
 const currentYear = new Date().getFullYear();
 const startYear = siteConfig?.startYear ?? currentYear;
+
+/** 站点时区，用于把「运行天数」按自然日计算 */
+const siteTimeZone = siteConfig?.timezone ?? 'Asia/Shanghai';
+/** 建站日期，格式必须是 YYYY-MM-DD；不合法则不渲染运行天数 */
+const runningSince = siteConfig?.startDate && /^\d{4}-\d{2}-\d{2}$/.test(siteConfig.startDate) ? siteConfig.startDate : null;
+const runningDays = runningSince ? calendarDaysSince(runningSince, siteTimeZone) : null;
+/** 供客户端脚本替换 __DAYS__ 的多语言模板 */
+const runningTemplate = t(locale, 'footer.runningDays', { days: '__DAYS__' });
+
+/** 按站点时区的自然日计算天数，建站当天记为第 1 天 */
+function calendarDaysSince(dateISO: string, timeZone: string): number {
+  const [year, month, day] = dateISO.split('-').map(Number);
+  const start = Date.UTC(year, month - 1, day);
+  const formatter = new Intl.DateTimeFormat('en-CA', {
+    timeZone,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  });
+  const parts = formatter.formatToParts(new Date());
+  const pick = (type: string) => Number(parts.find((part) => part.type === type)?.value);
+  const today = Date.UTC(pick('year'), pick('month') - 1, pick('day'));
+  return Math.floor((today - start) / 86_400_000) + 1;
+}
 ---
 
 <footer class={cn('mt-auto pb-6', className)}>
@@ -48,6 +72,21 @@ const startYear = siteConfig?.startYear ?? currentYear;
         <span class="font-medium">{stats.postCount}</span>
         <span class="text-xs">{t(locale, 'footer.postUnit')}</span>
       </button>
+
+      {runningDays !== null && (
+        <button type="button" class="flex items-center gap-2 opacity-75 transition-opacity duration-300 hover:opacity-100 max-[359px]:basis-full max-[359px]:justify-center" title={t(locale, 'footer.runningDaysTitle')} data-running-item="true">
+          {/* 桌面端补一条分隔线；移动端隐藏，换行后由浏览量自带的分隔线接续 */}
+          <span class="bg-muted-foreground/30 hidden h-4 w-px min-[769px]:block" data-running-divider="true"></span>
+          <Icon name="ri:calendar-line" class="h-4 w-4" />
+          <span
+            class="font-medium tabular-nums"
+            data-running-days="true"
+            data-running-since={runningSince}
+            data-running-tz={siteTimeZone}
+            data-running-tpl={runningTemplate}
+          >{t(locale, 'footer.runningDays', { days: runningDays })}</span>
+        </button>
+      )}
 
       {umamiSiteStatsConfig && (
         <>
@@ -134,6 +173,97 @@ const startYear = siteConfig?.startYear ?? currentYear;
   </div>
 </footer>
 
+<script is:inline>
+  (() => {
+    const DAY = 86_400_000;
+
+    /** 按站点时区取「今天」的 UTC 日期戳，避免访客本地时区造成差一天 */
+    const siteToday = (timeZone) => {
+      const parts = new Intl.DateTimeFormat('en-CA', {
+        timeZone,
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+      }).formatToParts(new Date());
+      const pick = (type) => Number(parts.find((part) => part.type === type)?.value);
+      return Date.UTC(pick('year'), pick('month') - 1, pick('day'));
+    };
+
+    /** 用与构建时相同的「自然日 + 站点时区」规则重算，建站当天记为第 1 天 */
+    const update = () => {
+      document.querySelectorAll('[data-running-days]').forEach((el) => {
+        const since = el.getAttribute('data-running-since');
+        const timeZone = el.getAttribute('data-running-tz') || 'Asia/Shanghai';
+        const template = el.getAttribute('data-running-tpl') || '__DAYS__';
+        if (!since || !/^\d{4}-\d{2}-\d{2}$/.test(since)) return;
+        const [year, month, day] = since.split('-').map(Number);
+        const start = Date.UTC(year, month - 1, day);
+        const days = Math.floor((siteToday(timeZone) - start) / DAY) + 1;
+        el.textContent = template.replace('__DAYS__', String(days));
+      });
+      syncDivider();
+    };
+
+    /**
+     * 分隔线只在「运行天数」与前一统计项处于同一行时显示：
+     * 极窄屏换行后避免行首出现孤立分隔线，平板宽度下仍与其它项保持一致。
+     */
+    const syncDivider = () => {
+      document.querySelectorAll('[data-running-item]').forEach((item) => {
+        const divider = item.querySelector('[data-running-divider]');
+        const previous = item.previousElementSibling;
+        if (!divider || !previous) return;
+        const sameRow = Math.abs(item.getBoundingClientRect().top - previous.getBoundingClientRect().top) < 8;
+        divider.style.display = sameRow ? 'block' : 'none';
+      });
+    };
+
+    let timer = 0;
+    /** 在站点时区的下一个 00:00 之后重新计算，并继续排下一次 */
+    const schedule = () => {
+      clearTimeout(timer);
+      const el = document.querySelector('[data-running-days]');
+      if (!el) return;
+      const timeZone = el.getAttribute('data-running-tz') || 'Asia/Shanghai';
+      const parts = new Intl.DateTimeFormat('en-GB', {
+        timeZone,
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false,
+      }).formatToParts(new Date());
+      const pick = (type) => Number(parts.find((part) => part.type === type)?.value);
+      const elapsed = (pick('hour') * 3600 + pick('minute') * 60 + pick('second')) * 1000;
+      timer = window.setTimeout(
+        () => {
+          update();
+          schedule();
+        },
+        86_400_000 - elapsed + 1000,
+      );
+    };
+
+    if (!document.documentElement.dataset.runningDaysInstalled) {
+      document.documentElement.dataset.runningDaysInstalled = 'true';
+      window.addEventListener('resize', () => requestAnimationFrame(syncDivider));
+      document.fonts?.ready.then(() => syncDivider());
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) {
+          update();
+          schedule();
+        }
+      });
+      document.addEventListener('astro:page-load', () => {
+        update();
+        schedule();
+      });
+      document.addEventListener('astro:before-swap', () => clearTimeout(timer));
+      update();
+      schedule();
+    }
+  })();
+</script>
+
 <style>
   .footer-link {
     opacity: 0.75;
@@ -157,5 +287,20 @@ const startYear = siteConfig?.startYear ?? currentYear;
 
   .footer-link:hover::after {
     width: 100%;
+  }
+
+  /**
+   * <360px 专用规则：
+   * 极窄屏下统计项必然换行，隐藏竖分隔线，避免换行后出现行首或行末的孤立分隔线；
+   * 同时把行间距收窄到 8px，让「已运行 N 天」单独占一行并居中。
+   */
+  @media (max-width: 359px) {
+    .flex-wrap {
+      row-gap: 0.5rem;
+    }
+
+    .flex-wrap > .h-4.w-px {
+      display: none;
+    }
   }
 </style>

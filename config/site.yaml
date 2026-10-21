@@ -22,6 +22,7 @@ site:
   url: https://43322.cn # 站点 URL 用于 RSS 和 SEO
   defaultOgImage: /img/avatar.webp # 默认 Open Graph 图片
   startYear: 2022 # 建站年份
+  startDate: '2022-03-07' # 建站日期（YYYY-MM-DD），用于页脚「已运行 N 天」；请按实际上线日修改
   timezone: Asia/Shanghai # 时区配置 (IANA 格式)，用于日期显示和处理
   keywords: # SEO 关键词 (全局)
     - 博客
@@ -36,7 +37,7 @@ site:
   icp:
   #晋ICP备2023020746号
   # ICP 备案号
-    text: "晋ICP备2023020746号"
+    text: "晋ICP备2023020746号-2"
     link: "https://beian.miit.gov.cn/"
   # 公安网备案（注释掉即不显示）
   police:

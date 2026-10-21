@@ -224,6 +224,7 @@ export const uiStrings = {
   'footer.readingTimeTitle': '사이트 총 읽기 시간',
   'footer.postCountTitle': '총 게시물 수',
   'footer.runningDays': '{days}일째 가동 중',
+  'footer.runningDaysTitle': '사이트 운영 일수',
   'footer.wordUnit': '자',
   'footer.postUnit': '개',
 

@@ -226,6 +226,7 @@ export const uiStrings = {
   'footer.readingTimeTitle': '站点阅读时长',
   'footer.postCountTitle': '文章总数',
   'footer.runningDays': '已运行 {days} 天',
+  'footer.runningDaysTitle': '站点已运行天数',
   'footer.wordUnit': '字',
   'footer.postUnit': '篇',
 

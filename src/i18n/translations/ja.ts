@@ -226,6 +226,7 @@ export const uiStrings: UIStrings = {
   'footer.readingTimeTitle': '合計の読書時間',
   'footer.postCountTitle': '合計の投稿数',
   'footer.runningDays': '稼働して{days}日が経過',
+  'footer.runningDaysTitle': 'サイトの稼働日数',
   'footer.wordUnit': '文字',
   'footer.postUnit': '投稿',
 
