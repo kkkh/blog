@@ -782,6 +782,33 @@
       "similarity": 0.634
     }
   ],
+  "road-without-a-map": [
+    {
+      "slug": "mood-2022-03-19",
+      "title": "三月十九日：一个人吃饭的晚上",
+      "similarity": 0.739
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.634
+    },
+    {
+      "slug": "mood-2022-04-08",
+      "title": "四月八日：为什么要努力",
+      "similarity": 0.618
+    },
+    {
+      "slug": "mood-2022-03-23",
+      "title": "三月二十三日：学会说「我还没学会」",
+      "similarity": 0.604
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.598
+    }
+  ],
   "nanzhai-park": [
     {
       "slug": "shuangta-park",
@@ -1096,14 +1123,14 @@
       "similarity": 0.767
     },
     {
-      "slug": "mood-2022-03-13",
-      "title": "三月十三日：打扫房间，也打扫脑子",
+      "slug": "road-without-a-map",
+      "title": "走进没有地图的清晨",
       "similarity": 0.739
     },
     {
-      "slug": "mood-2022-03-11",
-      "title": "三月十一日：失败之后的第二天",
-      "similarity": 0.734
+      "slug": "mood-2022-03-13",
+      "title": "三月十三日：打扫房间，也打扫脑子",
+      "similarity": 0.739
     }
   ],
   "mood-2022-03-17": [
