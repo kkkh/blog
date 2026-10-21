@@ -275,10 +275,10 @@ friends:
       image: https://43322.cn/img/avatar.webp
       color: '#b25237'
       group: familiar
-    - site: 爱折腾的设计师
+    - site: 分享设计与科技生活
       url: https://blog.zhheo.com
-      owner: 张洪 Heo
-      desc: 源于热爱而去创造
+      owner: 张洪Heo
+      desc: 分享设计与科技生活
       image: https://blog.zhheo.com/img/avatar.png
       color: '#BEDCFF'
       group: familiar
@@ -304,7 +304,7 @@ friends:
       color: '#ABDCFF'
       group: community
     - site: 云深不知处
-      url: https://example-d.com
+      url: https://www.lanzlz.cn
       owner: 琦
       desc: 是一名Java后端工程师、独立开发者、游戏爱好者
       image: https://www.lanzlz.cn/upload/2/6d188285-6895-40a5-8b6a-631790150b0a.png?width=1600
