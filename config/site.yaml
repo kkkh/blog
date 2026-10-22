@@ -325,6 +325,13 @@ friends:
       image: https://www.zhilu.cyou/api/avatar.png
       color: '#FFE0B2'
       group: following
+    - site: 青桔API
+      url: https://api.tqq.me
+      owner: 青桔API
+      desc: 稳定、清晰、可运营的 API 服务平台
+      image: https://api.tqq.me/favicon.ico
+      color: '#FFE0B2'
+      group: following
     # 不写 group（或写了不存在的分组 id）的友链会归入最后的「未分组」
     - site: Miao · 苗先生
       url: https://blog.miao.club

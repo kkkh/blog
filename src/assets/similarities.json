@@ -107,654 +107,6 @@
       "similarity": 0.681
     }
   ],
-  "reading-24-art-of-war": [
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.878
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.877
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.877
-    },
-    {
-      "slug": "reading-02-daodejing",
-      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
-      "similarity": 0.862
-    },
-    {
-      "slug": "reading-10-hamlet",
-      "title": "读《哈姆雷特》：一句台词，几个人念就是几个意思",
-      "similarity": 0.848
-    }
-  ],
-  "reading-23-odyssey": [
-    {
-      "slug": "reading-13-anna-karenina",
-      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
-      "similarity": 0.843
-    },
-    {
-      "slug": "reading-02-daodejing",
-      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
-      "similarity": 0.843
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.843
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.842
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.812
-    }
-  ],
-  "reading-22-elements": [
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.834
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.816
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.799
-    },
-    {
-      "slug": "beiqi-mural-museum",
-      "title": "在太原看北齐壁画：一座建在墓上的博物馆",
-      "similarity": 0.784
-    },
-    {
-      "slug": "reading-18-walden",
-      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
-      "similarity": 0.782
-    }
-  ],
-  "reading-21-iliad": [
-    {
-      "slug": "reading-20-faust",
-      "title": "读《浮士德》：他把「太初有道」改了四遍，最后落在一个「为」字上",
-      "similarity": 0.746
-    },
-    {
-      "slug": "reading-07-crime-and-punishment",
-      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
-      "similarity": 0.736
-    },
-    {
-      "slug": "reading-23-odyssey",
-      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
-      "similarity": 0.719
-    },
-    {
-      "slug": "reading-15-wenxin-diaolong",
-      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
-      "similarity": 0.718
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.714
-    }
-  ],
-  "reading-20-faust": [
-    {
-      "slug": "reading-23-odyssey",
-      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
-      "similarity": 0.8
-    },
-    {
-      "slug": "reading-02-daodejing",
-      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
-      "similarity": 0.779
-    },
-    {
-      "slug": "reading-13-anna-karenina",
-      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
-      "similarity": 0.778
-    },
-    {
-      "slug": "reading-21-iliad",
-      "title": "读《伊利亚特》：开篇是「愤怒」，收尾是一场葬礼",
-      "similarity": 0.746
-    },
-    {
-      "slug": "reading-07-crime-and-punishment",
-      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
-      "similarity": 0.739
-    }
-  ],
-  "reading-19-shishuo-xinyu": [
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.814
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.794
-    },
-    {
-      "slug": "reading-12-mengzi",
-      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
-      "similarity": 0.79
-    },
-    {
-      "slug": "reading-23-odyssey",
-      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
-      "similarity": 0.788
-    },
-    {
-      "slug": "weekly-vol-03",
-      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
-      "similarity": 0.785
-    }
-  ],
-  "reading-18-walden": [
-    {
-      "slug": "weekly-vol-03",
-      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
-      "similarity": 0.794
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.792
-    },
-    {
-      "slug": "reading-06-war-and-peace",
-      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
-      "similarity": 0.792
-    },
-    {
-      "slug": "reading-13-anna-karenina",
-      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
-      "similarity": 0.79
-    },
-    {
-      "slug": "reading-16-on-liberty",
-      "title": "读《论自由》：你的事，什么时候才轮到别人开口",
-      "similarity": 0.789
-    }
-  ],
-  "reading-17-karamazov": [
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.878
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.87
-    },
-    {
-      "slug": "reading-10-hamlet",
-      "title": "读《哈姆雷特》：一句台词，几个人念就是几个意思",
-      "similarity": 0.861
-    },
-    {
-      "slug": "reading-02-daodejing",
-      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
-      "similarity": 0.846
-    },
-    {
-      "slug": "reading-23-odyssey",
-      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
-      "similarity": 0.842
-    }
-  ],
-  "reading-16-on-liberty": [
-    {
-      "slug": "reading-08-cien-anos",
-      "title": "读《百年孤独》：为什么七代人都叫同一个名字",
-      "similarity": 0.821
-    },
-    {
-      "slug": "reading-07-crime-and-punishment",
-      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
-      "similarity": 0.793
-    },
-    {
-      "slug": "reading-06-war-and-peace",
-      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
-      "similarity": 0.793
-    },
-    {
-      "slug": "reading-18-walden",
-      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
-      "similarity": 0.789
-    },
-    {
-      "slug": "reading-23-odyssey",
-      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
-      "similarity": 0.786
-    }
-  ],
-  "reading-15-wenxin-diaolong": [
-    {
-      "slug": "reading-13-anna-karenina",
-      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
-      "similarity": 0.825
-    },
-    {
-      "slug": "reading-07-crime-and-punishment",
-      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
-      "similarity": 0.82
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.79
-    },
-    {
-      "slug": "reading-09-republic",
-      "title": "读《理想国》：为什么全书第一个词就是「下去」",
-      "similarity": 0.777
-    },
-    {
-      "slug": "reading-06-war-and-peace",
-      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
-      "similarity": 0.758
-    }
-  ],
-  "reading-14-inferno": [
-    {
-      "slug": "reading-23-odyssey",
-      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
-      "similarity": 0.787
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.766
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.745
-    },
-    {
-      "slug": "reading-02-daodejing",
-      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
-      "similarity": 0.743
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.738
-    }
-  ],
-  "reading-13-anna-karenina": [
-    {
-      "slug": "reading-07-crime-and-punishment",
-      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
-      "similarity": 0.848
-    },
-    {
-      "slug": "reading-23-odyssey",
-      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
-      "similarity": 0.843
-    },
-    {
-      "slug": "reading-15-wenxin-diaolong",
-      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
-      "similarity": 0.825
-    },
-    {
-      "slug": "reading-06-war-and-peace",
-      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
-      "similarity": 0.82
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.801
-    }
-  ],
-  "reading-12-mengzi": [
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.845
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.844
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.834
-    },
-    {
-      "slug": "reading-10-hamlet",
-      "title": "读《哈姆雷特》：一句台词，几个人念就是几个意思",
-      "similarity": 0.818
-    },
-    {
-      "slug": "reading-09-republic",
-      "title": "读《理想国》：为什么全书第一个词就是「下去」",
-      "similarity": 0.8
-    }
-  ],
-  "reading-11-meditations": [
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.877
-    },
-    {
-      "slug": "reading-05-hongloumeng",
-      "title": "读《红楼梦》：第五回就把结局写完了",
-      "similarity": 0.849
-    },
-    {
-      "slug": "reading-02-daodejing",
-      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
-      "similarity": 0.849
-    },
-    {
-      "slug": "reading-06-war-and-peace",
-      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
-      "similarity": 0.844
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.84
-    }
-  ],
-  "reading-10-hamlet": [
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.861
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.848
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.836
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.82
-    },
-    {
-      "slug": "reading-12-mengzi",
-      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
-      "similarity": 0.818
-    }
-  ],
-  "reading-09-republic": [
-    {
-      "slug": "reading-12-mengzi",
-      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
-      "similarity": 0.8
-    },
-    {
-      "slug": "reading-05-hongloumeng",
-      "title": "读《红楼梦》：第五回就把结局写完了",
-      "similarity": 0.781
-    },
-    {
-      "slug": "reading-13-anna-karenina",
-      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
-      "similarity": 0.78
-    },
-    {
-      "slug": "reading-15-wenxin-diaolong",
-      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
-      "similarity": 0.777
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.775
-    }
-  ],
-  "reading-08-cien-anos": [
-    {
-      "slug": "reading-06-war-and-peace",
-      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
-      "similarity": 0.873
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.822
-    },
-    {
-      "slug": "reading-16-on-liberty",
-      "title": "读《论自由》：你的事，什么时候才轮到别人开口",
-      "similarity": 0.821
-    },
-    {
-      "slug": "reading-07-crime-and-punishment",
-      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
-      "similarity": 0.811
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.801
-    }
-  ],
-  "reading-07-crime-and-punishment": [
-    {
-      "slug": "reading-06-war-and-peace",
-      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
-      "similarity": 0.851
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.848
-    },
-    {
-      "slug": "reading-13-anna-karenina",
-      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
-      "similarity": 0.848
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.821
-    },
-    {
-      "slug": "reading-15-wenxin-diaolong",
-      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
-      "similarity": 0.82
-    }
-  ],
-  "reading-06-war-and-peace": [
-    {
-      "slug": "reading-08-cien-anos",
-      "title": "读《百年孤独》：为什么七代人都叫同一个名字",
-      "similarity": 0.873
-    },
-    {
-      "slug": "reading-07-crime-and-punishment",
-      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
-      "similarity": 0.851
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.844
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.841
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.829
-    }
-  ],
-  "reading-05-hongloumeng": [
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.849
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.82
-    },
-    {
-      "slug": "reading-02-daodejing",
-      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
-      "similarity": 0.82
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.799
-    },
-    {
-      "slug": "reading-09-republic",
-      "title": "读《理想国》：为什么全书第一个词就是「下去」",
-      "similarity": 0.781
-    }
-  ],
-  "reading-04-shiji": [
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.747
-    },
-    {
-      "slug": "reading-12-mengzi",
-      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
-      "similarity": 0.724
-    },
-    {
-      "slug": "reading-22-elements",
-      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
-      "similarity": 0.713
-    },
-    {
-      "slug": "reading-19-shishuo-xinyu",
-      "title": "读《世说新语》：它不讲道理，只用三十六扇门替一个时代打分",
-      "similarity": 0.713
-    },
-    {
-      "slug": "reading-07-crime-and-punishment",
-      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
-      "similarity": 0.71
-    }
-  ],
-  "reading-03-zhuangzi": [
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.839
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.828
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.817
-    },
-    {
-      "slug": "reading-02-daodejing",
-      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
-      "similarity": 0.815
-    },
-    {
-      "slug": "reading-10-hamlet",
-      "title": "读《哈姆雷特》：一句台词，几个人念就是几个意思",
-      "similarity": 0.805
-    }
-  ],
-  "reading-02-daodejing": [
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.915
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.862
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.849
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.846
-    },
-    {
-      "slug": "reading-23-odyssey",
-      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
-      "similarity": 0.843
-    }
-  ],
-  "reading-01-lunyu": [
-    {
-      "slug": "reading-02-daodejing",
-      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
-      "similarity": 0.915
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.877
-    },
-    {
-      "slug": "reading-17-karamazov",
-      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
-      "similarity": 0.87
-    },
-    {
-      "slug": "reading-12-mengzi",
-      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
-      "similarity": 0.845
-    },
-    {
-      "slug": "reading-23-odyssey",
-      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
-      "similarity": 0.843
-    }
-  ],
   "shuangta-park": [
     {
       "slug": "nanzhai-park",
@@ -1482,6 +834,654 @@
       "slug": "reading-01-lunyu",
       "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
       "similarity": 0.712
+    }
+  ],
+  "reading-24-art-of-war": [
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.878
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.877
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.877
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.862
+    },
+    {
+      "slug": "reading-10-hamlet",
+      "title": "读《哈姆雷特》：一句台词，几个人念就是几个意思",
+      "similarity": 0.848
+    }
+  ],
+  "reading-23-odyssey": [
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.843
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.843
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.843
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.842
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.812
+    }
+  ],
+  "reading-22-elements": [
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.834
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.816
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.799
+    },
+    {
+      "slug": "beiqi-mural-museum",
+      "title": "在太原看北齐壁画：一座建在墓上的博物馆",
+      "similarity": 0.784
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.782
+    }
+  ],
+  "reading-21-iliad": [
+    {
+      "slug": "reading-20-faust",
+      "title": "读《浮士德》：他把「太初有道」改了四遍，最后落在一个「为」字上",
+      "similarity": 0.746
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.736
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.719
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.718
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.714
+    }
+  ],
+  "reading-20-faust": [
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.8
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.779
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.778
+    },
+    {
+      "slug": "reading-21-iliad",
+      "title": "读《伊利亚特》：开篇是「愤怒」，收尾是一场葬礼",
+      "similarity": 0.746
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.739
+    }
+  ],
+  "reading-19-shishuo-xinyu": [
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.814
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.794
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.79
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.788
+    },
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.785
+    }
+  ],
+  "reading-18-walden": [
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.794
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.792
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.792
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.79
+    },
+    {
+      "slug": "reading-16-on-liberty",
+      "title": "读《论自由》：你的事，什么时候才轮到别人开口",
+      "similarity": 0.789
+    }
+  ],
+  "reading-17-karamazov": [
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.878
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.87
+    },
+    {
+      "slug": "reading-10-hamlet",
+      "title": "读《哈姆雷特》：一句台词，几个人念就是几个意思",
+      "similarity": 0.861
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.846
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.842
+    }
+  ],
+  "reading-16-on-liberty": [
+    {
+      "slug": "reading-08-cien-anos",
+      "title": "读《百年孤独》：为什么七代人都叫同一个名字",
+      "similarity": 0.821
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.793
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.793
+    },
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.789
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.786
+    }
+  ],
+  "reading-15-wenxin-diaolong": [
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.825
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.82
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.79
+    },
+    {
+      "slug": "reading-09-republic",
+      "title": "读《理想国》：为什么全书第一个词就是「下去」",
+      "similarity": 0.777
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.758
+    }
+  ],
+  "reading-14-inferno": [
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.787
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.766
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.745
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.743
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.738
+    }
+  ],
+  "reading-13-anna-karenina": [
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.848
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.843
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.825
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.82
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.801
+    }
+  ],
+  "reading-12-mengzi": [
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.845
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.844
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.834
+    },
+    {
+      "slug": "reading-10-hamlet",
+      "title": "读《哈姆雷特》：一句台词，几个人念就是几个意思",
+      "similarity": 0.818
+    },
+    {
+      "slug": "reading-09-republic",
+      "title": "读《理想国》：为什么全书第一个词就是「下去」",
+      "similarity": 0.8
+    }
+  ],
+  "reading-11-meditations": [
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.877
+    },
+    {
+      "slug": "reading-05-hongloumeng",
+      "title": "读《红楼梦》：第五回就把结局写完了",
+      "similarity": 0.849
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.849
+    },
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.844
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.84
+    }
+  ],
+  "reading-10-hamlet": [
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.861
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.848
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.836
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.82
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.818
+    }
+  ],
+  "reading-09-republic": [
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.8
+    },
+    {
+      "slug": "reading-05-hongloumeng",
+      "title": "读《红楼梦》：第五回就把结局写完了",
+      "similarity": 0.781
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.78
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.777
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.775
+    }
+  ],
+  "reading-08-cien-anos": [
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.873
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.822
+    },
+    {
+      "slug": "reading-16-on-liberty",
+      "title": "读《论自由》：你的事，什么时候才轮到别人开口",
+      "similarity": 0.821
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.811
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.801
+    }
+  ],
+  "reading-07-crime-and-punishment": [
+    {
+      "slug": "reading-06-war-and-peace",
+      "title": "读《战争与和平》：一部小说，为什么肯花一整章论证「伟人并不重要」",
+      "similarity": 0.851
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.848
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.848
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.821
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.82
+    }
+  ],
+  "reading-06-war-and-peace": [
+    {
+      "slug": "reading-08-cien-anos",
+      "title": "读《百年孤独》：为什么七代人都叫同一个名字",
+      "similarity": 0.873
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.851
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.844
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.841
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.829
+    }
+  ],
+  "reading-05-hongloumeng": [
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.849
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.82
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.82
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.799
+    },
+    {
+      "slug": "reading-09-republic",
+      "title": "读《理想国》：为什么全书第一个词就是「下去」",
+      "similarity": 0.781
+    }
+  ],
+  "reading-04-shiji": [
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.747
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.724
+    },
+    {
+      "slug": "reading-22-elements",
+      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
+      "similarity": 0.713
+    },
+    {
+      "slug": "reading-19-shishuo-xinyu",
+      "title": "读《世说新语》：它不讲道理，只用三十六扇门替一个时代打分",
+      "similarity": 0.713
+    },
+    {
+      "slug": "reading-07-crime-and-punishment",
+      "title": "读《罪与罚》：真正的审判，在作案当天就开始了",
+      "similarity": 0.71
+    }
+  ],
+  "reading-03-zhuangzi": [
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.839
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.828
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.817
+    },
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.815
+    },
+    {
+      "slug": "reading-10-hamlet",
+      "title": "读《哈姆雷特》：一句台词，几个人念就是几个意思",
+      "similarity": 0.805
+    }
+  ],
+  "reading-02-daodejing": [
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.915
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.862
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.849
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.846
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.843
+    }
+  ],
+  "reading-01-lunyu": [
+    {
+      "slug": "reading-02-daodejing",
+      "title": "读《道德经》：逗号放在哪里，读出来的就不是同一本书",
+      "similarity": 0.915
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.877
+    },
+    {
+      "slug": "reading-17-karamazov",
+      "title": "读《卡拉马佐夫兄弟》：一桩弑父案，没有一个人是旁观者",
+      "similarity": 0.87
+    },
+    {
+      "slug": "reading-12-mengzi",
+      "title": "读《孟子》：他从不直接回答，他让你自己说出口",
+      "similarity": 0.845
+    },
+    {
+      "slug": "reading-23-odyssey",
+      "title": "读《奥德赛》：上一本唱的是愤怒，这一本唱的是一个「绕了很多弯」的人",
+      "similarity": 0.843
     }
   ],
   "linux-25-wrap-up": [
