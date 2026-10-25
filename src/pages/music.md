@@ -14,5 +14,5 @@ description: "我喜欢的音乐"
     - https://music.163.com/#/playlist?id=801462857
 - title: 超超
   list:
-    - https://music.163.com/#/album?id=18502693911
+    - https://music.163.com/#/playlist?id=18502693911
 {% endmedia %}
