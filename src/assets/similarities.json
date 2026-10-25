@@ -107,735 +107,6 @@
       "similarity": 0.681
     }
   ],
-  "shuangta-park": [
-    {
-      "slug": "nanzhai-park",
-      "title": "雪后的南寨公园，和一座苗圃留下的林子",
-      "similarity": 0.777
-    },
-    {
-      "slug": "weekly-vol-02",
-      "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.669
-    },
-    {
-      "slug": "reading-05-hongloumeng",
-      "title": "读《红楼梦》：第五回就把结局写完了",
-      "similarity": 0.669
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.664
-    },
-    {
-      "slug": "diary-2026-10-18",
-      "title": "十月十八日，周日：把今天这一格填满",
-      "similarity": 0.639
-    }
-  ],
-  "road-without-a-map": [
-    {
-      "slug": "mood-2022-03-19",
-      "title": "三月十九日：一个人吃饭的晚上",
-      "similarity": 0.704
-    },
-    {
-      "slug": "mood-2022-03-09",
-      "title": "三月九日：我没有天赋，但我有耐心",
-      "similarity": 0.682
-    },
-    {
-      "slug": "mood-2022-03-21",
-      "title": "三月二十一日：春天来了",
-      "similarity": 0.681
-    },
-    {
-      "slug": "reading-13-anna-karenina",
-      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
-      "similarity": 0.676
-    },
-    {
-      "slug": "reading-15-wenxin-diaolong",
-      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
-      "similarity": 0.66
-    }
-  ],
-  "nanzhai-park": [
-    {
-      "slug": "shuangta-park",
-      "title": "四月末的双塔公园，和一场四百年的花事",
-      "similarity": 0.777
-    },
-    {
-      "slug": "binhe-greenway-rides",
-      "title": "六月沿着汾河骑了三天，加起来 172.5 公里",
-      "similarity": 0.711
-    },
-    {
-      "slug": "weekly-vol-02",
-      "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.693
-    },
-    {
-      "slug": "beiqi-mural-museum",
-      "title": "在太原看北齐壁画：一座建在墓上的博物馆",
-      "similarity": 0.677
-    },
-    {
-      "slug": "diary-2026-10-18",
-      "title": "十月十八日，周日：把今天这一格填满",
-      "similarity": 0.673
-    }
-  ],
-  "mood-2022-04-08": [
-    {
-      "slug": "mood-2022-04-04",
-      "title": "四月四日：一个人看一场雨",
-      "similarity": 0.854
-    },
-    {
-      "slug": "mood-2022-04-02",
-      "title": "四月二日：计划赶不上变化",
-      "similarity": 0.834
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.829
-    },
-    {
-      "slug": "mood-2022-03-21",
-      "title": "三月二十一日：春天来了",
-      "similarity": 0.827
-    },
-    {
-      "slug": "mood-2022-03-09",
-      "title": "三月九日：我没有天赋，但我有耐心",
-      "similarity": 0.798
-    }
-  ],
-  "mood-2022-04-06": [
-    {
-      "slug": "mood-2022-03-05",
-      "title": "三月五日：慢跑三公里",
-      "similarity": 0.871
-    },
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.868
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.838
-    },
-    {
-      "slug": "mood-2022-03-01",
-      "title": "三月一日：开始，不需要仪式",
-      "similarity": 0.814
-    },
-    {
-      "slug": "mood-2022-03-25",
-      "title": "三月二十五日：被拒绝的那次",
-      "similarity": 0.807
-    }
-  ],
-  "mood-2022-04-04": [
-    {
-      "slug": "mood-2022-04-08",
-      "title": "四月八日：为什么要努力",
-      "similarity": 0.854
-    },
-    {
-      "slug": "mood-2022-04-02",
-      "title": "四月二日：计划赶不上变化",
-      "similarity": 0.837
-    },
-    {
-      "slug": "mood-2022-03-01",
-      "title": "三月一日：开始，不需要仪式",
-      "similarity": 0.775
-    },
-    {
-      "slug": "mood-2022-03-13",
-      "title": "三月十三日：打扫房间，也打扫脑子",
-      "similarity": 0.774
-    },
-    {
-      "slug": "mood-2022-04-06",
-      "title": "四月六日：给三个月后的自己写信",
-      "similarity": 0.764
-    }
-  ],
-  "mood-2022-04-02": [
-    {
-      "slug": "mood-2022-04-04",
-      "title": "四月四日：一个人看一场雨",
-      "similarity": 0.837
-    },
-    {
-      "slug": "mood-2022-04-08",
-      "title": "四月八日：为什么要努力",
-      "similarity": 0.834
-    },
-    {
-      "slug": "mood-2022-03-25",
-      "title": "三月二十五日：被拒绝的那次",
-      "similarity": 0.833
-    },
-    {
-      "slug": "mood-2022-03-27",
-      "title": "三月二十七日：深夜的台灯",
-      "similarity": 0.802
-    },
-    {
-      "slug": "mood-2022-03-05",
-      "title": "三月五日：慢跑三公里",
-      "similarity": 0.799
-    }
-  ],
-  "mood-2022-03-31": [
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.865
-    },
-    {
-      "slug": "mood-2022-03-15",
-      "title": "三月十五日：和比自己强的人站在一起",
-      "similarity": 0.849
-    },
-    {
-      "slug": "mood-2022-04-06",
-      "title": "四月六日：给三个月后的自己写信",
-      "similarity": 0.838
-    },
-    {
-      "slug": "mood-2022-04-08",
-      "title": "四月八日：为什么要努力",
-      "similarity": 0.829
-    },
-    {
-      "slug": "mood-2022-03-05",
-      "title": "三月五日：慢跑三公里",
-      "similarity": 0.827
-    }
-  ],
-  "mood-2022-03-29": [
-    {
-      "slug": "weekly-vol-03",
-      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
-      "similarity": 0.78
-    },
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.778
-    },
-    {
-      "slug": "weekly-vol-04",
-      "title": "每周小记 Vol.4 | 先不加第二件事",
-      "similarity": 0.762
-    },
-    {
-      "slug": "fitness-basics",
-      "title": "腹肌养成记：核心训练全指南",
-      "similarity": 0.759
-    },
-    {
-      "slug": "weekly-vol-02",
-      "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.757
-    }
-  ],
-  "mood-2022-03-27": [
-    {
-      "slug": "mood-2022-03-25",
-      "title": "三月二十五日：被拒绝的那次",
-      "similarity": 0.843
-    },
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.826
-    },
-    {
-      "slug": "mood-2022-03-15",
-      "title": "三月十五日：和比自己强的人站在一起",
-      "similarity": 0.807
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.805
-    },
-    {
-      "slug": "mood-2022-04-02",
-      "title": "四月二日：计划赶不上变化",
-      "similarity": 0.802
-    }
-  ],
-  "mood-2022-03-25": [
-    {
-      "slug": "mood-2022-03-15",
-      "title": "三月十五日：和比自己强的人站在一起",
-      "similarity": 0.864
-    },
-    {
-      "slug": "mood-2022-03-27",
-      "title": "三月二十七日：深夜的台灯",
-      "similarity": 0.843
-    },
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.84
-    },
-    {
-      "slug": "mood-2022-04-02",
-      "title": "四月二日：计划赶不上变化",
-      "similarity": 0.833
-    },
-    {
-      "slug": "mood-2022-03-05",
-      "title": "三月五日：慢跑三公里",
-      "similarity": 0.833
-    }
-  ],
-  "mood-2022-03-23": [
-    {
-      "slug": "mood-2022-03-07",
-      "title": "三月七日：把一件事做第二遍",
-      "similarity": 0.814
-    },
-    {
-      "slug": "mood-2022-03-17",
-      "title": "三月十七日：关于「坚持」这个词",
-      "similarity": 0.736
-    },
-    {
-      "slug": "mood-2022-03-25",
-      "title": "三月二十五日：被拒绝的那次",
-      "similarity": 0.724
-    },
-    {
-      "slug": "mood-2022-03-27",
-      "title": "三月二十七日：深夜的台灯",
-      "similarity": 0.71
-    },
-    {
-      "slug": "mood-2022-04-02",
-      "title": "四月二日：计划赶不上变化",
-      "similarity": 0.709
-    }
-  ],
-  "mood-2022-03-21": [
-    {
-      "slug": "mood-2022-04-08",
-      "title": "四月八日：为什么要努力",
-      "similarity": 0.827
-    },
-    {
-      "slug": "mood-2022-03-09",
-      "title": "三月九日：我没有天赋，但我有耐心",
-      "similarity": 0.797
-    },
-    {
-      "slug": "mood-2022-03-13",
-      "title": "三月十三日：打扫房间，也打扫脑子",
-      "similarity": 0.789
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.771
-    },
-    {
-      "slug": "mood-2022-03-19",
-      "title": "三月十九日：一个人吃饭的晚上",
-      "similarity": 0.767
-    }
-  ],
-  "mood-2022-03-19": [
-    {
-      "slug": "mood-2022-04-08",
-      "title": "四月八日：为什么要努力",
-      "similarity": 0.795
-    },
-    {
-      "slug": "mood-2022-03-15",
-      "title": "三月十五日：和比自己强的人站在一起",
-      "similarity": 0.776
-    },
-    {
-      "slug": "mood-2022-03-21",
-      "title": "三月二十一日：春天来了",
-      "similarity": 0.767
-    },
-    {
-      "slug": "mood-2022-03-13",
-      "title": "三月十三日：打扫房间，也打扫脑子",
-      "similarity": 0.739
-    },
-    {
-      "slug": "mood-2022-03-11",
-      "title": "三月十一日：失败之后的第二天",
-      "similarity": 0.734
-    }
-  ],
-  "mood-2022-03-17": [
-    {
-      "slug": "mood-2022-03-07",
-      "title": "三月七日：把一件事做第二遍",
-      "similarity": 0.833
-    },
-    {
-      "slug": "mood-2022-03-13",
-      "title": "三月十三日：打扫房间，也打扫脑子",
-      "similarity": 0.825
-    },
-    {
-      "slug": "mood-2022-03-15",
-      "title": "三月十五日：和比自己强的人站在一起",
-      "similarity": 0.817
-    },
-    {
-      "slug": "mood-2022-03-27",
-      "title": "三月二十七日：深夜的台灯",
-      "similarity": 0.797
-    },
-    {
-      "slug": "mood-2022-03-01",
-      "title": "三月一日：开始，不需要仪式",
-      "similarity": 0.783
-    }
-  ],
-  "mood-2022-03-15": [
-    {
-      "slug": "mood-2022-03-25",
-      "title": "三月二十五日：被拒绝的那次",
-      "similarity": 0.864
-    },
-    {
-      "slug": "mood-2022-03-13",
-      "title": "三月十三日：打扫房间，也打扫脑子",
-      "similarity": 0.855
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.849
-    },
-    {
-      "slug": "mood-2022-03-05",
-      "title": "三月五日：慢跑三公里",
-      "similarity": 0.833
-    },
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.823
-    }
-  ],
-  "mood-2022-03-13": [
-    {
-      "slug": "mood-2022-03-15",
-      "title": "三月十五日：和比自己强的人站在一起",
-      "similarity": 0.855
-    },
-    {
-      "slug": "mood-2022-03-09",
-      "title": "三月九日：我没有天赋，但我有耐心",
-      "similarity": 0.843
-    },
-    {
-      "slug": "mood-2022-03-17",
-      "title": "三月十七日：关于「坚持」这个词",
-      "similarity": 0.825
-    },
-    {
-      "slug": "mood-2022-03-07",
-      "title": "三月七日：把一件事做第二遍",
-      "similarity": 0.821
-    },
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.814
-    }
-  ],
-  "mood-2022-03-11": [
-    {
-      "slug": "mood-2022-03-15",
-      "title": "三月十五日：和比自己强的人站在一起",
-      "similarity": 0.818
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.804
-    },
-    {
-      "slug": "mood-2022-03-25",
-      "title": "三月二十五日：被拒绝的那次",
-      "similarity": 0.775
-    },
-    {
-      "slug": "mood-2022-04-02",
-      "title": "四月二日：计划赶不上变化",
-      "similarity": 0.773
-    },
-    {
-      "slug": "mood-2022-03-17",
-      "title": "三月十七日：关于「坚持」这个词",
-      "similarity": 0.767
-    }
-  ],
-  "mood-2022-03-09": [
-    {
-      "slug": "mood-2022-03-13",
-      "title": "三月十三日：打扫房间，也打扫脑子",
-      "similarity": 0.843
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.805
-    },
-    {
-      "slug": "mood-2022-04-08",
-      "title": "四月八日：为什么要努力",
-      "similarity": 0.798
-    },
-    {
-      "slug": "mood-2022-03-21",
-      "title": "三月二十一日：春天来了",
-      "similarity": 0.797
-    },
-    {
-      "slug": "mood-2022-03-15",
-      "title": "三月十五日：和比自己强的人站在一起",
-      "similarity": 0.762
-    }
-  ],
-  "mood-2022-03-07": [
-    {
-      "slug": "mood-2022-03-17",
-      "title": "三月十七日：关于「坚持」这个词",
-      "similarity": 0.833
-    },
-    {
-      "slug": "mood-2022-03-01",
-      "title": "三月一日：开始，不需要仪式",
-      "similarity": 0.828
-    },
-    {
-      "slug": "mood-2022-03-25",
-      "title": "三月二十五日：被拒绝的那次",
-      "similarity": 0.827
-    },
-    {
-      "slug": "mood-2022-03-13",
-      "title": "三月十三日：打扫房间，也打扫脑子",
-      "similarity": 0.821
-    },
-    {
-      "slug": "mood-2022-03-15",
-      "title": "三月十五日：和比自己强的人站在一起",
-      "similarity": 0.819
-    }
-  ],
-  "mood-2022-03-05": [
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.872
-    },
-    {
-      "slug": "mood-2022-04-06",
-      "title": "四月六日：给三个月后的自己写信",
-      "similarity": 0.871
-    },
-    {
-      "slug": "mood-2022-03-25",
-      "title": "三月二十五日：被拒绝的那次",
-      "similarity": 0.833
-    },
-    {
-      "slug": "mood-2022-03-15",
-      "title": "三月十五日：和比自己强的人站在一起",
-      "similarity": 0.833
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.827
-    }
-  ],
-  "mood-2022-03-03": [
-    {
-      "slug": "mood-2022-03-05",
-      "title": "三月五日：慢跑三公里",
-      "similarity": 0.872
-    },
-    {
-      "slug": "mood-2022-04-06",
-      "title": "四月六日：给三个月后的自己写信",
-      "similarity": 0.868
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.865
-    },
-    {
-      "slug": "mood-2022-03-01",
-      "title": "三月一日：开始，不需要仪式",
-      "similarity": 0.846
-    },
-    {
-      "slug": "mood-2022-03-25",
-      "title": "三月二十五日：被拒绝的那次",
-      "similarity": 0.84
-    }
-  ],
-  "mood-2022-03-01": [
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.846
-    },
-    {
-      "slug": "mood-2022-03-07",
-      "title": "三月七日：把一件事做第二遍",
-      "similarity": 0.828
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.822
-    },
-    {
-      "slug": "mood-2022-04-06",
-      "title": "四月六日：给三个月后的自己写信",
-      "similarity": 0.814
-    },
-    {
-      "slug": "mood-2022-03-25",
-      "title": "三月二十五日：被拒绝的那次",
-      "similarity": 0.814
-    }
-  ],
-  "jinzhong-institute-review": [
-    {
-      "slug": "reading-18-walden",
-      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
-      "similarity": 0.711
-    },
-    {
-      "slug": "reading-11-meditations",
-      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
-      "similarity": 0.69
-    },
-    {
-      "slug": "fitness-basics",
-      "title": "腹肌养成记：核心训练全指南",
-      "similarity": 0.656
-    },
-    {
-      "slug": "linux-25-wrap-up",
-      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
-      "similarity": 0.644
-    },
-    {
-      "slug": "weekly-vol-02",
-      "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.643
-    }
-  ],
-  "diary-2026-10-18": [
-    {
-      "slug": "weekly-vol-02",
-      "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.799
-    },
-    {
-      "slug": "mood-2022-03-03",
-      "title": "三月三日：早起的那一个小时",
-      "similarity": 0.793
-    },
-    {
-      "slug": "mood-2022-04-06",
-      "title": "四月六日：给三个月后的自己写信",
-      "similarity": 0.75
-    },
-    {
-      "slug": "fitness-basics",
-      "title": "腹肌养成记：核心训练全指南",
-      "similarity": 0.749
-    },
-    {
-      "slug": "mood-2022-03-31",
-      "title": "三月三十一日：三月的最后一天",
-      "similarity": 0.745
-    }
-  ],
-  "binhe-greenway-rides": [
-    {
-      "slug": "weekly-vol-02",
-      "title": "每周小记 Vol.2 | 做到三天，也算做到",
-      "similarity": 0.796
-    },
-    {
-      "slug": "weekly-vol-04",
-      "title": "每周小记 Vol.4 | 先不加第二件事",
-      "similarity": 0.794
-    },
-    {
-      "slug": "mood-2022-03-29",
-      "title": "三月二十九日：把手机放下的一小时",
-      "similarity": 0.728
-    },
-    {
-      "slug": "linux-20-shell-scripting-advanced",
-      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
-      "similarity": 0.726
-    },
-    {
-      "slug": "weekly-vol-03",
-      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
-      "similarity": 0.721
-    }
-  ],
-  "beiqi-mural-museum": [
-    {
-      "slug": "reading-22-elements",
-      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
-      "similarity": 0.784
-    },
-    {
-      "slug": "reading-05-hongloumeng",
-      "title": "读《红楼梦》：第五回就把结局写完了",
-      "similarity": 0.729
-    },
-    {
-      "slug": "weekly-vol-03",
-      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
-      "similarity": 0.716
-    },
-    {
-      "slug": "reading-24-art-of-war",
-      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
-      "similarity": 0.714
-    },
-    {
-      "slug": "reading-01-lunyu",
-      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
-      "similarity": 0.712
-    }
-  ],
   "reading-24-art-of-war": [
     {
       "slug": "reading-17-karamazov",
@@ -1484,6 +755,762 @@
       "similarity": 0.843
     }
   ],
+  "trae-friends-taiyuan-1024": [
+    {
+      "slug": "mood-2022-03-29",
+      "title": "三月二十九日：把手机放下的一小时",
+      "similarity": 0.762
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.748
+    },
+    {
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.743
+    },
+    {
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.735
+    },
+    {
+      "slug": "reading-16-on-liberty",
+      "title": "读《论自由》：你的事，什么时候才轮到别人开口",
+      "similarity": 0.733
+    }
+  ],
+  "shuangta-park": [
+    {
+      "slug": "nanzhai-park",
+      "title": "雪后的南寨公园，和一座苗圃留下的林子",
+      "similarity": 0.777
+    },
+    {
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.669
+    },
+    {
+      "slug": "reading-05-hongloumeng",
+      "title": "读《红楼梦》：第五回就把结局写完了",
+      "similarity": 0.669
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.664
+    },
+    {
+      "slug": "diary-2026-10-18",
+      "title": "十月十八日，周日：把今天这一格填满",
+      "similarity": 0.639
+    }
+  ],
+  "road-without-a-map": [
+    {
+      "slug": "mood-2022-03-19",
+      "title": "三月十九日：一个人吃饭的晚上",
+      "similarity": 0.704
+    },
+    {
+      "slug": "mood-2022-03-09",
+      "title": "三月九日：我没有天赋，但我有耐心",
+      "similarity": 0.682
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.681
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.676
+    },
+    {
+      "slug": "reading-15-wenxin-diaolong",
+      "title": "读《文心雕龙》：写作的功夫，多半在动笔之前",
+      "similarity": 0.66
+    }
+  ],
+  "nanzhai-park": [
+    {
+      "slug": "shuangta-park",
+      "title": "四月末的双塔公园，和一场四百年的花事",
+      "similarity": 0.777
+    },
+    {
+      "slug": "binhe-greenway-rides",
+      "title": "六月沿着汾河骑了三天，加起来 172.5 公里",
+      "similarity": 0.711
+    },
+    {
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.693
+    },
+    {
+      "slug": "beiqi-mural-museum",
+      "title": "在太原看北齐壁画：一座建在墓上的博物馆",
+      "similarity": 0.677
+    },
+    {
+      "slug": "trae-friends-taiyuan-1024",
+      "title": "在太原过 1024：三张卡片、九十分钟，和一个不完美的 Demo",
+      "similarity": 0.675
+    }
+  ],
+  "mood-2022-04-08": [
+    {
+      "slug": "mood-2022-04-04",
+      "title": "四月四日：一个人看一场雨",
+      "similarity": 0.854
+    },
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.834
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.829
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.827
+    },
+    {
+      "slug": "mood-2022-03-09",
+      "title": "三月九日：我没有天赋，但我有耐心",
+      "similarity": 0.798
+    }
+  ],
+  "mood-2022-04-06": [
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.871
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.868
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.838
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.814
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.807
+    }
+  ],
+  "mood-2022-04-04": [
+    {
+      "slug": "mood-2022-04-08",
+      "title": "四月八日：为什么要努力",
+      "similarity": 0.854
+    },
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.837
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.775
+    },
+    {
+      "slug": "mood-2022-03-13",
+      "title": "三月十三日：打扫房间，也打扫脑子",
+      "similarity": 0.774
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.764
+    }
+  ],
+  "mood-2022-04-02": [
+    {
+      "slug": "mood-2022-04-04",
+      "title": "四月四日：一个人看一场雨",
+      "similarity": 0.837
+    },
+    {
+      "slug": "mood-2022-04-08",
+      "title": "四月八日：为什么要努力",
+      "similarity": 0.834
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.833
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.802
+    },
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.799
+    }
+  ],
+  "mood-2022-03-31": [
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.865
+    },
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.849
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.838
+    },
+    {
+      "slug": "mood-2022-04-08",
+      "title": "四月八日：为什么要努力",
+      "similarity": 0.829
+    },
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.827
+    }
+  ],
+  "mood-2022-03-29": [
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.78
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.778
+    },
+    {
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.762
+    },
+    {
+      "slug": "trae-friends-taiyuan-1024",
+      "title": "在太原过 1024：三张卡片、九十分钟，和一个不完美的 Demo",
+      "similarity": 0.762
+    },
+    {
+      "slug": "fitness-basics",
+      "title": "腹肌养成记：核心训练全指南",
+      "similarity": 0.759
+    }
+  ],
+  "mood-2022-03-27": [
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.843
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.826
+    },
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.807
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.805
+    },
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.802
+    }
+  ],
+  "mood-2022-03-25": [
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.864
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.843
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.84
+    },
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.833
+    },
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.833
+    }
+  ],
+  "mood-2022-03-23": [
+    {
+      "slug": "mood-2022-03-07",
+      "title": "三月七日：把一件事做第二遍",
+      "similarity": 0.814
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.736
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.724
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.71
+    },
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.709
+    }
+  ],
+  "mood-2022-03-21": [
+    {
+      "slug": "mood-2022-04-08",
+      "title": "四月八日：为什么要努力",
+      "similarity": 0.827
+    },
+    {
+      "slug": "mood-2022-03-09",
+      "title": "三月九日：我没有天赋，但我有耐心",
+      "similarity": 0.797
+    },
+    {
+      "slug": "mood-2022-03-13",
+      "title": "三月十三日：打扫房间，也打扫脑子",
+      "similarity": 0.789
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.771
+    },
+    {
+      "slug": "mood-2022-03-19",
+      "title": "三月十九日：一个人吃饭的晚上",
+      "similarity": 0.767
+    }
+  ],
+  "mood-2022-03-19": [
+    {
+      "slug": "mood-2022-04-08",
+      "title": "四月八日：为什么要努力",
+      "similarity": 0.795
+    },
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.776
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.767
+    },
+    {
+      "slug": "mood-2022-03-13",
+      "title": "三月十三日：打扫房间，也打扫脑子",
+      "similarity": 0.739
+    },
+    {
+      "slug": "mood-2022-03-11",
+      "title": "三月十一日：失败之后的第二天",
+      "similarity": 0.734
+    }
+  ],
+  "mood-2022-03-17": [
+    {
+      "slug": "mood-2022-03-07",
+      "title": "三月七日：把一件事做第二遍",
+      "similarity": 0.833
+    },
+    {
+      "slug": "mood-2022-03-13",
+      "title": "三月十三日：打扫房间，也打扫脑子",
+      "similarity": 0.825
+    },
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.817
+    },
+    {
+      "slug": "mood-2022-03-27",
+      "title": "三月二十七日：深夜的台灯",
+      "similarity": 0.797
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.783
+    }
+  ],
+  "mood-2022-03-15": [
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.864
+    },
+    {
+      "slug": "mood-2022-03-13",
+      "title": "三月十三日：打扫房间，也打扫脑子",
+      "similarity": 0.855
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.849
+    },
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.833
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.823
+    }
+  ],
+  "mood-2022-03-13": [
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.855
+    },
+    {
+      "slug": "mood-2022-03-09",
+      "title": "三月九日：我没有天赋，但我有耐心",
+      "similarity": 0.843
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.825
+    },
+    {
+      "slug": "mood-2022-03-07",
+      "title": "三月七日：把一件事做第二遍",
+      "similarity": 0.821
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.814
+    }
+  ],
+  "mood-2022-03-11": [
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.818
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.804
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.775
+    },
+    {
+      "slug": "mood-2022-04-02",
+      "title": "四月二日：计划赶不上变化",
+      "similarity": 0.773
+    },
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.767
+    }
+  ],
+  "mood-2022-03-09": [
+    {
+      "slug": "mood-2022-03-13",
+      "title": "三月十三日：打扫房间，也打扫脑子",
+      "similarity": 0.843
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.805
+    },
+    {
+      "slug": "mood-2022-04-08",
+      "title": "四月八日：为什么要努力",
+      "similarity": 0.798
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.797
+    },
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.762
+    }
+  ],
+  "mood-2022-03-07": [
+    {
+      "slug": "mood-2022-03-17",
+      "title": "三月十七日：关于「坚持」这个词",
+      "similarity": 0.833
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.828
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.827
+    },
+    {
+      "slug": "mood-2022-03-13",
+      "title": "三月十三日：打扫房间，也打扫脑子",
+      "similarity": 0.821
+    },
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.819
+    }
+  ],
+  "mood-2022-03-05": [
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.872
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.871
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.833
+    },
+    {
+      "slug": "mood-2022-03-15",
+      "title": "三月十五日：和比自己强的人站在一起",
+      "similarity": 0.833
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.827
+    }
+  ],
+  "mood-2022-03-03": [
+    {
+      "slug": "mood-2022-03-05",
+      "title": "三月五日：慢跑三公里",
+      "similarity": 0.872
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.868
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.865
+    },
+    {
+      "slug": "mood-2022-03-01",
+      "title": "三月一日：开始，不需要仪式",
+      "similarity": 0.846
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.84
+    }
+  ],
+  "mood-2022-03-01": [
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.846
+    },
+    {
+      "slug": "mood-2022-03-07",
+      "title": "三月七日：把一件事做第二遍",
+      "similarity": 0.828
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.822
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.814
+    },
+    {
+      "slug": "mood-2022-03-25",
+      "title": "三月二十五日：被拒绝的那次",
+      "similarity": 0.814
+    }
+  ],
+  "jinzhong-institute-review": [
+    {
+      "slug": "reading-18-walden",
+      "title": "读《瓦尔登湖》：在湖边独居两年两个月零两天，他到底想验证什么",
+      "similarity": 0.711
+    },
+    {
+      "slug": "reading-11-meditations",
+      "title": "读《沉思录》：他一遍遍写同一件事，因为一遍遍做不到",
+      "similarity": 0.69
+    },
+    {
+      "slug": "trae-friends-taiyuan-1024",
+      "title": "在太原过 1024：三张卡片、九十分钟，和一个不完美的 Demo",
+      "similarity": 0.676
+    },
+    {
+      "slug": "fitness-basics",
+      "title": "腹肌养成记：核心训练全指南",
+      "similarity": 0.656
+    },
+    {
+      "slug": "linux-25-wrap-up",
+      "title": "Linux 基础 25：收尾——自查清单与继续深入的方向",
+      "similarity": 0.644
+    }
+  ],
+  "diary-2026-10-18": [
+    {
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.799
+    },
+    {
+      "slug": "mood-2022-03-03",
+      "title": "三月三日：早起的那一个小时",
+      "similarity": 0.793
+    },
+    {
+      "slug": "mood-2022-04-06",
+      "title": "四月六日：给三个月后的自己写信",
+      "similarity": 0.75
+    },
+    {
+      "slug": "fitness-basics",
+      "title": "腹肌养成记：核心训练全指南",
+      "similarity": 0.749
+    },
+    {
+      "slug": "mood-2022-03-31",
+      "title": "三月三十一日：三月的最后一天",
+      "similarity": 0.745
+    }
+  ],
+  "binhe-greenway-rides": [
+    {
+      "slug": "weekly-vol-02",
+      "title": "每周小记 Vol.2 | 做到三天，也算做到",
+      "similarity": 0.796
+    },
+    {
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.794
+    },
+    {
+      "slug": "mood-2022-03-29",
+      "title": "三月二十九日：把手机放下的一小时",
+      "similarity": 0.728
+    },
+    {
+      "slug": "linux-20-shell-scripting-advanced",
+      "title": "Linux 基础 20：Shell 脚本（下）——trap、日志、幂等与并发锁",
+      "similarity": 0.726
+    },
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.721
+    }
+  ],
+  "beiqi-mural-museum": [
+    {
+      "slug": "reading-22-elements",
+      "title": "读《几何原本》：一座两千年的大厦，地基却是五条「请求」",
+      "similarity": 0.784
+    },
+    {
+      "slug": "reading-05-hongloumeng",
+      "title": "读《红楼梦》：第五回就把结局写完了",
+      "similarity": 0.729
+    },
+    {
+      "slug": "weekly-vol-03",
+      "title": "每周小记 Vol.3 | 先定「什么时候做」，再谈做多久",
+      "similarity": 0.716
+    },
+    {
+      "slug": "reading-24-art-of-war",
+      "title": "读《孙子兵法》：一本最有名的兵书，通篇劝你别打",
+      "similarity": 0.714
+    },
+    {
+      "slug": "reading-01-lunyu",
+      "title": "读《论语》：同一句问话，为什么两个人得到相反的答案",
+      "similarity": 0.712
+    }
+  ],
   "linux-25-wrap-up": [
     {
       "slug": "linux-22-logs-and-debugging-method",
@@ -1641,9 +1668,9 @@
       "similarity": 0.726
     },
     {
-      "slug": "weekly-vol-04",
-      "title": "每周小记 Vol.4 | 先不加第二件事",
-      "similarity": 0.695
+      "slug": "trae-friends-taiyuan-1024",
+      "title": "在太原过 1024：三张卡片、九十分钟，和一个不完美的 Demo",
+      "similarity": 0.698
     }
   ],
   "linux-19-shell-scripting-basics": [
@@ -2181,9 +2208,9 @@
       "similarity": 0.749
     },
     {
-      "slug": "mood-2022-03-21",
-      "title": "三月二十一日：春天来了",
-      "similarity": 0.708
+      "slug": "trae-friends-taiyuan-1024",
+      "title": "在太原过 1024：三张卡片、九十分钟，和一个不完美的 Demo",
+      "similarity": 0.731
     }
   ]
 }
