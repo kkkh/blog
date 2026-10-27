@@ -59,7 +59,7 @@ The prizes were not the point, but they gave everyone a light reason to stay aft
 
 I noticed a small sticker on one of the laptops on the table: “TRAE Friends @太原站.” It did not belong to the stage or the slides. Someone had brought it themselves. For a moment the event stopped being something the organisers had put on and became something the room had made.
 
-After the open mic, at twenty to three, everyone gathered for the group photo. The front row crouched, the back row squeezed in, and the banner was pulled to the front. “TRAE Friends @太原” — black with white letters — was covered in signatures: some large, some small, some squeezed into the margins. In the photo, the front row is still crouching; the back row is already smiling.
+After the open mic, at twenty to three, everyone gathered for the group photo. The front row crouched, the back row squeezed in, and the banner was pulled to the front. “TRAE Friends @太原” — black with white letters — was covered in signatures: some large, some small, some squeezed into the margins. In the photo, the front row is still crouching; the back row is still leaning in.
 
 ![14\:40, the 1024 group photo: the banner was covered in signatures; the screen read “To The Real AI Engineer.”](/img/trae-friends-taiyuan/13-group-photo.webp)
 
@@ -125,4 +125,4 @@ Next 1024, if Taiyuan has a room like that again, I would like to come. Even if 
 - Programme: check-in / opening / product sharing / open mic / 1024 group photo / tea break / quick Q&A / card draw and build / showcase and voting / awards
 :::
 
-*Photographs and screenshots by the author.*
+*Photographs and screenshots by the author; faces in the group photo have been pixelated.*
