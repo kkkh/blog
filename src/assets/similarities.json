@@ -1511,33 +1511,6 @@
       "similarity": 0.714
     }
   ],
-  "fitness-basics": [
-    {
-      "slug": "mood-2022-03-29",
-      "title": "三月二十九日：把手机放下的一小时",
-      "similarity": 0.759
-    },
-    {
-      "slug": "weekly-vol-04",
-      "title": "每周小记 Vol.4 | 先不加第二件事",
-      "similarity": 0.754
-    },
-    {
-      "slug": "reading-13-anna-karenina",
-      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
-      "similarity": 0.754
-    },
-    {
-      "slug": "diary-2026-10-18",
-      "title": "十月十八日，周日：把今天这一格填满",
-      "similarity": 0.749
-    },
-    {
-      "slug": "mood-2022-03-21",
-      "title": "三月二十一日：春天来了",
-      "similarity": 0.708
-    }
-  ],
   "linux-25-wrap-up": [
     {
       "slug": "linux-22-logs-and-debugging-method",
@@ -2211,6 +2184,33 @@
       "slug": "linux-12-disks-and-filesystems",
       "title": "Linux 基础 12：磁盘与文件系统——从块设备到挂载点",
       "similarity": 0.748
+    }
+  ],
+  "fitness-basics": [
+    {
+      "slug": "mood-2022-03-29",
+      "title": "三月二十九日：把手机放下的一小时",
+      "similarity": 0.759
+    },
+    {
+      "slug": "weekly-vol-04",
+      "title": "每周小记 Vol.4 | 先不加第二件事",
+      "similarity": 0.754
+    },
+    {
+      "slug": "reading-13-anna-karenina",
+      "title": "读《安娜·卡列尼娜》：两条线，一个问题",
+      "similarity": 0.754
+    },
+    {
+      "slug": "diary-2026-10-18",
+      "title": "十月十八日，周日：把今天这一格填满",
+      "similarity": 0.749
+    },
+    {
+      "slug": "mood-2022-03-21",
+      "title": "三月二十一日：春天来了",
+      "similarity": 0.708
     }
   ]
 }
