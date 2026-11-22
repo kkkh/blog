@@ -2,6 +2,22 @@ packages:
   - .
   - cms
 
+# ───────────────────────────────────────────────────────────────────────────
+# 【依赖固定说明，勿随意删除】onnxruntime-node 固定为 1.23.0
+# 原因：1.21.0 在 Linux x64 的 postinstall 会去 GitHub Releases 下载
+#   onnxruntime-linux-x64-gpu-1.21.0.tgz，该地址返回 404，导致 EdgeOne 的
+#   pnpm install 失败（本地缓存命中时不会触发，所以之前一直正常）。
+#   1.23.0 改为从 NuGet 下载 .nupkg 并用 adm-zip 解压，不再请求该地址。
+# 当前使用方：仅 @huggingface/transformers@3.8.1（其包内声明 1.21.0）。
+#   可用 `pnpm why -r onnxruntime-node` 复核。
+# 注意：不要删除下方 onlyBuiltDependencies 里的 onnxruntime-node，
+#   否则 postinstall 被跳过，CUDA 包不会安装。
+# 何时可以删：transformers 自身要求的 onnxruntime-node ≥ 1.23.0，且安装
+#   不再出现 404。升级 transformers 时建议先注释掉本 override 实测一次。
+# 如需缩小影响面，可改为只作用于 transformers：
+#   '@huggingface/transformers>onnxruntime-node': 1.23.0
+# 详细记录：docs/changes/2026-11-22-onnxruntime-1.23.0-and-event-video.md
+# ───────────────────────────────────────────────────────────────────────────
 overrides:
   onnxruntime-node: 1.23.0
 

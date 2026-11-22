@@ -16918,6 +16918,24 @@ snapshots:
       global-agent: 3.0.0
       onnxruntime-common: 1.23.0
 
+  # ───────────────────────────────────────────────────────────────────────────
+  # 【历史对照，仅注释，勿取消】onnxruntime-node 1.21.0 的原始快照
+  # 为什么被替换：1.21.0 的 postinstall 用 tar 解压从 GitHub Releases 下载的
+  #   onnxruntime-linux-x64-gpu-1.21.0.tgz；该地址在 EdgeOne 上返回 404，
+  #   导致 pnpm install 失败（本地缓存命中时不会触发，所以之前一直正常）。
+  # 为什么是 1.23.0：1.23.0 改为从 NuGet 下载 .nupkg（本质是 zip），并用
+  #   adm-zip 解压，不再请求那个 404 地址，因此 tar 依赖被移除、adm-zip 加入。
+  # 注意：tar@7.5.2 仍被 @iconify/tools、cacache、node-gyp 使用，并没有从
+  #   项目中消失；这里只是 onnxruntime-node 不再依赖它。
+  # 完整旧条目（含 integrity）可用 git show a1ad2ad^:pnpm-lock.yaml 查看。
+  # 这些注释只是文档，pnpm install 重新生成锁文件时可能被清除。
+  # onnxruntime-node@1.21.0:
+  #   dependencies:
+  #     global-agent: 3.0.0
+  #     onnxruntime-common: 1.21.0
+  #     tar: 7.5.2
+  # ───────────────────────────────────────────────────────────────────────────
+
   onnxruntime-web@1.22.0-dev.20250409-89f8206ba4:
     dependencies:
       flatbuffers: 25.9.23
