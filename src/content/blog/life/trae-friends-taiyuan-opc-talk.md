@@ -25,6 +25,13 @@ draft: false
 
 ![签到的名字落在“太原”旁边，黑色横幅上很快叠满了白色签名。](/img/trae-friends-taiyuan-1121/02-signature.webp)
 
+{% media video %}
+- name: 活动现场 · 38 秒
+  url: /video/trae-friends-taiyuan-1121.mp4
+{% endmedia %}
+
+*38 秒，先看一眼那天的无为里。*
+
 ## 一个人，为什么需要一场 OPC Talk
 
 OPC，One Person Company，一人公司。

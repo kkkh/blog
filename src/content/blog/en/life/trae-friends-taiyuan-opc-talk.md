@@ -25,6 +25,13 @@ At check-in, the staff spread a long black banner across a table. People wrote t
 
 ![Names gather around “太原”; the black banner is soon covered in white signatures.](/img/trae-friends-taiyuan-1121/02-signature.webp)
 
+{% media video %}
+- name: The room in 38 seconds
+  url: /video/trae-friends-taiyuan-1121.mp4
+{% endmedia %}
+
+*Thirty-eight seconds inside Wuweili.*
+
 ## One Person, One Company
 
 OPC stands for One Person Company.
