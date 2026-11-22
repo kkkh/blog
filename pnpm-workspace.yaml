@@ -5,9 +5,7 @@ packages:
 onlyBuiltDependencies:
   - esbuild
   - nice-napi
-  # Disabled: its postinstall downloads a missing CUDA 12 artifact on Linux CI.
-  # The CPU binaries are bundled, so the site build and CPU similarity generation still work.
-  # - onnxruntime-node
+  - onnxruntime-node
   - protobufjs
   - re2
   - sharp
