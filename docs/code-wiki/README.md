@@ -2,7 +2,7 @@
 
 本目录是 `astro-koharu`（`秦超的博客`）的代码级文档集，目标是让新维护者在不逐文件通读源码的前提下，理解项目的整体架构、模块职责、关键函数、依赖关系与运行方式。
 
-文档基于仓库当前检出状态（`astro-koharu@7.7.4`，2026-10-25）撰写，所有结论均来自对源码的直接阅读。文档中的路径均相对于仓库根目录。
+文档基于仓库当前检出状态（`astro-koharu@7.7.5`，2026-11-22）撰写，所有结论均来自对源码的直接阅读。文档中的路径均相对于仓库根目录。
 
 ## 1. 项目速览
 
@@ -21,6 +21,23 @@
 | Node | `>= 22.20.0` |
 | 包管理器 | `pnpm@10.28.2`（Workspace 同时包含根项目与 `cms/`） |
 | 部署 | EdgeOne Pages（静态）/ nginx + Docker / Astro Node standalone |
+
+### 1.1 系统上下文
+
+```mermaid
+flowchart LR
+    READER["读者"] --> SITE["astro-koharu 站点"]
+    AUTHOR["作者"] --> EDITOR["/editor 写作室"]
+    AUTHOR --> CMS["本地 CMS"]
+    EDITOR --> CMS
+    CMS --> CONTENT["src/content/blog"]
+    CONTENT --> BUILD["pnpm build"]
+    BUILD --> STATIC["静态托管 / EdgeOne"]
+    STATIC --> SITE
+    SITE --> EXT["外部服务<br/>Waline / Twikoo / Giscus / Remark42<br/>Umami / Bangumi / Meting"]
+    SITE --> SUITE["Koharu Suite<br/>仅 Moments 动态模式"]
+    EDITOR --> DRAFT["localStorage 草稿"]
+```
 
 ## 2. 文档地图
 
@@ -147,6 +164,26 @@ pnpm preview    # 预览构建结果
 | 动态 Docker | `pnpm docker:up:dynamic` | Node 容器 |
 
 完整的运行模式、环境变量、验收清单与启动排障见 [12 项目运行方式](./12-running-guide.md)；命令与部署细节见 [09 工具与部署](./09-tooling-and-deployment.md)。
+
+### 4.1 一次页面访问的时序
+
+```mermaid
+sequenceDiagram
+    participant U as 浏览器
+    participant H as 静态托管
+    participant A as Astro HTML
+    participant I as React 岛
+    participant X as 外部服务
+
+    U->>H: GET /post/foo
+    H-->>U: 预渲染 HTML + 静态资源
+    U->>A: 解析 HTML / CSS
+    A->>I: astro:page-load
+    I->>I: 按 client:load / idle / visible / content / panel 水合
+    I->>X: 可选请求（评论 / 统计 / 搜索）
+    X-->>I: 数据
+    Note over U,I: 切页时 astro:before-swap 清理监听与观察器
+```
 
 ## 5. 常用命令
 

@@ -216,6 +216,7 @@ flowchart TB
 | `remarkShokaRuby()` | `remark-shoka-ruby.ts` | Ruby/注音 |
 | `remarkShokaSpoiler()` | `remark-shoka-spoiler.ts` | `!!spoiler!!` |
 | `remarkIns` / `remarkMark` | `remark-shoka-effects.ts` | `++ins++` / `==mark==` |
+| `remarkLiteralDirectives` | `remark-literal-directives.ts` | 将非 `:::encrypted` directive 还原为字面文本（v7.7.5，保留普通冒号文本） |
 | `remarkEncryptedDirective` | `remark-encrypted-directive.ts` | `:::encrypted` |
 | `remarkLinkEmbed(options)` | `remark-link-embed.ts` | 链接卡/Tweet/CodePen |
 | `rehypeShokaAttrs` | `rehype-shoka-attrs.ts` | `[text]{attrs}` |
@@ -382,3 +383,28 @@ flowchart TB
 | `CONTENT_DEFAULTS` | `lib/config/content.ts` | 20+ 内容开关默认值 |
 | `DEFAULT_COLOPHON_PLACEMENT` | `lib/config/colophon.ts` | `['meta', 'seal']` |
 | `FALLBACK_COLOPHON_ICON` | `lib/content/colophon.ts` | `ri:bookmark-line` |
+
+## 12. 关键调用链时序
+
+以文章页为例，展示上文 API 在构建期的协作顺序：
+
+```mermaid
+sequenceDiagram
+    participant R as postRoute
+    participant P as 文章页组件
+    participant C as lib/content
+    participant F as lib/config
+    participant I as src/i18n
+    participant M as lib/markdown
+    participant L as Layout
+
+    R->>P: params.slug + props.postId
+    P->>C: getPostById(postId, locale)
+    C->>F: siteConfig / categoryMap
+    C->>I: t / getContentCategoryName
+    C-->>P: BlogPost
+    P->>P: render(post) 得到 Content + headings
+    P->>M: Astro render() 触发 Markdown 管线
+    P->>L: title / description / canonical / post
+    L-->>P: HTML + 全局岛
+```

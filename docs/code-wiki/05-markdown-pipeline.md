@@ -11,7 +11,7 @@ flowchart LR
     C --> D["remarkShokaSpoiler"]
     D --> E["remarkShokaRuby"]
     E --> F["remarkIns / remarkMark"]
-    F --> G["remarkDirective + remarkEncryptedDirective"]
+    F --> G["remarkDirective + remarkLiteralDirectives<br/>+ remarkEncryptedDirective"]
     G --> H["remarkLinkEmbed"]
     H --> I["remark-rehype"]
     I --> Q["Shiki 高亮<br/>meta / collapsible transformers"]
@@ -32,7 +32,7 @@ flowchart LR
 | 1 | `remarkShokaPreprocess` 必须最先 | 它读取原始文本并重新解析，修复 `+++`、`~sub~`、`{% %}` 等与 GFM 的冲突 |
 | 2 | `remarkMath` 必须在 ruby/spoiler/effects 前 | 先把 `$...$` 解析为 math 节点，避免文本扫描插件误伤公式 |
 | 3 | `remarkShokaSpoiler` → `remarkShokaRuby` → `remarkIns/Mark` | 各插件只处理 text 节点，顺序影响嵌套语法的匹配 |
-| 4 | `remarkDirective` 与 `remarkEncryptedDirective` 同时注册 | 主管线与预处理器重解析管线都需要识别 `:::encrypted` |
+| 4 | `remarkDirective` → `remarkLiteralDirectives` → `remarkEncryptedDirective` 依次注册 | 主管线与预处理器重解析管线都需要识别 `:::encrypted`；`remarkLiteralDirectives` 先把非加密 directive 还原为字面文本，避免 `12:30`、`foo:bar` 这类普通冒号被吞 |
 | 5 | `remarkLinkEmbed` 靠后 | 独立链接已在 MDAST 中稳定成型 |
 | 6 | `rehypeEncryptedBlock` / `rehypeEncryptedPost` 必须最后 | 加密必须在 Shiki、KaTeX 等全部渲染完成后序列化 HTML |
 | 7 | `rehypeEncryptedPost` 在 `rehypeEncryptedBlock` 之后 | 整篇加密需要包含已加密的局部块 |
@@ -51,13 +51,14 @@ remark-parse → remark-gfm → remark-smartypants → 用户 remark 插件
 
 | 插件 | 文件 | 处理的语法 | 行为 |
 | --- | --- | --- | --- |
-| `remarkShokaPreprocess` | `src/lib/markdown/remark-shoka-preprocess.ts` | 块级 Shoka/Hexo 语法 | 调用 `preprocessShokaSyntax()`，若有变化则用 `remarkParse + remarkGfm + remarkMath (+ remarkDirective)` 重新解析并替换 AST |
+| `remarkShokaPreprocess` | `src/lib/markdown/remark-shoka-preprocess.ts` | 块级 Shoka/Hexo 语法 | 调用 `preprocessShokaSyntax()`，若有变化则用 `remarkParse + remarkGfm + remarkMath (+ remarkDirective + remarkLiteralDirectives)` 重新解析；重解析后调用 `runSync()`，再把新 AST 的 children 替换回原树 |
 | `remarkMath` | 第三方 | `$...$`、`$$...$$` | 生成 inlineMath/math 节点，后续由 KaTeX 渲染 |
 | `remarkShokaSpoiler` | `remark-shoka-spoiler.ts` | `!!text!!`、`!!text!!{.blur}` | 默认生成 `<spoiler-span>`；带 `.blur` 时生成 `<span class="spoiler blur">` |
 | `remarkShokaRuby` | `remark-shoka-ruby.ts` | `{text^annotation}`、`{text^=annotation}`、`{text^*}` | 生成 `<ruby>/<rt>` 或强调点 `<span style="text-emphasis:...">` |
 | `remarkIns` | `remark-shoka-effects.ts` | `++text++` | 生成 `<ins>`，支持尾随 `{.class #id key=value}` |
 | `remarkMark` | 同上 | `==text==` | 生成 `<mark>`，支持尾随属性 |
 | `remarkDirective` | 第三方 | `:::name` | 生成 directive 节点 |
+| `remarkLiteralDirectives` | `remark-literal-directives.ts` | 非 `:::encrypted` 的 directive 节点 | v7.7.5 新增：按源码位置切回原始文本，保留 `:1`、`12:30`、`1:1`、`foo:bar` 等普通冒号文本 |
 | `remarkEncryptedDirective` | `remark-encrypted-directive.ts` | `:::encrypted{password="..."}` | 标记为 `div.encrypted-block`，保留 `data-password` 供 rehype 加密 |
 | `remarkLinkEmbed` | `remark-link-embed.ts` | 独立链接段落 | Twitter/X、CodePen、通用 URL → 构建期抓取 OG 数据并渲染链接卡 |
 
@@ -65,7 +66,7 @@ remark-parse → remark-gfm → remark-smartypants → 用户 remark 插件
 
 `preprocessShokaSyntax(source, options)` 在 remark 解析前做三件事：
 
-1. **块级容器与 Hexo 标签**：`:::note`、`+++`、`;;;`、`{% links %}`、`{% media %}` 转为 HTML 块。
+1. **块级容器与 Hexo 标签**：`:::note`、`+++`、`;;;`、`{% links %}`、`{% media %}` 转为 HTML 块。`:::` 提示块的样式名有白名单：`default`、`primary`、`info`、`success`、`warning`、`danger`；其他 `:::name` 不会被预处理为 HTML，而是交给 directive 管线。
 2. **转义分隔符**：`\++`、`\==`、`\!!` 以及逐字符写法 `\+\+` 转为 `+<!-- -->+`，避免被后续插件配对。
 3. **行内上下标**：`~sub~`、`^sup^` 在保护区域之外替换为 `<sub>`/`<sup>`。
 
@@ -96,7 +97,7 @@ remark-parse → remark-gfm → remark-smartypants → 用户 remark 插件
 
 | 语法 | 输出 | 说明 |
 | --- | --- | --- |
-| `:::note` …… `:::` | `<div class="note-block note-note">` | 支持任意样式名（note/warning/danger/success/info 等由 CSS 定义） |
+| `:::info` …… `:::` | `<div class="note-block note-info">` | 样式白名单：`default`、`primary`、`info`、`success`、`warning`、`danger` |
 | `:::warning no-icon` …… `:::` | `<div class="note-block note-warning no-icon">` | `no-icon` 关闭图标 |
 | `+++note 标题` …… `+++` | `<details class="collapse-block collapse-note"><summary>标题</summary>…` | 内部 Markdown 会被递归处理并重新解析 |
 | `;;;group 标签名` …… `;;;` | `<div class="tab-group" data-tab-group="group">…` | 连续相同 group 的块合并为一组标签页 |
@@ -175,7 +176,36 @@ OG 数据抓取与缓存：
 - `previewCacheTime` 单位是**天**；大于 365 会告警，提示旧版“秒”配置需要迁移
 - `.cache/og-data.json` 被提交到 Git，用于加速构建
 
-### 4.5 Mermaid
+### 4.5 链接卡片构建期时序
+
+```mermaid
+sequenceDiagram
+    participant A as 作者
+    participant MD as Markdown
+    participant RE as remarkLinkEmbed
+    participant Cache as og-cache
+    participant Net as og-fetcher
+    participant Tpl as link-card-template
+
+    A->>MD: 写入独立链接段落
+    MD->>RE: 解析为 MDAST
+    RE->>RE: isStandaloneLinkParagraph + classifyLink
+    alt 缓存命中
+        RE->>Cache: get(url)
+        Cache-->>RE: OGData
+    else 缓存未命中
+        RE->>Net: fetchOGData(url)
+        Net-->>RE: title / description / image
+        RE->>Cache: set(url, data)
+    end
+    RE->>Tpl: renderLinkPreview / renderTweetEmbed / renderCodePenEmbed
+    Tpl-->>RE: HTML 字符串
+    RE->>Cache: flush()
+    Cache-->>RE: 合并写回 .cache/og-data.json
+    RE-->>MD: 替换为 html 节点
+```
+
+### 4.6 Mermaid
 
 - `lazyMermaid()` 集成在 `astro.config.mjs` 中注册，`excludeLangs: ['mermaid']` 让 Mermaid 不经过 Shiki。
 - 客户端通过 `lazy-mermaid.ts` 使用 `IntersectionObserver` 仅在图表接近视口时渲染。
@@ -276,6 +306,34 @@ sequenceDiagram
 - 可通过 Worker（`render.worker.ts`）在后台线程渲染，避免阻塞输入
 - 加密内容在编辑器中使用 `encryptEditorContent()` 单独处理
 
+#### 6.3.1 写作室预览渲染时序
+
+```mermaid
+sequenceDiagram
+    participant E as Editor
+    participant BW as browser-worker
+    participant W as render.worker
+    participant R as render.ts
+    participant S as sanitizeTree
+    participant H as hast-util-to-html
+    participant P as PreviewSurface
+    participant D as DOMPurify
+
+    E->>BW: 提交渲染任务
+    BW->>W: postMessage(source, options)
+    W->>R: renderEditorMarkdown()
+    R->>R: remark / rehype / Shiki / Shoka 插件链
+    R->>S: HAST 标签与属性白名单
+    S-->>R: 安全 HAST
+    R->>H: 序列化 HTML
+    H-->>W: HTML 字符串
+    W-->>BW: postMessage(result)
+    BW-->>E: 渲染结果
+    E->>P: 注入预览容器
+    P->>D: sanitizePreviewHtml()
+    D-->>P: 安全 DOM
+```
+
 ### 6.4 关键函数签名
 
 | 函数 | 文件 | 签名/作用 |
@@ -296,7 +354,7 @@ sequenceDiagram
 
 | 现象 | 原因 | 处理 |
 | --- | --- | --- |
-| `11:45` 这类时间消失/被吞 | `remark-directive` 把 `:45` 当作指令 | 写成 `11\:45` |
+| `11:45` 这类时间消失/被吞 | 启用加密块后 `remark-directive` 曾把 `:45` 当作指令；v7.7.5 已通过 `remarkLiteralDirectives` 修复 | 升级到 v7.7.5+；旧版本可写成 `11\:45` |
 | 折叠块里的图片不渲染 | 使用了原生 `<details>` | 改用 `+++style 标题` |
 | 公式被上下标/注音破坏 | 插件顺序或保护区域失效 | 确认 `remarkMath` 在文本扫描插件之前 |
 | 加密块内容仍出现在搜索 | 缺少 `data-pagefind-ignore` | 确认使用标准 `:::encrypted` 或 frontmatter `password` |

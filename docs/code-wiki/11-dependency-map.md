@@ -128,6 +128,34 @@ flowchart LR
 | `features/moments` | `constants/site-config` | `momentsConfig`、`i18nConfig` | 仅运行时动态页面使用 |
 | `cms/` | `features/editor` | `koharu-cms-open` / `koharu-cms-result` | 仅通过 postMessage/HTTP 协作 |
 
+### 3.1 一次文章页构建的跨模块调用时序
+
+```mermaid
+sequenceDiagram
+    participant B as Astro Build
+    participant AC as astro.config.mjs
+    participant N as lib/config
+    participant R as pages/_shared/routes
+    participant C as lib/content
+    participant M as lib/markdown
+    participant P as 页面组件
+
+    B->>AC: 加载构建配置
+    AC->>N: normalize* 归一化
+    N-->>AC: 强类型配置
+    B->>R: 调用 getStaticPaths
+    R->>C: 查询文章 / 分类 / 系列
+    C->>N: 读取 siteConfig
+    N-->>C: 配置
+    C-->>R: 参数数据
+    R-->>B: params + props
+    B->>P: 渲染页面
+    P->>M: render(post) Markdown 管线
+    M->>N: 读取 content 开关
+    M-->>P: HTML
+    P-->>B: 页面 HTML
+```
+
 ## 4. 路径别名
 
 `tsconfig.json` 定义：

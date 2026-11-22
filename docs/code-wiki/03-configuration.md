@@ -96,6 +96,63 @@ colophon:
 - `editor` 关闭时，`resolveEditorNavigation()` 会递归移除 `/editor` 及其子路径，不留下死链。
 - `bangumi` 配置存在时自动追加导航项；不存在时页面直接 `Astro.redirect('/404')`。
 
+### 2.4 配置系统架构
+
+```mermaid
+flowchart LR
+    subgraph SOURCE["配置源"]
+        Y["config/site.yaml"]
+        IC["config/i18n-content.yaml"]
+        ENV[".env"]
+        T["src/types"]
+    end
+
+    subgraph NORM["归一化 lib/config"]
+        S["site.ts"]
+        C["content.ts"]
+        F["featured-series.ts"]
+        M["moments.ts"]
+        ED["editor.ts"]
+        CO["colophon.ts"]
+        FR["friends.ts"]
+        PA["post-actions.ts"]
+    end
+
+    SC["constants/site-config.ts<br/>组装层"]
+
+    subgraph CONSUMER["消费方"]
+        P["pages / layouts"]
+        CP["components / hooks"]
+        MD["markdown pipeline"]
+        FT["features/editor / moments"]
+        CL["scripts / src/scripts"]
+    end
+
+    Y --> S
+    Y --> C
+    Y --> F
+    Y --> M
+    Y --> ED
+    Y --> CO
+    Y --> FR
+    Y --> PA
+    S --> SC
+    C --> SC
+    F --> SC
+    M --> SC
+    ED --> SC
+    CO --> SC
+    FR --> SC
+    PA --> SC
+    IC --> SC
+    T --> SC
+    SC --> P
+    SC --> CP
+    C --> MD
+    SC --> FT
+    ENV --> CL
+```
+
 ## 3. 配置归一化模块
 
 所有配置归一化函数都位于 `src/lib/config/`，输入为原始 YAML 片段，输出为带默认值的强类型对象。它们是纯函数，便于测试与在构建期复用。

@@ -27,7 +27,7 @@
 | `components/ui/` | shadcn 风格 primitives 与封面 | `button.tsx`、`dialog.tsx`、`dropdown-menu.tsx`、`switch.tsx`、`input.tsx`、`badge.tsx`、`popover.tsx`、`divider.tsx`、`segmented.tsx`、`sonner.tsx`、`ModalLayer.tsx`、`ScrollableRow.tsx`、`cover/` |
 | `components/common/` | 跨模块复用 | `ErrorBoundary.tsx`、`CustomContent.astro`、`ResponsiveImage.astro`、`PostRow.astro`、`PageIntro.astro`、`PostYears.astro`、`LazyMotionProvider.tsx`、`RoundedFonts.astro` |
 | `components/settings/` | 设置面板 | `SettingsPanel.tsx`、`SettingsPanelContent.tsx`、`registry.ts`、`NumberField.tsx`、`LocalFontPicker.tsx` |
-| `components/comment/` | 评论 provider 适配 | `Comment.astro`、`Waline.tsx`、`Twikoo.tsx`、`Giscus.tsx`、`Remark42.astro`、`DeferredComment.tsx` |
+| `components/comment/` | 评论 provider 适配 | `Comment.astro`、`providers/Waline.tsx`、`providers/Twikoo.tsx`、`providers/Giscus.tsx`、`providers/Remark42.astro`、`providers/DeferredComment.tsx` |
 | `components/announcement/` | 公告入口、列表弹窗、Toast | `AnnouncementProvider.astro`、`FooterAnnouncementEntry.tsx`、`AnnouncementToaster.tsx`、`AnnouncementListPopup.tsx` |
 | `components/analytics/` | 统计 | `UmamiAnalytics.astro`、`components/umami/UmamiPVSpan.tsx` |
 | `components/bgm/` | 全局音乐播放器 | `GlobalBGMPlayer.tsx` |
@@ -99,6 +99,26 @@ flowchart TD
     G --> H["正文增强或全局面板？"]
     H -->|正文| I["client:content"]
     H -->|面板| J["client:panel"]
+```
+
+### 3.2 岛水合与切页时序
+
+```mermaid
+sequenceDiagram
+    participant HTML as 预渲染 HTML
+    participant Astro as Astro ClientRouter
+    participant Island as React 岛
+    participant Store as Nanostores
+    participant DOM as 正文 DOM
+
+    HTML->>Astro: astro:page-load
+    Astro->>Island: 执行 client:load / idle / visible / content / panel
+    Island->>Store: 订阅 $locale / $settings / $bgm
+    Store-->>Island: 初始状态
+    Island->>DOM: 绑定事件 / 观察视口 / 挂载增强组件
+    Astro->>Island: astro:before-swap
+    Island->>Store: 取消订阅
+    Island->>DOM: 移除监听 / observer / 计时器
 ```
 
 ## 4. 关键组件说明
@@ -254,6 +274,51 @@ screens: {
 | `app` | `src/store/app.ts` | 应用级 UI 状态 |
 
 Nanostores 的优势是跨岛共享：页头、搜索、设置、BGM 等独立 React 岛可以读写同一份状态，而不需要 Context 嵌套。
+
+### 7.1 设置持久化与生效时序
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant P as SettingsPanel
+    participant Reg as registry.ts
+    participant S as store/settings.ts
+    participant LS as localStorage
+    participant Root as documentElement
+
+    U->>P: 调整字号 / 行高 / 字体 / 动效
+    P->>Reg: 读取设置项定义
+    P->>S: setFontSize / setLineHeight / setMotionLevel
+    S->>S: 更新对应 atom
+    S->>LS: 写入偏好键
+    S->>Root: 设置 CSS 变量 / dataset / class
+    Root-->>P: 样式即时生效
+```
+
+### 7.2 主题切换时序
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant T as ThemeToggle
+    participant API as View Transitions API
+    participant Root as html.dark
+    participant LS as localStorage
+
+    U->>T: 点击主题切换
+    alt 动效关闭或浏览器不支持
+        T->>Root: classList.toggle('dark')
+        T->>LS: 写入 theme
+    else 支持 View Transition
+        T->>Root: 设置 --theme-x / --theme-y / --theme-r
+        T->>Root: 添加 theme-transition
+        T->>API: startViewTransition(applyTheme)
+        API->>Root: 切换 dark + data-theme
+        API->>LS: 写入 theme
+        API-->>T: transition.finished
+        T->>Root: 移除 theme-transition
+    end
+```
 
 ## 8. 客户端指令与生命周期
 

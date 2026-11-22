@@ -97,6 +97,26 @@ Moments 注入时会检查路由冲突：同一 pattern 重复注入或与现有
 | `seriesRoute` | 同上 | 启用系列 slug |
 | `postListRoute` | 同上 | 非系列文章分页 |
 
+### 2.5 构建期路由枚举时序
+
+```mermaid
+sequenceDiagram
+    participant B as Astro Build
+    participant U as localePaths
+    participant R as route.root / route.mirror
+    participant L as lib/content
+    participant P as 页面组件
+
+    B->>U: 调用 route 的 root / mirror
+    U->>L: getSortedPosts / getCategoryList / getEnabledSeries
+    L-->>U: 参数数据
+    U->>R: 生成 params + props
+    R-->>B: 返回 getStaticPaths 结果
+    B->>P: 以 props 渲染每个路径
+    P-->>B: HTML
+    B->>B: 写入 dist/ 并生成 sitemap
+```
+
 ## 3. 布局层级
 
 ```mermaid
@@ -300,6 +320,26 @@ RSS 细节：
 - `@astrojs/sitemap` 在构建期生成 `sitemap-index.xml` 与分片。
 - `astro-robots-txt` 根据 `seo.robots` 生成 `robots.txt`；未配置策略时允许所有爬虫。
 - Moments 分页参数 `?cursor=` 页面设置 `noindex,follow`，避免重复索引。
+
+### 5.5 构建期内容分发时序
+
+```mermaid
+sequenceDiagram
+    participant B as Astro Build
+    participant P as 页面
+    participant R as RSS 端点
+    participant S as Sitemap 集成
+    participant F as Pagefind
+
+    B->>P: 渲染 HTML（带 data-pagefind-body）
+    B->>R: 读取默认语言最新 20 篇
+    R->>R: 生成 XML + language + guid
+    B->>S: 收集已生成路由
+    S-->>B: sitemap-index.xml + 分片
+    B->>F: 扫描 HTML 正文
+    F-->>B: dist/pagefind/ 索引
+    B->>B: 写入 dist/
+```
 
 ## 6. 404 页面
 

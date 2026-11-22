@@ -127,6 +127,85 @@ getPostSlug(post) = post.data.link ?? transliterateSlug(localeFreeSlug)
 - `transliterateSlug()` 受 `site.enableSlugTransliteration` 控制；开启后中文/日文 slug 会转写为拼音/罗马字。
 - `encodeSlug()` 只编码路径段，保留 `/` 作为层级分隔。
 
+### 4.4 内容领域模型架构
+
+```mermaid
+flowchart TB
+    subgraph RAW["原始内容"]
+        MD["content/blog/**/*.md"]
+    end
+
+    subgraph SCHEMA["集合与规范化"]
+        CC["Content Collection + Zod"]
+        LOC["getSlugLocaleInfo / filterPostsByLocale"]
+    end
+
+    subgraph DOMAIN["领域索引"]
+        POSTS["posts.ts"]
+        CAT["categories.ts"]
+        TAG["tags.ts"]
+        SER["series.ts / series-issue.ts"]
+        COL["colophon.ts / post-colophon.ts"]
+        GRP["index-groups.ts<br/>bucketPostsByMonth / groupPostsByYear"]
+    end
+
+    subgraph PROJECTION["投影与消费"]
+        CARD["toPostCardDataList"]
+        HOME["getHomePagePosts"]
+        ROUTES["pages/_shared/routes.ts"]
+        PAGES["pages / layouts"]
+        FEED["RSS / Sitemap / Pagefind"]
+    end
+
+    MD --> CC
+    CC --> LOC
+    LOC --> POSTS
+    POSTS --> CAT
+    POSTS --> TAG
+    POSTS --> SER
+    POSTS --> COL
+    POSTS --> GRP
+    POSTS --> CARD
+    POSTS --> HOME
+    CAT --> ROUTES
+    TAG --> ROUTES
+    SER --> ROUTES
+    ROUTES --> PAGES
+    HOME --> PAGES
+    CARD --> PAGES
+    POSTS --> FEED
+```
+
+### 4.5 文章查询与语言回退时序
+
+```mermaid
+sequenceDiagram
+    participant P as 页面 getStaticPaths
+    participant Q as lib/content
+    participant M as memoize
+    participant L as filterPostsByLocale
+    participant C as Content Collection
+
+    P->>Q: getSortedPosts(locale)
+    Q->>M: 查询 locales 缓存
+    alt 缓存命中
+        M-->>Q: BlogPost[]
+    else 缓存未命中
+        Q->>C: getCollection('blog')
+        C-->>Q: 原始条目
+        Q->>Q: 过滤草稿 + 按日期降序
+        Q->>L: filterPostsByLocale(posts, locale)
+        alt 非默认语言且缺少译文
+            L-->>Q: 译文 + 默认语言兜底
+        else 默认语言
+            L-->>Q: 仅默认语言文章
+        end
+        Q->>M: 写入缓存
+    end
+    Q-->>P: 排序后的文章列表
+    P->>P: 枚举路由 / 渲染页面
+```
+
 ## 5. 文章查询 API
 
 全部位于 `src/lib/content/posts.ts`，通过 `src/lib/content.ts` 统一导出。

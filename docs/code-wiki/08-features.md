@@ -39,6 +39,41 @@ flowchart LR
     CMS --> FILES["content/blog"]
 ```
 
+### 1.1 功能集成架构
+
+```mermaid
+flowchart LR
+    subgraph SITE["站点内核"]
+        PAGES["pages / layouts"]
+        COMP["components"]
+        CONTENT["lib/content"]
+    end
+
+    subgraph FEATURE["可注入功能"]
+        ED["写作室"]
+        MO["Moments"]
+        CM["本地 CMS"]
+    end
+
+    subgraph EXTERNAL["外部服务"]
+        W["Waline / Twikoo / Giscus / Remark42"]
+        U["Umami"]
+        B["Bangumi API"]
+        M["Meting API"]
+        S["Koharu Suite"]
+    end
+
+    PAGES --> COMP
+    COMP --> CONTENT
+    ED --> CONTENT
+    CM --> ED
+    COMP --> W
+    COMP --> U
+    COMP --> B
+    COMP --> M
+    MO --> S
+```
+
 ## 2. 写作室（Editor）
 
 ### 2.1 模块结构
@@ -49,6 +84,7 @@ src/features/editor/
 ├── components/
 │   ├── CodeEditor.tsx         # CodeMirror 封装
 │   ├── PreviewFrame.tsx       # 预览 iframe / 容器
+│   ├── PreviewSurface.tsx     # 预览内容渲染与 DOMPurify 清洗
 │   ├── ArticleProperties.tsx  # 文章属性编辑（YAML）
 │   ├── SyntaxPanel.tsx        # 语法手册
 │   ├── ViewSwitch.tsx         # 编辑/预览/分屏切换
@@ -86,7 +122,7 @@ flowchart TD
     B --> C["localStorage 草稿"]
     C --> D["CodeMirror 源码"]
     D --> E["render.ts / Worker"]
-    E --> F["PreviewFrame（DOMPurify）"]
+    E --> F["PreviewSurface（DOMPurify）"]
     D --> G["document.ts 属性编辑"]
     B --> H["消息通信 CMS"]
     H --> I["CMS API 写回 .md"]
@@ -135,7 +171,7 @@ flowchart TD
 
 - `render.ts` 使用 unified + remark/rehype + Shiki，复用主站插件。
 - 输出 HAST 经过允许标签/URL 协议白名单 `sanitizeTree()`，再由 `hast-util-to-html` 序列化。
-- `PreviewFrame` 再用 DOMPurify 防护，预览在隔离容器中运行。
+- `PreviewSurface` 再用 DOMPurify 防护，预览在隔离容器中运行。
 - `render.worker.ts` 可把渲染放到 Worker，避免长文输入卡顿。
 - 预览还会处理链接卡片、代码高亮、Shoka 容器、加密块等。
 
@@ -159,6 +195,40 @@ flowchart TD
 | `koharu-editor-ready` | 编辑器 → 父窗口 | 非敏感的就绪广播 |
 
 编辑器本身**不直接写文件**；所有落盘都经由 CMS API。
+
+#### 2.7.1 草稿保存与 CMS 落盘时序
+
+```mermaid
+sequenceDiagram
+    participant U as 作者
+    participant E as Editor
+    participant LS as localStorage
+    participant W as render.worker
+    participant CMS as CMS 4322
+    participant API as /api/cms/source
+    participant F as content/blog/*.md
+
+    U->>CMS: 选择文章并打开写作室
+    CMS->>E: postMessage koharu-cms-open
+    E-->>CMS: koharu-cms-opened + draftId
+    U->>E: 输入 Markdown
+    E->>E: 600ms 防抖
+    E->>LS: 写入 draft + index
+    E->>W: 请求预览渲染
+    W-->>E: sanitized HTML
+    U->>E: 触发保存
+    E->>CMS: 保存请求 + requestId + source
+    CMS->>API: POST postId / source / expectedSource
+    API->>API: 乐观锁校验
+    alt 版本一致
+        API->>F: 临时文件 + rename
+        API-->>CMS: success
+    else 版本冲突
+        API-->>CMS: 409 conflict
+    end
+    CMS-->>E: koharu-cms-result
+    E->>U: 显示保存结果
+```
 
 ### 2.8 路由注入与服务端
 
@@ -319,6 +389,29 @@ src/features/moments/
 
 搜索完全静态，不需要后端；构建后索引位于 `dist/pagefind/`。
 
+### 5.1 搜索加载时序
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant T as SearchTrigger
+    participant D as SearchDialog
+    participant C as SearchDialogContent
+    participant P as SearchPortal
+    participant PF as Pagefind
+
+    U->>T: 点击或按 Cmd/Ctrl+K
+    T->>D: openModal('search')
+    D->>C: 动态 import
+    C->>P: 将 #search-component-portal 移入对话框
+    P->>PF: 加载 pagefind-component-ui.css 与 bundle
+    U->>PF: 输入关键词
+    PF-->>U: 结果列表
+    U->>PF: 点击结果
+    PF-->>U: 跳转到文章
+    Note over D,P: 关闭对话框时恢复 portal 并清理样式
+```
+
 ## 6. 评论
 
 `components/comment/Comment.astro` 根据 `comment.provider` 选择实现：
@@ -332,6 +425,27 @@ src/features/moments/
 | `none` | — | 不渲染评论区 |
 
 `DeferredComment.tsx` 延迟到评论区进入视口附近再加载第三方脚本，避免阻塞首屏。
+
+### 6.1 评论按需加载时序
+
+```mermaid
+sequenceDiagram
+    participant P as 文章页
+    participant C as Comment.astro
+    participant D as DeferredComment
+    participant V as Provider
+    participant X as 评论服务
+
+    P->>C: 渲染评论区
+    C->>C: 读取 comment.provider
+    C->>V: 动态 import 对应 provider
+    V->>D: 挂载延迟容器
+    D->>D: IntersectionObserver 观察
+    D->>V: 进入视口后加载客户端脚本
+    V->>X: 初始化 Waline / Twikoo / Giscus / Remark42
+    X-->>V: 评论数据
+    V-->>P: 渲染评论区
+```
 
 ## 7. 访问统计（Umami）
 
@@ -357,6 +471,33 @@ src/features/moments/
 
 Meting API 返回字段不标准时，适配层会做兼容映射；歌单为空时优先检查 API 返回与歌单本身。
 
+### 8.1 歌单加载时序
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant P as GlobalBGMPlayer
+    participant M as lib/meting
+    participant LS as localStorage
+    participant API as Meting API
+
+    U->>P: 首次打开 BGM 面板
+    P->>M: resolvePlaylist(audioGroups, metingApi)
+    loop 每个歌单分组
+        M->>LS: 读取 meting 缓存
+        alt 缓存命中
+            LS-->>M: MetingSong[]
+        else 缓存未命中
+            M->>API: fetch(server / type / id)
+            API-->>M: 原始歌曲数据
+            M->>M: 字段兼容映射 + URL 归一化
+            M->>LS: 写入 24h 缓存
+        end
+    end
+    M-->>P: 合并后的播放列表
+    P->>U: 渲染播放器 / 封面 / 歌词
+```
+
 ## 9. 公告
 
 | 项 | 说明 |
@@ -368,6 +509,28 @@ Meting API 返回字段不标准时，适配层会做兼容映射；歌单为空
 | 优先级 | 按 `priority` 排序，时间窗过滤 |
 
 更新公告内容但保留旧 `id` 时，已看过旧公告的访客不会再次看到新内容；需要更换新 `id`。
+
+### 9.1 公告生命周期时序
+
+```mermaid
+sequenceDiagram
+    participant C as config/site.yaml
+    participant P as AnnouncementProvider
+    participant S as store/announcement
+    participant LS as localStorage
+    participant T as AnnouncementToaster
+    participant L as AnnouncementListPopup
+
+    C->>P: 构建期注入公告数据
+    P->>S: initAnnouncementState()
+    S->>LS: 读取 announcement-read-ids:v1
+    S->>S: 时间窗过滤 + 优先级排序
+    S-->>T: unreadAnnouncements
+    T->>T: 展示未读公告
+    S-->>L: announcementListOpen
+    L-->>S: markAsRead(id) / markAllAsRead()
+    S->>LS: 写回已读 id
+```
 
 ## 10. 友链
 

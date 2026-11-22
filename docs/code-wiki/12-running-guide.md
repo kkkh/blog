@@ -38,6 +38,45 @@ flowchart TD
 - **只有需要碎碎念才切动态**：启用后 Astro 使用 `@astrojs/node` 的 `standalone` 适配器，不能再部署到 EdgeOne 等纯静态平台。
 - **写作室不要求动态**：`/editor` 是预渲染页面，编辑内容保存在浏览器 localStorage；只有需要写回 `.md` 文件时才需要 CMS。
 
+### 1.1 运行拓扑架构
+
+```mermaid
+flowchart TB
+    subgraph CLIENT["客户端"]
+        B["浏览器"]
+        ED["/editor 写作室"]
+        CMS["CMS 4322"]
+    end
+
+    subgraph EDGE["接入层"]
+        EO["EdgeOne Pages / 静态 CDN"]
+        NG["nginx 静态容器"]
+        NODE["Astro Node standalone"]
+    end
+
+    subgraph DATA["内容与状态"]
+        DIST["dist/ 静态产物"]
+        MD["content/blog"]
+        LS["localStorage 草稿"]
+    end
+
+    subgraph EXT["外部服务"]
+        SUITE["Koharu Suite"]
+        COMMENT["评论 / 统计 / Bangumi / Meting"]
+    end
+
+    B --> EO
+    B --> NG
+    B --> NODE
+    EO --> DIST
+    NG --> DIST
+    NODE --> DIST
+    NODE --> SUITE
+    B --> COMMENT
+    ED --> LS
+    CMS --> MD
+```
+
 ## 2. 环境准备
 
 | 项 | 要求 | 检查命令 |
@@ -315,6 +354,33 @@ flowchart LR
     A --> RSS["Moments RSS"]
 ```
 
+#### 7.2.1 Moments 请求时序
+
+```mermaid
+sequenceDiagram
+    participant B as 浏览器
+    participant N as Astro Node
+    participant D as lib/data.ts
+    participant R as lib/runtime.ts
+    participant S as Koharu Suite
+
+    B->>N: GET /moments/[channel]
+    N->>D: getMomentsChannels / listChannelMessages
+    D->>R: requestKoharu(operation, fn)
+    R->>S: channels.list / messages.list
+    alt 成功
+        S-->>R: MessagePage
+        R-->>D: 数据
+        D-->>N: 频道 + 消息
+        N-->>B: HTML + RSS 链接
+    else 404 / 429 / 503
+        S-->>R: KoharuError
+        R->>R: toMomentsHttpError(error)
+        R-->>N: HTTP 状态
+        N-->>B: 404 / 429 / 503
+    end
+```
+
 注意：
 
 - 不能部署到 EdgeOne 等纯静态托管；`/moments` 路由是 `prerender: false`。
@@ -349,6 +415,26 @@ pnpm docker:down
 | 宿主端口 | `${BLOG_PORT:-4321}` |
 | 运行命令 | `nginx -g 'daemon off;'` |
 | 健康检查 | `wget http://127.0.0.1/` |
+
+#### 8.1.1 静态 Docker 启动时序
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant DC as docker compose
+    participant B as builder
+    participant N as nginx static
+    participant H as HEALTHCHECK
+
+    U->>DC: pnpm docker:up
+    DC->>B: 构建 node:22-alpine 镜像
+    B->>B: pnpm install --frozen-lockfile
+    B->>B: pnpm build → dist/
+    DC->>N: 复制 dist + docker/nginx/default.conf
+    N->>H: 启动 nginx
+    H->>N: GET / 探活
+    N-->>U: http://localhost:BLOG_PORT
+```
 
 更新配置后：
 

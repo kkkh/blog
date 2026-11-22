@@ -140,6 +140,34 @@ CLI 关键函数：
 
 备份目录：`backups/`（已在 `.gitignore` 中忽略）。备份格式为 `.tar.gz`，带 manifest，schema 版本 2，兼容历史布局。
 
+#### 2.2.1 备份与还原时序
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant CLI as koharu backup / restore
+    participant T as 临时目录
+    participant A as .tar.gz
+    participant M as manifest.json
+    participant F as 项目文件
+
+    U->>CLI: pnpm koharu backup --full
+    CLI->>T: 复制内容 / 配置 / 图片 / 资产
+    CLI->>M: 写入 type / timestamp / version / files
+    CLI->>A: tarCreate 打包
+    A-->>CLI: backups/backup-*.tar.gz
+    U->>CLI: pnpm koharu restore --latest
+    CLI->>A: validateBackupArchive + tarExtractManifest
+    CLI->>T: 解压并校验快照
+    CLI->>CLI: getRestorePreview()
+    alt dry-run
+        CLI-->>U: 仅输出预览
+    else 正式还原
+        CLI->>F: 事务式替换 + 内容迁移
+        CLI-->>U: restoredFiles
+    end
+```
+
 ### 2.3 主题升级
 
 - 上游仓库：`https://github.com/cosZone/astro-koharu.git`，远程名 `upstream`，主分支 `main`。
@@ -151,6 +179,35 @@ CLI 关键函数：
 - 工作区不干净时会提示/中断；升级前应提交本地改动。
 - 安装依赖使用 `package.json` 中精确的 `packageManager`：`npx --yes pnpm@10.28.2 install`，避免回落到旧 pnpm。
 - 冲突时保留 `MergeResult`，列出冲突文件，可中止 merge/rebase。
+
+#### 2.3.1 主题升级时序
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant CLI as koharu update
+    participant Git as git
+    participant BK as 备份
+    participant PM as pnpm
+
+    U->>CLI: pnpm koharu update
+    CLI->>CLI: checkGitStatus()
+    alt 工作区不干净
+        CLI-->>U: 中断并提示提交或清理
+    else 工作区干净
+        CLI->>BK: 可选备份（--rebase / --clean 强制）
+        CLI->>Git: ensureUpstreamRemote() + fetchUpstream()
+        CLI->>Git: 预览待合并提交
+        CLI->>Git: merge / rebase / clean
+        alt 存在冲突
+            CLI-->>U: 列出冲突文件并中止
+        else 合并成功
+            CLI->>PM: npx --yes pnpm@精确版本 install
+            PM-->>CLI: 依赖安装结果
+            CLI-->>U: 升级完成
+        end
+    end
+```
 
 ### 2.4 迁移
 
@@ -228,6 +285,29 @@ flowchart LR
 | 跳过 | `excludeFromSummary: true`、非默认语言文件、缓存命中 |
 
 缓存键包含模型名；切换模型后需要重新生成。失败的文章不写入缓存，下次运行只补缺口。
+
+### 3.4 内容资产生成时序
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant CLI as koharu generate
+    participant L as generateLqips
+    participant V as generateSimilarities
+    participant S as generateSummaries
+    participant A as src/assets
+
+    U->>CLI: pnpm koharu generate all
+    CLI->>L: npx tsx src/scripts/generateLqips.ts
+    L->>A: 写入 lqips.json
+    CLI->>V: npx tsx src/scripts/generateSimilarities.ts
+    V->>V: 加载向量模型 + 计算余弦相似度
+    V->>A: 写入 similarities.json
+    CLI->>S: npx tsx src/scripts/generateSummaries.ts
+    S->>S: 读取缓存 + 调用 LLM
+    S->>A: 写入 summaries.json
+    CLI-->>U: 汇总各任务结果
+```
 
 ## 4. 测试
 

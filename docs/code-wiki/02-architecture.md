@@ -181,6 +181,33 @@ flowchart LR
 4. `astro:page-load` 后，各客户端脚本初始化：目录滚动、图片灯箱、页头连续动画、樱花/点击粒子、触摸预取等。
 5. 正文增强由 `client:content` 指令在内容进入视口附近时懒加载 `ContentEnhancer`；BGM/公告面板由 `client:panel` 在用户首次打开时加载。
 
+### 5.1.1 请求到水合的运行时序
+
+```mermaid
+sequenceDiagram
+    participant U as 浏览器
+    participant H as 静态托管 / Node
+    participant R as Astro 路由
+    participant L as Layout / AppShell
+    participant I as 全局岛
+    participant C as client-content
+
+    U->>H: GET /post/foo
+    alt 静态模式
+        H-->>U: dist 中预渲染 HTML
+    else Moments 动态模式
+        H->>R: Node standalone 匹配路由
+        R->>R: 读取 Content Collection / Suite
+        R-->>U: 渲染 HTML
+    end
+    U->>L: 解析 HTML 并执行 BootScripts
+    L->>I: astro:page-load 水合 client:load / client:idle
+    L->>C: IntersectionObserver 观察正文目标
+    C-->>L: 进入视口后挂载增强组件
+    U->>L: astro:before-swap
+    L->>I: 清理计时器 / 监听器 / observer
+```
+
 ### 5.2 动态页面（Moments）
 
 1. 请求进入 Node standalone 服务。

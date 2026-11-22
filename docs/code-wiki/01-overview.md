@@ -83,6 +83,75 @@ flowchart TB
 | CLI | `scripts/koharu.tsx` | `pnpm koharu` |
 | CMS | `cms/server.ts` | `/api/cms/*` |
 
+### 2.5 内容生产与发布架构
+
+```mermaid
+flowchart LR
+    subgraph WRITE["写作"]
+        ED["/editor 写作室"]
+        CMS["本地 CMS"]
+        PROP["Frontmatter 属性"]
+    end
+
+    subgraph ASSET["内容与资产"]
+        MD["src/content/blog/**/*.md"]
+        SUM["summaries.json"]
+        SIM["similarities.json"]
+        LQIP["lqips.json"]
+    end
+
+    subgraph BUILD["构建"]
+        AC["astro.config.mjs"]
+        ASTRO["Astro Build"]
+        PF["Pagefind 索引"]
+    end
+
+    OUT["dist/"]
+    DEPLOY["EdgeOne / Docker / Node"]
+
+    ED --> CMS
+    CMS --> MD
+    ED --> MD
+    PROP --> MD
+    MD --> SUM
+    MD --> SIM
+    MD --> LQIP
+    AC --> ASTRO
+    MD --> ASTRO
+    SUM --> ASTRO
+    SIM --> ASTRO
+    LQIP --> ASTRO
+    ASTRO --> PF
+    PF --> OUT
+    OUT --> DEPLOY
+```
+
+### 2.6 从写作到发布的时序
+
+```mermaid
+sequenceDiagram
+    participant A as 作者
+    participant E as 写作室
+    participant C as CMS
+    participant F as content/blog
+    participant G as 生成脚本
+    participant B as pnpm build
+    participant P as 部署平台
+
+    A->>E: 编辑 Markdown / 文章属性
+    E->>E: 600ms 防抖写入 localStorage
+    A->>C: 选择文章并保存
+    C->>F: 乐观锁校验 + 临时文件 + rename
+    A->>G: pnpm generate:all
+    G->>F: 读取文章与图片
+    G-->>G: 生成 summaries / similarities / lqips
+    A->>B: 提交代码并触发构建
+    B->>F: Content Collection 加载
+    B->>B: 路由枚举 / Markdown 渲染 / Pagefind
+    B->>P: 发布 dist/
+    P-->>A: 线上可访问
+```
+
 ## 3. 技术栈
 
 | 层次 | 技术 | 版本 | 用途 |
